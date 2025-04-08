@@ -45,8 +45,8 @@ int main (int argc, char *argv[])
     while(1)
     {
       read_imu();    
-      printf("%10.5f %10.5f %10.5f %10.5f %10.5f\n\r",imu_data[3],imu_data[4],imu_data[5],roll_angle,pitch_angle);
-      sleep(1);
+      printf("%10.5f %10.5f %10.5f %10.5f %10.5f\n\r",imu_data[3],imu_data[4],imu_data[5],pitch_angle,roll_angle);
+      //sleep(1);
     }
   
 }
@@ -77,8 +77,8 @@ void calibrate_imu()
       gyro_x += imu_data[3];
       gyro_y += imu_data[4];
       gyro_z += imu_data[5];
-      average_roll += atan2(y, x) * 180.0/M_PI;
-      average_pitch += atan2(z, x) * 180.0/M_PI;
+      average_roll += roll_angle;
+      average_pitch += pitch_angle;
   }
 
   x_gyro_calibration = gyro_x / 1000;
@@ -143,7 +143,7 @@ void read_imu()
     vw=vw ^ 0xffff;
     vw=-vw-1;
   }          
-  imu_data[3]=(DS_RANGE * vw / RANGE) ;//convert to degrees/sec
+  imu_data[3]=(DS_RANGE * vw / RANGE) - x_gyro_calibration;//convert to degrees/sec
   address=0x04;//use 0x00 format for hex
   vw=wiringPiI2CReadReg16(gyro_address,address);    
   //convert from 2's complement              
@@ -152,7 +152,7 @@ void read_imu()
     vw=vw ^ 0xffff;
     vw=-vw-1;
   }          
-  imu_data[4]=(DS_RANGE * vw / RANGE);//convert to degrees/sec
+  imu_data[4]=(DS_RANGE * vw / RANGE) - y_gyro_calibration;//convert to degrees/sec
   address=0x06;//use 0x00 format for hex
   vw=wiringPiI2CReadReg16(gyro_address,address);   
   //convert from 2's complement               
@@ -161,10 +161,10 @@ void read_imu()
     vw=vw ^ 0xffff;
     vw=-vw-1;
   }          
-  imu_data[5]=(DS_RANGE * vw / RANGE);//convert to degrees/sec  
+  imu_data[5]=((DS_RANGE * vw / RANGE) - z_gyro_calibration) * -1;//convert to degrees/sec  
 
-  float roll = atan2(imu_data[1],imu_data[0]) * 180.0/M_PI;
-  float pitch = atan2(imu_data[2],imu_data[0]) * 180.0/M_PI;
+  float roll =  atan2(imu_data[2],imu_data[0]) * 180.0/M_PI;
+  float pitch = atan2(imu_data[1],imu_data[0]) * 180.0/M_PI;
 
   roll_angle = roll - roll_calibration;
   pitch_angle = pitch - pitch_calibration;
