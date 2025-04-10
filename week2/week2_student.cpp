@@ -14,10 +14,13 @@
 int setup_imu();
 void calibrate_imu();      
 void read_imu();    
+void update_filter();
 
 #define RANGE 65535.0
 #define DS_RANGE 2000.0
 #define G_RANGE 6.0
+
+#define A_DELTA 0.02
 
 //global variables
 int accel_address,gyro_address;
@@ -36,6 +39,13 @@ float pitch_angle=0;
 float roll_angle=0;
 
  
+float prev_roll = 0;
+float current_roll = 0;
+float prev_pitch = 0;
+float current_pitch = 0;
+float intl_pitch = 0;
+float intl_roll = 0;
+
 int main (int argc, char *argv[])
 {
 
@@ -44,9 +54,13 @@ int main (int argc, char *argv[])
     
     while(1)
     {
-      read_imu();    
-      printf("%10.5f %10.5f %10.5f %10.5f %10.5f\n\r",imu_data[3],imu_data[4],imu_data[5],pitch_angle,roll_angle);
+      read_imu(); 
+      update_filter();   
+      //printf("%10.5f %10.5f %10.5f %10.5f %10.5f\n\r",imu_data[3],imu_data[4],imu_data[5],pitch_angle,roll_angle);
       //sleep(1);
+      printf("Pitch: %10.5f %10.5f %10.5f\n", pitch_angle, intl_pitch, current_pitch);
+      printf("Roll: %10.5f %10.5f %10.5f\n", roll_angle, intl_roll, current_roll);
+      
     }
   
 }
@@ -81,9 +95,13 @@ void calibrate_imu()
       average_pitch += pitch_angle;
   }
 
-  x_gyro_calibration = gyro_x / 1000;
-  y_gyro_calibration = gyro_y / 1000;
-  z_gyro_calibration = gyro_z / 1000;
+  //x_gyro_calibration = gyro_x / 1000;
+  //y_gyro_calibration = gyro_y / 1000;
+  //z_gyro_calibration = gyro_z / 1000;
+  x_gyro_calibration = 0;
+  y_gyro_calibration = 0;
+  z_gyro_calibration = 0;
+
 
   roll_calibration = average_roll / 1000;
   pitch_calibration = average_pitch / 1000;
@@ -214,3 +232,36 @@ int setup_imu()
 }
 
 
+void update_filter()
+{
+  //get current time in nanoseconds
+  timespec_get(&te,TIME_UTC);
+  time_curr=te.tv_nsec;
+
+  //compute time since last execution
+  float imu_diff=time_curr-time_prev;
+  //check for rollover
+  if(imu_diff<=0)
+  {
+    imu_diff+=1000000000;
+  }
+  //convert to seconds
+  imu_diff=imu_diff/1000000000;
+  time_prev=time_curr;
+
+  //comp. filter for roll, pitch here:
+  // 
+  //Roll_t=roll_accel*A+(1-A)*(roll_gyro_delta+Rollt-1),
+  //Where A << 1 (try .02)
+  intl_roll = (imu_data[4] * imu_diff + intl_roll);
+  intl_pitch = (imu_data[5] * imu_diff + intl_pitch);
+  
+  current_roll = roll_angle * A_DELTA + 
+                 (1 - A_DELTA) * (imu_data[4] * imu_diff + prev_roll);
+  prev_roll = current_roll;
+
+  current_pitch = pitch_angle * A_DELTA + 
+                 (1 - A_DELTA) * (imu_data[5] * imu_diff + prev_pitch);
+  prev_pitch = current_pitch;
+
+}

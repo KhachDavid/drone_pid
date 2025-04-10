@@ -1,19 +1,22 @@
 void update_filter()
 {
-//get current time in nanoseconds
-timespec_get(&te,TIME_UTC);
-time_curr=te.tv_nsec;
-//compute time since last execution
-float imu_diff=time_curr-time_prev;
-//check for rollover
-if(imu_diff<=0)
-{
-imu_diff+=1000000000;
-}
-//convert to seconds
-imu_diff=imu_diff/1000000000;
-time_prev=time_curr;
-//comp. filter for roll, pitch here:
+  //get current time in nanoseconds
+  timespec_get(&te,TIME_UTC);
+  time_curr=te.tv_nsec;
+
+  //compute time since last execution
+  float imu_diff=time_curr-time_prev;
+  //check for rollover
+  if(imu_diff<=0)
+  {
+    imu_diff+=1000000000;
+  }
+  //convert to seconds
+  imu_diff=imu_diff/1000000000;
+  time_prev=time_curr;
+
+  //comp. filter for roll, pitch here:
+  
 }
 
 //global variables to add
