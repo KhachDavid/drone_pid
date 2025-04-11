@@ -19,6 +19,12 @@ void update_filter();
 #define RANGE 65535.0
 #define DS_RANGE 2000.0
 #define G_RANGE 6.0
+#define ROLL_LOWER_LIMIT -45.0
+#define ROLL_UPPER_LIMIT 45.0
+#define PITCH_LOWER_LIMIT -45.0
+#define PITCH_UPPER_LIMIT 45.0
+#define GYRO_RATE 300.0
+#define JOYSTICK_TIMEOUT 0.35
 
 #define A_DELTA 0.02
 
@@ -46,23 +52,49 @@ float current_pitch = 0;
 float intl_pitch = 0;
 float intl_roll = 0;
 
+//global variables to add
+
+struct Joystick
+{
+  int key0;
+  int key1;
+  int key2;
+  int key3;
+  int pitch;
+  int roll;
+  int yaw;
+  int thrust;
+  int sequence_num;
+};
+
+Joystick* shared_memory; 
+int run_program=1;
+
 int main (int argc, char *argv[])
 {
 
     setup_imu();
     calibrate_imu();    
     
-    while(1)
+    // Joystick setup
+    setup_joystick();
+    signal(SIGINT, &trap);
+
+    while(run_program == 1)
     {
+      Joystick joystick_data = *shared_memory;
+
       read_imu(); 
-      update_filter();   
+      update_filter();
+      safety_check();  
       //printf("%10.5f %10.5f %10.5f %10.5f %10.5f\n\r",imu_data[3],imu_data[4],imu_data[5],pitch_angle,roll_angle);
       //sleep(1);
       printf("Pitch: %10.5f %10.5f %10.5f\n", pitch_angle, intl_pitch, current_pitch);
       printf("Roll: %10.5f %10.5f %10.5f\n", roll_angle, intl_roll, current_roll);
       
     }
-  
+
+    return 0;
 }
 
 void calibrate_imu()
@@ -264,4 +296,40 @@ void update_filter()
                  (1 - A_DELTA) * (imu_data[5] * imu_diff + prev_pitch);
   prev_pitch = current_pitch;
 
+}
+
+void safety_check() {
+  
+}
+
+void setup_joystick()
+{
+
+  int segment_id;   
+  struct shmid_ds shmbuffer; 
+  int segment_size; 
+  const int shared_segment_size = 0x6400; 
+  int smhkey=33222;
+  
+  /* Allocate a shared memory segment.  */ 
+  segment_id = shmget (smhkey, shared_segment_size,IPC_CREAT | 0666); 
+  /* Attach the shared memory segment.  */ 
+  shared_memory = (Joystick*) shmat (segment_id, 0, 0); 
+  printf ("shared memory attached at address %p\n", shared_memory); 
+  /* Determine the segment's size. */ 
+  shmctl (segment_id, IPC_STAT, &shmbuffer); 
+  segment_size  =               shmbuffer.shm_segsz; 
+  printf ("segment size: %d\n", segment_size); 
+  /* Write a string to the shared memory segment.  */ 
+  //sprintf (shared_memory, "test!!!!."); 
+
+}
+
+
+void trap(int signal)
+
+{ 
+   printf("ending program\n\r");
+
+   run_program=0;
 }
