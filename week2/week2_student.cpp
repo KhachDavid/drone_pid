@@ -9,12 +9,16 @@
 #include <sys/shm.h>
 #include <sys/stat.h>
 #include <vector>
+#include <iostream>
 
 //gcc -o week1 week1_student.cpp -lwiringPi -lm -g
 int setup_imu();
 void calibrate_imu();      
 void read_imu();    
 void update_filter();
+void setup_joystick();
+void safety_check();
+void trap(int signal);
 
 #define RANGE 65535.0
 #define DS_RANGE 2000.0
@@ -23,7 +27,8 @@ void update_filter();
 #define ROLL_UPPER_LIMIT 45.0
 #define PITCH_LOWER_LIMIT -45.0
 #define PITCH_UPPER_LIMIT 45.0
-#define GYRO_RATE 300.0
+#define GYRO_RATE_UPPER_LIMIT 300.0
+#define GYRO_RATE_LOWER_LIMIT -300.0
 #define JOYSTICK_TIMEOUT 0.35
 
 #define A_DELTA 0.02
@@ -44,7 +49,6 @@ float yaw=0;
 float pitch_angle=0;
 float roll_angle=0;
 
- 
 float prev_roll = 0;
 float current_roll = 0;
 float prev_pitch = 0;
@@ -54,10 +58,18 @@ float intl_roll = 0;
 
 //global variables to add
 
+struct JoystickReadings
+{
+  int last_sequence_num;
+  float time_read;
+};
+
 struct Joystick
 {
   int key0;
+
   int key1;
+
   int key2;
   int key3;
   int pitch;
@@ -67,11 +79,16 @@ struct Joystick
   int sequence_num;
 };
 
-Joystick* shared_memory; 
+Joystick* shared_memory;
+JoystickReadings* joystick_readings;
 int run_program=1;
 
 int main (int argc, char *argv[])
 {
+    // Joystick setup
+    joystick_readings = new JoystickReadings();
+    joystick_readings->last_sequence_num = 0;
+    joystick_readings->time_read = 0.0;
 
     setup_imu();
     calibrate_imu();    
@@ -133,7 +150,6 @@ void calibrate_imu()
   x_gyro_calibration = 0;
   y_gyro_calibration = 0;
   z_gyro_calibration = 0;
-
 
   roll_calibration = average_roll / 1000;
   pitch_calibration = average_pitch / 1000;
@@ -210,7 +226,7 @@ void read_imu()
   {
     vw=vw ^ 0xffff;
     vw=-vw-1;
-  }          
+  }
   imu_data[5]=((DS_RANGE * vw / RANGE) - z_gyro_calibration) * -1;//convert to degrees/sec  
 
   float roll =  atan2(imu_data[2],imu_data[0]) * 180.0/M_PI;
@@ -299,12 +315,57 @@ void update_filter()
 }
 
 void safety_check() {
-  
+  //get current time in nanoseconds
+  long current_time=te.tv_nsec;
+  float joystick_diff=0.0;
+  //get current time in nanoseconds
+  // sequence num reading
+  int current_sequence_num = shared_memory->sequence_num;
+  int last_sequence_num = joystick_readings->last_sequence_num;
+  if (current_sequence_num != last_sequence_num) {
+    // new sequence received...update tracking variables
+    joystick_readings->last_sequence_num = current_sequence_num;
+    joystick_readings->time_read = time_curr;
+  }
+  else {
+    timespec_get(&te,TIME_UTC);
+    current_time=te.tv_nsec;
+
+    //compute time since last execution
+    joystick_diff=current_time-joystick_readings->time_read;
+    //check for rollover
+    if(joystick_diff<=0)
+    {
+      joystick_diff+=1000000000;
+    }
+    //convert to seconds
+    joystick_diff=joystick_diff/1000000000;
+  }
+
+  if (imu_data[3] > GYRO_RATE_UPPER_LIMIT | imu_data[3] < GYRO_RATE_LOWER_LIMIT) {
+    run_program = 0;
+    std::cout << "Ending Program - Gyro rate > " << GYRO_RATE_UPPER_LIMIT << std::endl;
+  }
+  else if (current_pitch > PITCH_UPPER_LIMIT || current_pitch < PITCH_LOWER_LIMIT) {
+    run_program = 0;
+    std::cout << "Ending Program - Invalid Pitch" << std::endl;
+  }
+  else if (current_roll > ROLL_UPPER_LIMIT || current_roll < ROLL_LOWER_LIMIT) {
+    run_program = 0;
+    std::cout << "Ending Program - Invalid Roll" << std::endl;
+  }
+  else if (shared_memory -> key1 == 1) {
+    run_program = 0;
+    std::cout << "Ending Program - Joystick, B key pressed" << std::endl;
+  }
+  else if (joystick_diff > JOYSTICK_TIMEOUT) {
+    run_program = 0;
+    std::cout << "Ending Program - Joystick timeout" << std::endl;
+  }
 }
 
 void setup_joystick()
 {
-
   int segment_id;   
   struct shmid_ds shmbuffer; 
   int segment_size; 
@@ -325,10 +386,8 @@ void setup_joystick()
 
 }
 
-
 void trap(int signal)
-
-{ 
+{
    printf("ending program\n\r");
 
    run_program=0;
