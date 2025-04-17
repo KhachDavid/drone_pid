@@ -11,7 +11,7 @@
 #include <vector>
 #include <iostream>
 
-//gcc -o week1 week1_student.cpp -lwiringPi -lm -g
+//g++ -o week1 week1_student.cpp -lwiringPi -lm -g
 int setup_imu();
 void calibrate_imu();      
 void read_imu();    
@@ -22,6 +22,7 @@ void trap(int signal);
 void calculate_thrust();
 void calculate_desired_pitch();
 void pid_control();
+void d_control();
 
 #define RANGE 65535.0
 #define DS_RANGE 2000.0
@@ -33,7 +34,7 @@ void pid_control();
 #define GYRO_RATE_UPPER_LIMIT 300.0
 #define GYRO_RATE_LOWER_LIMIT -300.0
 #define JOYSTICK_TIMEOUT 0.35
-#define JOYSTICK_MAX 256.0
+#define JOYSTICK_MAXIMUM 256.0
 #define JOYSTICK_NEUTRAL 128.0
 
 #define THRUST_NEUTRAL 100
@@ -44,6 +45,7 @@ void pid_control();
 #define PITCH_AMPLITUDE 30.0
 
 #define P_GAIN 10
+#define D_GAIN 1
 
 #define A_DELTA 0.02
 
@@ -71,8 +73,9 @@ float intl_pitch = 0;
 float intl_roll = 0;
 
 float thrust = 0;
+float desired_pitch = 0;
 
-int motor_commands[4]
+int motor_commands[4];
 
 //global variables to add
 
@@ -120,16 +123,19 @@ int main (int argc, char *argv[])
       Joystick joystick_data = *shared_memory;
       read_imu(); 
       update_filter();
-      safety_check();  
+      //safety_check();
+
+      //pid_control();
+      d_control();
       //printf("%10.5f %10.5f %10.5f %10.5f %10.5f\n\r",imu_data[3],imu_data[4],imu_data[5],pitch_angle,roll_angle);
       //sleep(1);
       //printf("Pitch: %10.5f %10.5f %10.5f\n", pitch_angle, intl_pitch, filter_pitch);
       //printf("Roll: %10.5f %10.5f %10.5f\n", roll_angle, intl_roll, current_roll);
-      printf("Desired Pitch: %10.5f\n", desired_pitch);
-      printf("Filtered Pitch: %10.5f\n", filter_pitch);
+      printf("Pitch Angle: %10.5f\n", pitch_angle);
+      printf("Pitch Velocity: %10.5f\n", imu_data[5]);
       printf("Thrust: %10.5f\n", thrust);
-      printf("Motor Front : %10.5f\n", motor_commands[0]);
-      printf("Motor Back : %10.5f\n", motor_commands[2]);
+      printf("Motor Front : %d\n", motor_commands[0]);
+      printf("Motor Back : %d\n", motor_commands[2]);
     }
 
     return 0;
@@ -417,18 +423,29 @@ void trap(int signal)
 
 void calculate_thrust()
 {
-  thrust = THRUST_NEUTRAL + THRUST_MAX - 2*THRUST_MAX/JOYSTICK_MAX * shared_memory->key1;
+  thrust = THRUST_NEUTRAL + THRUST_AMPLITUDE - 2 * THRUST_AMPLITUDE/JOYSTICK_MAXIMUM * shared_memory->thrust;
 }
 
 void calculate_desired_pitch() {
-  desired_pitch = 2*PITCH_AMPLITUDE/JOYSTICK_MAX * (shared_memory->key3 - JOYSTICK_NEUTRAL);
+  desired_pitch = 2*PITCH_AMPLITUDE/JOYSTICK_MAXIMUM * (shared_memory->pitch - JOYSTICK_NEUTRAL);
 }
 
+
 void pid_control() {
+  calculate_desired_pitch();
+  calculate_thrust();
   float p_error = desired_pitch - filter_pitch;
   // front positive, back negative
   motor_commands[0] = thrust + P_GAIN * p_error;
   motor_commands[1] = thrust + P_GAIN * p_error;  
   motor_commands[2] = thrust - P_GAIN * p_error;
   motor_commands[3] = thrust - P_GAIN * p_error;
+}
+
+void d_control() {
+  calculate_thrust();
+  motor_commands[0] = thrust - D_GAIN * imu_data[5];
+  motor_commands[1] = thrust - D_GAIN * imu_data[5];
+  motor_commands[2] = thrust + D_GAIN * imu_data[5];
+  motor_commands[3] = thrust + D_GAIN * imu_data[5];
 }

@@ -11,10 +11,10 @@ with open('log', 'r') as f:
         if (i == len(line) - 1):
             continue
         if l.startswith("Pitch"):
-            values = list(map(float, re.findall(r"[-+]?\d*\.\d+|\d+", l)))
+            values = map(float, re.findall(r"[-+]?\d*\.\d+|\d+", l))
             pitch.append(tuple(values))
         elif l.startswith("Roll"):
-            values = list(map(float, re.findall(r"[-+]?\d*\.\d+|\d+", l)))
+            values = (map(float, re.findall(r"[-+]?\d*\.\d+|\d+", l)))
             roll.append(tuple(values))
 
 accel_pitch = []
