@@ -19,6 +19,9 @@ void update_filter();
 void setup_joystick();
 void safety_check();
 void trap(int signal);
+void calculate_thrust();
+void calculate_desired_pitch();
+void pid_control();
 
 #define RANGE 65535.0
 #define DS_RANGE 2000.0
@@ -30,6 +33,17 @@ void trap(int signal);
 #define GYRO_RATE_UPPER_LIMIT 300.0
 #define GYRO_RATE_LOWER_LIMIT -300.0
 #define JOYSTICK_TIMEOUT 0.35
+#define JOYSTICK_MAX 256.0
+#define JOYSTICK_NEUTRAL 128.0
+
+#define THRUST_NEUTRAL 100
+#define THRUST_AMPLITUDE 100
+#define THRUST_MAXIMUM 2000
+#define THRUST_MINIMUM 0
+
+#define PITCH_AMPLITUDE 30.0
+
+#define P_GAIN 10
 
 #define A_DELTA 0.02
 
@@ -50,11 +64,15 @@ float pitch_angle=0;
 float roll_angle=0;
 
 float prev_roll = 0;
-float current_roll = 0;
+float filter_rollshar = 0;
 float prev_pitch = 0;
-float current_pitch = 0;
+float filter_pitch = 0;
 float intl_pitch = 0;
 float intl_roll = 0;
+
+float thrust = 0;
+
+int motor_commands[4]
 
 //global variables to add
 
@@ -100,15 +118,18 @@ int main (int argc, char *argv[])
     while(run_program == 1)
     {
       Joystick joystick_data = *shared_memory;
-
       read_imu(); 
       update_filter();
       safety_check();  
       //printf("%10.5f %10.5f %10.5f %10.5f %10.5f\n\r",imu_data[3],imu_data[4],imu_data[5],pitch_angle,roll_angle);
       //sleep(1);
-      printf("Pitch: %10.5f %10.5f %10.5f\n", pitch_angle, intl_pitch, current_pitch);
-      printf("Roll: %10.5f %10.5f %10.5f\n", roll_angle, intl_roll, current_roll);
-      
+      //printf("Pitch: %10.5f %10.5f %10.5f\n", pitch_angle, intl_pitch, filter_pitch);
+      //printf("Roll: %10.5f %10.5f %10.5f\n", roll_angle, intl_roll, current_roll);
+      printf("Desired Pitch: %10.5f\n", desired_pitch);
+      printf("Filtered Pitch: %10.5f\n", filter_pitch);
+      printf("Thrust: %10.5f\n", thrust);
+      printf("Motor Front : %10.5f\n", motor_commands[0]);
+      printf("Motor Back : %10.5f\n", motor_commands[2]);
     }
 
     return 0;
@@ -305,13 +326,13 @@ void update_filter()
   // 
   //Roll_t=roll_accel*A+(1-A)*(roll_gyro_delta+Rollt-1),
   //Where A << 1 (try .02)
-  current_roll = roll_angle * A_DELTA + 
+  filter_rollshar = roll_angle * A_DELTA + 
                  (1 - A_DELTA) * (imu_data[4] * imu_diff + prev_roll);
-  prev_roll = current_roll;
+  prev_roll = filter_rollshar;
 
-  current_pitch = pitch_angle * A_DELTA + 
+  filter_pitch = pitch_angle * A_DELTA + 
                  (1 - A_DELTA) * (imu_data[5] * imu_diff + prev_pitch);
-  prev_pitch = current_pitch;
+  prev_pitch = filter_pitch;
 
 }
 
@@ -347,11 +368,11 @@ void safety_check() {
     run_program = 0;
     std::cout << "Ending Program - Gyro rate > " << GYRO_RATE_UPPER_LIMIT << std::endl;
   }
-  else if (current_pitch > PITCH_UPPER_LIMIT || current_pitch < PITCH_LOWER_LIMIT) {
+  else if (filter_pitch > PITCH_UPPER_LIMIT || filter_pitch < PITCH_LOWER_LIMIT) {
     run_program = 0;
     std::cout << "Ending Program - Invalid Pitch" << std::endl;
   }
-  else if (current_roll > ROLL_UPPER_LIMIT || current_roll < ROLL_LOWER_LIMIT) {
+  else if (filter_rollshar > ROLL_UPPER_LIMIT || filter_rollshar < ROLL_LOWER_LIMIT) {
     run_program = 0;
     std::cout << "Ending Program - Invalid Roll" << std::endl;
   }
@@ -392,4 +413,22 @@ void trap(int signal)
    printf("ending program\n\r");
 
    run_program=0;
+}
+
+void calculate_thrust()
+{
+  thrust = THRUST_NEUTRAL + THRUST_MAX - 2*THRUST_MAX/JOYSTICK_MAX * shared_memory->key1;
+}
+
+void calculate_desired_pitch() {
+  desired_pitch = 2*PITCH_AMPLITUDE/JOYSTICK_MAX * (shared_memory->key3 - JOYSTICK_NEUTRAL);
+}
+
+void pid_control() {
+  float p_error = desired_pitch - filter_pitch;
+  // front positive, back negative
+  motor_commands[0] = thrust + P_GAIN * p_error;
+  motor_commands[1] = thrust + P_GAIN * p_error;  
+  motor_commands[2] = thrust - P_GAIN * p_error;
+  motor_commands[3] = thrust - P_GAIN * p_error;
 }
