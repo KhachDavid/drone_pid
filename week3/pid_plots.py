@@ -8,6 +8,7 @@ front = []
 back = []
 pitch_angle = []
 pitch_velocity = []
+measured_pitch = []
 
 with open('log', 'r') as f:
     line = f.readlines()
@@ -18,10 +19,10 @@ with open('log', 'r') as f:
             continue
         if l.startswith("Desired Pitch"):
             values = list(map(float, re.findall(r"[-+]?\d*\.\d+|[-+]?\d+", l)))
-            desired_pitch.append(values[0] * 10)
+            desired_pitch.append(values[0])
         elif l.startswith("Filtered Pitch"):
             values = list(map(float, re.findall(r"[-+]?\d*\.\d+|[-+]?\d+", l)))
-            filtered_pitch.append(values[0] * 10)
+            filtered_pitch.append(values[0])
         elif l.startswith("Thrust"):
             values = list(map(float, re.findall(r"[-+]?\d*\.\d+|[-+]?\d+", l)))
             thrust.append(values[0])
@@ -37,6 +38,9 @@ with open('log', 'r') as f:
         elif l.startswith("Pitch Velocity"):
             values = list(map(float, re.findall(r"[-+]?\d*\.\d+|[-+]?\d+", l)))
             pitch_velocity.append(values[0])
+        elif l.startswith("Measured Pitch"):
+            values = list(map(float, re.findall(r"[-+]?\d*\.\d+|[-+]?\d+", l)))
+            measured_pitch.append(values[0])
 
 
 # Just plot all the lists in one graph with legends and different colors
@@ -53,7 +57,7 @@ def plot_p():
 def plot_d():
     plt.plot(thrust, label='Thrust')
     plt.plot(pitch_angle, label='Pitch Angle')
-    plt.plot(pitch_velocity, label='Pitch Velocity')
+    plt.plot(desired_pitch, label='Desired Pitch')
     plt.plot(front, label='Front Motors')
     plt.plot(back, label='Back Motors')
     plt.title('Milestone 2')
@@ -61,4 +65,15 @@ def plot_d():
     plt.show()
 
 
-plot_d()
+def plot_i():
+    plt.plot(thrust, label='Thrust')
+    plt.plot(measured_pitch, label='Measured Pitch')
+    plt.plot(desired_pitch, label='Desired Pitch')    
+    plt.plot(front, label='Front Motors')
+    plt.plot(back, label='Back Motors')
+    plt.title('Milestone 4')
+    plt.legend()
+    plt.show()
+
+
+plot_i()

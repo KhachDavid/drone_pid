@@ -21,8 +21,10 @@ void safety_check();
 void trap(int signal);
 void calculate_thrust();
 void calculate_desired_pitch();
-void pid_control();
+void p_control();
 void d_control();
+void i_control();
+void pid_control();
 
 #define RANGE 65535.0
 #define DS_RANGE 2000.0
@@ -46,6 +48,8 @@ void d_control();
 
 #define P_GAIN 10
 #define D_GAIN 1
+#define I_GAIN .1
+#define I_SATURATE 100
 
 #define A_DELTA 0.02
 
@@ -74,6 +78,7 @@ float intl_roll = 0;
 
 float thrust = 0;
 float desired_pitch = 0;
+float integral_pitch = 0;
 
 int motor_commands[4];
 
@@ -113,7 +118,7 @@ int main (int argc, char *argv[])
 
     setup_imu();
     calibrate_imu();    
-    
+
     // Joystick setup
     setup_joystick();
     signal(SIGINT, &trap);
@@ -125,14 +130,26 @@ int main (int argc, char *argv[])
       update_filter();
       //safety_check();
 
-      //pid_control();
-      d_control();
+      //p_control();
+      //d_control();
+      //i_control();
+
+      pid_control();
       //printf("%10.5f %10.5f %10.5f %10.5f %10.5f\n\r",imu_data[3],imu_data[4],imu_data[5],pitch_angle,roll_angle);
       //sleep(1);
       //printf("Pitch: %10.5f %10.5f %10.5f\n", pitch_angle, intl_pitch, filter_pitch);
       //printf("Roll: %10.5f %10.5f %10.5f\n", roll_angle, intl_roll, current_roll);
-      printf("Pitch Angle: %10.5f\n", pitch_angle);
-      printf("Pitch Velocity: %10.5f\n", imu_data[5]);
+      
+      // Milestone 2
+      //printf("Pitch Angle: %10.5f\n", pitch_angle);
+      //printf("Pitch Velocity: %10.5f\n", imu_data[5]);
+      //printf("Thrust: %10.5f\n", thrust);
+      //printf("Motor Front : %d\n", motor_commands[0]);
+      //printf("Motor Back : %d\n", motor_commands[2]);
+
+      // Milestone 3
+      printf("Measured Pitch: %10.5f\n", filter_pitch);
+      printf("Desired Pitch: %10.5f\n", desired_pitch);
       printf("Thrust: %10.5f\n", thrust);
       printf("Motor Front : %d\n", motor_commands[0]);
       printf("Motor Back : %d\n", motor_commands[2]);
@@ -431,7 +448,7 @@ void calculate_desired_pitch() {
 }
 
 
-void pid_control() {
+void p_control() {
   calculate_desired_pitch();
   calculate_thrust();
   float p_error = desired_pitch - filter_pitch;
@@ -448,4 +465,44 @@ void d_control() {
   motor_commands[1] = thrust - D_GAIN * imu_data[5];
   motor_commands[2] = thrust + D_GAIN * imu_data[5];
   motor_commands[3] = thrust + D_GAIN * imu_data[5];
+}
+
+void i_control() {
+  calculate_desired_pitch();
+  calculate_thrust();
+  float p_error = desired_pitch - filter_pitch;
+  integral_pitch += I_GAIN * p_error;
+  
+  // Limit pitch to I_Saturate
+  if (integral_pitch > I_SATURATE) {
+    integral_pitch = I_SATURATE;
+  } else if (integral_pitch < -I_SATURATE) {
+    integral_pitch = -I_SATURATE;
+  }
+
+  motor_commands[0] = thrust + integral_pitch;
+  motor_commands[1] = thrust + integral_pitch;
+  motor_commands[2] = thrust - integral_pitch;
+  motor_commands[3] = thrust - integral_pitch;
+}
+
+void pid_control() {
+  calculate_desired_pitch();
+  calculate_thrust();
+  float p_error = desired_pitch - filter_pitch;
+  // front positive, back negative
+
+  integral_pitch += I_GAIN * p_error;
+
+  // Limit pitch to I_Saturate
+  if (integral_pitch > I_SATURATE) {
+    integral_pitch = I_SATURATE;
+  } else if (integral_pitch < -I_SATURATE) {
+    integral_pitch = -I_SATURATE;
+  }
+
+  motor_commands[0] = thrust + (P_GAIN * p_error) - (D_GAIN * imu_data[5]) + integral_pitch;
+  motor_commands[1] = thrust + (P_GAIN * p_error) - (D_GAIN * imu_data[5]) + integral_pitch;
+  motor_commands[2] = thrust - (P_GAIN * p_error) + (D_GAIN * imu_data[5]) - integral_pitch;
+  motor_commands[3] = thrust - (P_GAIN * p_error) + (D_GAIN * imu_data[5]) - integral_pitch;
 }
