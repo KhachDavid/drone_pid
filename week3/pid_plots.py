@@ -68,7 +68,7 @@ def plot_d():
 def plot_i():
     plt.plot(thrust, label='Thrust')
     plt.plot(measured_pitch, label='Measured Pitch')
-    plt.plot(desired_pitch, label='Desired Pitch')    
+    plt.plot(desired_pitch, label='IMU Pitch')    
     plt.plot(front, label='Front Motors')
     plt.plot(back, label='Back Motors')
     plt.title('Milestone 4')
