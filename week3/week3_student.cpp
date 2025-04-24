@@ -49,9 +49,10 @@ void pid_control();
 
 #define PITCH_AMPLITUDE 30.0
 
-#define P_GAIN 25
+//#define P_GAIN 25
+#define P_GAIN 0
 //#define D_GAIN 1
-#define D_GAIN 0
+#define D_GAIN 1
 //#define I_GAIN .1
 #define I_GAIN 0
 #define I_SATURATE 100
@@ -156,8 +157,8 @@ int main(int argc, char *argv[])
 
     // Milestone 3
     printf("Measured Pitch: %10.5f\n", filter_pitch);
-    printf("Desired Pitch: %10.5f\n", pitch_angle);
-    printf("Thrust: %10.5f\n", thrust);
+    printf("Desired Pitch: %10.5f\n", imu_data[5]);
+    //printf("Thrust: %10.5f\n", thrust);
     printf("Motor Front : %d\n", motor_commands[0]);
     printf("Motor Back : %d\n", motor_commands[2]);
     //motor_commands[0] = 0;
