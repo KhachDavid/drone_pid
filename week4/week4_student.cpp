@@ -42,7 +42,7 @@ void pid_control();
 #define JOYSTICK_NEUTRAL 128.0
 
 #define MOTOR_MAXIMUM 1000
-#define THRUST_NEUTRAL 500
+#define THRUST_NEUTRAL 700
 #define THRUST_AMPLITUDE 100
 #define THRUST_MAXIMUM 2000
 #define THRUST_MINIMUM 0
@@ -79,7 +79,7 @@ float roll_angle = 0;
 float prev_roll = 0;
 float filter_rollshar = 0;
 float prev_pitch = 0;
-float filter_pitch 0= 0;
+float filter_pitch = 0;
 float intl_pitch = 0;
 float intl_roll = 0;
 
@@ -156,8 +156,8 @@ int main(int argc, char *argv[])
     // printf("Motor Back : %d\n", motor_commands[2]);
 
     // Milestone 3
+    printf("Pitch Angle: %10.5f\n", pitch_angle);
     printf("Measured Pitch: %10.5f\n", filter_pitch);
-    printf("Desired Pitch: %10.5f\n", desired_pitch);
     //printf("Thrust: %10.5f\n", thrust);
     printf("Motor Front : %d\n", motor_commands[0]);
     printf("Motor Back : %d\n", motor_commands[2]);
@@ -334,6 +334,9 @@ int setup_imu()
     // 0x00 means +- 3g range setting...page 30 on the datasheet
     wiringPiI2CWriteReg8(accel_address, 0x41, 0x00); // accel range to +_3g
     wiringPiI2CWriteReg8(accel_address, 0x40, 0x89); // high speed filtered accel
+
+    auto val = wiringPiI2CReadReg8(accel_address, 0x40);
+    std::cout << val << std::endl;
 
     // page 36 location of gyro registers map
     wiringPiI2CWriteReg8(gyro_address, 0x11, 0x00); // power on gyro
