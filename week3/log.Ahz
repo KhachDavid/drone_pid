@@ -1,0 +1,8381 @@
+all i2c devices detected
+calibration complete, 0.000000 0.000000 0.000000 -1.505310 -3.058857 -0.026149
+shared memory attached at address 0x7f95e49000
+segment size: 25600
+Pitch Angle:   -0.23836
+Measured Pitch:    0.82554
+Motor Front : 470
+Motor Back : 529
+Pitch Angle:   -0.06843
+Measured Pitch:    0.81346
+Motor Front : 472
+Motor Back : 527
+Pitch Angle:    0.30900
+Measured Pitch:    0.80550
+Motor Front : 474
+Motor Back : 525
+Pitch Angle:   -0.39441
+Measured Pitch:    0.77800
+Motor Front : 478
+Motor Back : 521
+Pitch Angle:   -0.47163
+Measured Pitch:    0.74479
+Motor Front : 481
+Motor Back : 518
+Pitch Angle:   -0.32546
+Measured Pitch:    0.71320
+Motor Front : 483
+Motor Back : 516
+Pitch Angle:    0.03063
+Measured Pitch:    0.68680
+Motor Front : 485
+Motor Back : 514
+Pitch Angle:    0.13073
+Measured Pitch:    0.65800
+Motor Front : 489
+Motor Back : 510
+Pitch Angle:   -0.03887
+Measured Pitch:    0.62486
+Motor Front : 490
+Motor Back : 509
+Pitch Angle:   -0.71642
+Measured Pitch:    0.58079
+Motor Front : 491
+Motor Back : 508
+Pitch Angle:   -0.98398
+Measured Pitch:    0.53479
+Motor Front : 491
+Motor Back : 508
+Pitch Angle:   -0.85918
+Measured Pitch:    0.49778
+Motor Front : 489
+Motor Back : 510
+Pitch Angle:    0.11701
+Measured Pitch:    0.48524
+Motor Front : 487
+Motor Back : 512
+Pitch Angle:    0.22475
+Measured Pitch:    0.47650
+Motor Front : 487
+Motor Back : 512
+Pitch Angle:   -0.09690
+Measured Pitch:    0.46169
+Motor Front : 487
+Motor Back : 512
+Pitch Angle:   -0.34797
+Measured Pitch:    0.44333
+Motor Front : 487
+Motor Back : 512
+Pitch Angle:   -0.47031
+Measured Pitch:    0.42624
+Motor Front : 486
+Motor Back : 513
+Pitch Angle:   -0.44103
+Measured Pitch:    0.41183
+Motor Front : 486
+Motor Back : 513
+Pitch Angle:   -0.34637
+Measured Pitch:    0.39922
+Motor Front : 486
+Motor Back : 513
+Pitch Angle:    0.36506
+Measured Pitch:    0.40363
+Motor Front : 485
+Motor Back : 514
+Pitch Angle:   -0.41704
+Measured Pitch:    0.39212
+Motor Front : 485
+Motor Back : 514
+Pitch Angle:    0.45463
+Measured Pitch:    0.39866
+Motor Front : 485
+Motor Back : 514
+Pitch Angle:   -0.51781
+Measured Pitch:    0.38624
+Motor Front : 485
+Motor Back : 514
+Pitch Angle:   -0.31561
+Measured Pitch:    0.38003
+Motor Front : 484
+Motor Back : 515
+Pitch Angle:   -0.40584
+Measured Pitch:    0.36967
+Motor Front : 486
+Motor Back : 513
+Pitch Angle:   -0.31195
+Measured Pitch:    0.36325
+Motor Front : 485
+Motor Back : 514
+Pitch Angle:   -0.20537
+Measured Pitch:    0.35806
+Motor Front : 486
+Motor Back : 513
+Pitch Angle:    0.44864
+Measured Pitch:    0.36132
+Motor Front : 488
+Motor Back : 511
+Pitch Angle:    0.75891
+Measured Pitch:    0.36432
+Motor Front : 491
+Motor Back : 508
+Pitch Angle:    0.61878
+Measured Pitch:    0.36158
+Motor Front : 492
+Motor Back : 507
+Pitch Angle:   -0.40732
+Measured Pitch:    0.33713
+Motor Front : 494
+Motor Back : 505
+Pitch Angle:   -0.58005
+Measured Pitch:    0.31281
+Motor Front : 493
+Motor Back : 506
+Pitch Angle:   -0.97472
+Measured Pitch:    0.28789
+Motor Front : 490
+Motor Back : 509
+Pitch Angle:   -1.29872
+Measured Pitch:    0.26337
+Motor Front : 488
+Motor Back : 511
+Pitch Angle:   -0.49908
+Measured Pitch:    0.26033
+Motor Front : 486
+Motor Back : 513
+Pitch Angle:    0.57600
+Measured Pitch:    0.27631
+Motor Front : 487
+Motor Back : 512
+Pitch Angle:    0.12332
+Measured Pitch:    0.28086
+Motor Front : 487
+Motor Back : 512
+Pitch Angle:   -1.29766
+Measured Pitch:    0.25754
+Motor Front : 488
+Motor Back : 511
+Pitch Angle:   -0.68642
+Measured Pitch:    0.24811
+Motor Front : 488
+Motor Back : 511
+Pitch Angle:   -0.33664
+Measured Pitch:    0.24650
+Motor Front : 487
+Motor Back : 512
+Pitch Angle:    0.54221
+Measured Pitch:    0.26125
+Motor Front : 487
+Motor Back : 512
+Pitch Angle:    0.58864
+Measured Pitch:    0.26965
+Motor Front : 491
+Motor Back : 508
+Pitch Angle:   -0.04322
+Measured Pitch:    0.26113
+Motor Front : 493
+Motor Back : 506
+Pitch Angle:   -0.33971
+Measured Pitch:    0.24375
+Motor Front : 495
+Motor Back : 504
+Pitch Angle:   -0.69958
+Measured Pitch:    0.21871
+Motor Front : 496
+Motor Back : 503
+Pitch Angle:   -0.67702
+Measured Pitch:    0.19689
+Motor Front : 495
+Motor Back : 504
+Pitch Angle:   -0.67687
+Measured Pitch:    0.17583
+Motor Front : 496
+Motor Back : 503
+Pitch Angle:   -0.25733
+Measured Pitch:    0.16491
+Motor Front : 496
+Motor Back : 503
+Pitch Angle:   -0.42042
+Measured Pitch:    0.15114
+Motor Front : 496
+Motor Back : 503
+Pitch Angle:   -0.28355
+Measured Pitch:    0.14060
+Motor Front : 496
+Motor Back : 503
+Pitch Angle:   -1.00039
+Measured Pitch:    0.11584
+Motor Front : 497
+Motor Back : 502
+Pitch Angle:   -0.76267
+Measured Pitch:    0.09930
+Motor Front : 496
+Motor Back : 503
+Pitch Angle:   -0.10449
+Measured Pitch:    0.09790
+Motor Front : 495
+Motor Back : 504
+Pitch Angle:   -0.03363
+Measured Pitch:    0.09650
+Motor Front : 496
+Motor Back : 503
+Pitch Angle:   -0.21148
+Measured Pitch:    0.09324
+Motor Front : 495
+Motor Back : 504
+Pitch Angle:   -0.48839
+Measured Pitch:    0.08037
+Motor Front : 498
+Motor Back : 501
+Pitch Angle:   -0.49561
+Measured Pitch:    0.06988
+Motor Front : 497
+Motor Back : 502
+Pitch Angle:   -0.38142
+Measured Pitch:    0.06477
+Motor Front : 496
+Motor Back : 503
+Pitch Angle:    0.75685
+Measured Pitch:    0.08376
+Motor Front : 495
+Motor Back : 504
+Pitch Angle:    0.00505
+Measured Pitch:    0.08528
+Motor Front : 495
+Motor Back : 504
+Pitch Angle:    0.89577
+Measured Pitch:    0.10643
+Motor Front : 494
+Motor Back : 505
+Pitch Angle:   -0.89698
+Measured Pitch:    0.08740
+Motor Front : 496
+Motor Back : 503
+Pitch Angle:   -0.05301
+Measured Pitch:    0.09262
+Motor Front : 493
+Motor Back : 506
+Pitch Angle:   -0.75731
+Measured Pitch:    0.08365
+Motor Front : 493
+Motor Back : 506
+Pitch Angle:    0.36249
+Measured Pitch:    0.09562
+Motor Front : 494
+Motor Back : 505
+Pitch Angle:    1.26027
+Measured Pitch:    0.11829
+Motor Front : 496
+Motor Back : 503
+Pitch Angle:    0.84863
+Measured Pitch:    0.12216
+Motor Front : 501
+Motor Back : 498
+Pitch Angle:   -1.00706
+Measured Pitch:    0.08453
+Motor Front : 504
+Motor Back : 495
+Pitch Angle:   -1.75547
+Measured Pitch:    0.03270
+Motor Front : 506
+Motor Back : 493
+Pitch Angle:   -1.58864
+Measured Pitch:   -0.00735
+Motor Front : 503
+Motor Back : 496
+Pitch Angle:   -0.95116
+Measured Pitch:   -0.02664
+Motor Front : 500
+Motor Back : 499
+Pitch Angle:   -0.67702
+Measured Pitch:   -0.03696
+Motor Front : 499
+Motor Back : 500
+Pitch Angle:   -0.42213
+Measured Pitch:   -0.04178
+Motor Front : 499
+Motor Back : 500
+Pitch Angle:   -0.40001
+Measured Pitch:   -0.04688
+Motor Front : 500
+Motor Back : 499
+Pitch Angle:   -0.56819
+Measured Pitch:   -0.05690
+Motor Front : 501
+Motor Back : 498
+Pitch Angle:   -0.43679
+Measured Pitch:   -0.06573
+Motor Front : 502
+Motor Back : 497
+Pitch Angle:   -0.16633
+Measured Pitch:   -0.07042
+Motor Front : 503
+Motor Back : 496
+Pitch Angle:    0.24784
+Measured Pitch:   -0.06961
+Motor Front : 504
+Motor Back : 495
+Pitch Angle:    0.03492
+Measured Pitch:   -0.08009
+Motor Front : 508
+Motor Back : 491
+Pitch Angle:    0.11160
+Measured Pitch:   -0.09284
+Motor Front : 510
+Motor Back : 489
+Pitch Angle:    0.16134
+Measured Pitch:   -0.10429
+Motor Front : 510
+Motor Back : 489
+Pitch Angle:    0.40314
+Measured Pitch:   -0.11185
+Motor Front : 511
+Motor Back : 488
+Pitch Angle:    0.23574
+Measured Pitch:   -0.12406
+Motor Front : 512
+Motor Back : 487
+Pitch Angle:    0.49962
+Measured Pitch:   -0.13037
+Motor Front : 512
+Motor Back : 487
+Pitch Angle:    0.05078
+Measured Pitch:   -0.14363
+Motor Front : 512
+Motor Back : 487
+Pitch Angle:   -0.30699
+Measured Pitch:   -0.16172
+Motor Front : 511
+Motor Back : 488
+Pitch Angle:   -0.56578
+Measured Pitch:   -0.17866
+Motor Front : 509
+Motor Back : 490
+Pitch Angle:   -1.23043
+Measured Pitch:   -0.19990
+Motor Front : 506
+Motor Back : 493
+Pitch Angle:   -0.50890
+Measured Pitch:   -0.19666
+Motor Front : 501
+Motor Back : 498
+Pitch Angle:   -0.50829
+Measured Pitch:   -0.18907
+Motor Front : 499
+Motor Back : 500
+Pitch Angle:   -0.35718
+Measured Pitch:   -0.17533
+Motor Front : 497
+Motor Back : 502
+Pitch Angle:   -0.42887
+Measured Pitch:   -0.16250
+Motor Front : 496
+Motor Back : 503
+Pitch Angle:   -0.54994
+Measured Pitch:   -0.15172
+Motor Front : 495
+Motor Back : 504
+Pitch Angle:   -0.21572
+Measured Pitch:   -0.13469
+Motor Front : 495
+Motor Back : 504
+Pitch Angle:   -0.66366
+Measured Pitch:   -0.12828
+Motor Front : 495
+Motor Back : 504
+Pitch Angle:   -0.33268
+Measured Pitch:   -0.11874
+Motor Front : 497
+Motor Back : 502
+Pitch Angle:    0.11681
+Measured Pitch:   -0.10639
+Motor Front : 499
+Motor Back : 500
+Pitch Angle:   -0.00113
+Measured Pitch:   -0.10325
+Motor Front : 502
+Motor Back : 497
+Pitch Angle:   -0.12562
+Measured Pitch:   -0.10884
+Motor Front : 505
+Motor Back : 494
+Pitch Angle:   -0.50936
+Measured Pitch:   -0.12960
+Motor Front : 509
+Motor Back : 490
+Pitch Angle:   -0.89690
+Measured Pitch:   -0.16104
+Motor Front : 512
+Motor Back : 487
+Pitch Angle:   -0.68306
+Measured Pitch:   -0.18918
+Motor Front : 514
+Motor Back : 485
+Pitch Angle:   -0.84712
+Measured Pitch:   -0.21756
+Motor Front : 513
+Motor Back : 486
+Pitch Angle:   -0.48824
+Measured Pitch:   -0.23531
+Motor Front : 512
+Motor Back : 487
+Pitch Angle:   -0.59236
+Measured Pitch:   -0.25047
+Motor Front : 511
+Motor Back : 488
+Pitch Angle:   -0.59202
+Measured Pitch:   -0.26347
+Motor Front : 510
+Motor Back : 489
+Pitch Angle:   -0.10864
+Measured Pitch:   -0.26489
+Motor Front : 510
+Motor Back : 489
+Pitch Angle:   -0.05915
+Measured Pitch:   -0.26140
+Motor Front : 508
+Motor Back : 491
+Pitch Angle:   -0.46763
+Measured Pitch:   -0.26449
+Motor Front : 507
+Motor Back : 492
+Pitch Angle:   -0.10044
+Measured Pitch:   -0.25895
+Motor Front : 506
+Motor Back : 493
+Pitch Angle:    0.28687
+Measured Pitch:   -0.24473
+Motor Front : 505
+Motor Back : 494
+Pitch Angle:   -0.47766
+Measured Pitch:   -0.24775
+Motor Front : 506
+Motor Back : 493
+Pitch Angle:   -0.09196
+Measured Pitch:   -0.24319
+Motor Front : 506
+Motor Back : 493
+Pitch Angle:    0.09965
+Measured Pitch:   -0.23489
+Motor Front : 506
+Motor Back : 493
+Pitch Angle:    0.30928
+Measured Pitch:   -0.22195
+Motor Front : 505
+Motor Back : 494
+Pitch Angle:    1.22030
+Measured Pitch:   -0.19249
+Motor Front : 505
+Motor Back : 494
+Pitch Angle:   -1.27527
+Measured Pitch:   -0.21887
+Motor Front : 508
+Motor Back : 491
+Pitch Angle:   -0.73124
+Measured Pitch:   -0.22830
+Motor Front : 506
+Motor Back : 493
+Pitch Angle:   -0.37353
+Measured Pitch:   -0.22688
+Motor Front : 504
+Motor Back : 495
+Pitch Angle:    0.11925
+Measured Pitch:   -0.21523
+Motor Front : 504
+Motor Back : 495
+Pitch Angle:   -0.69045
+Measured Pitch:   -0.22388
+Motor Front : 506
+Motor Back : 493
+Pitch Angle:   -1.15821
+Measured Pitch:   -0.23884
+Motor Front : 505
+Motor Back : 494
+Pitch Angle:   -1.49086
+Measured Pitch:   -0.25748
+Motor Front : 504
+Motor Back : 495
+Pitch Angle:   -1.38430
+Measured Pitch:   -0.27072
+Motor Front : 503
+Motor Back : 496
+Pitch Angle:    0.45535
+Measured Pitch:   -0.24457
+Motor Front : 501
+Motor Back : 498
+Pitch Angle:    0.47743
+Measured Pitch:   -0.22642
+Motor Front : 505
+Motor Back : 494
+Pitch Angle:   -0.47304
+Measured Pitch:   -0.23403
+Motor Front : 508
+Motor Back : 491
+Pitch Angle:   -0.92786
+Measured Pitch:   -0.25141
+Motor Front : 509
+Motor Back : 490
+Pitch Angle:   -0.87882
+Measured Pitch:   -0.26932
+Motor Front : 510
+Motor Back : 489
+Pitch Angle:    0.07415
+Measured Pitch:   -0.26884
+Motor Front : 511
+Motor Back : 488
+Pitch Angle:    0.46469
+Measured Pitch:   -0.26407
+Motor Front : 512
+Motor Back : 487
+Pitch Angle:   -0.10006
+Measured Pitch:   -0.27562
+Motor Front : 515
+Motor Back : 484
+Pitch Angle:   -0.64860
+Measured Pitch:   -0.29882
+Motor Front : 516
+Motor Back : 483
+Pitch Angle:   -0.88507
+Measured Pitch:   -0.32271
+Motor Front : 515
+Motor Back : 484
+Pitch Angle:   -0.85961
+Measured Pitch:   -0.34048
+Motor Front : 513
+Motor Back : 486
+Pitch Angle:   -0.58314
+Measured Pitch:   -0.34740
+Motor Front : 511
+Motor Back : 488
+Pitch Angle:   -0.50595
+Measured Pitch:   -0.34954
+Motor Front : 509
+Motor Back : 490
+Pitch Angle:   -0.30106
+Measured Pitch:   -0.34712
+Motor Front : 509
+Motor Back : 490
+Pitch Angle:   -0.08720
+Measured Pitch:   -0.33903
+Motor Front : 508
+Motor Back : 491
+Pitch Angle:   -0.61281
+Measured Pitch:   -0.34141
+Motor Front : 508
+Motor Back : 491
+Pitch Angle:    0.09414
+Measured Pitch:   -0.33105
+Motor Front : 509
+Motor Back : 490
+Pitch Angle:   -0.12039
+Measured Pitch:   -0.32537
+Motor Front : 509
+Motor Back : 490
+Pitch Angle:   -0.20415
+Measured Pitch:   -0.32521
+Motor Front : 510
+Motor Back : 489
+Pitch Angle:   -0.12039
+Measured Pitch:   -0.32503
+Motor Front : 511
+Motor Back : 488
+Pitch Angle:   -0.76014
+Measured Pitch:   -0.33662
+Motor Front : 511
+Motor Back : 488
+Pitch Angle:   -1.07632
+Measured Pitch:   -0.35390
+Motor Front : 511
+Motor Back : 488
+Pitch Angle:   -0.58276
+Measured Pitch:   -0.35683
+Motor Front : 509
+Motor Back : 490
+Pitch Angle:   -0.52078
+Measured Pitch:   -0.35660
+Motor Front : 509
+Motor Back : 490
+Pitch Angle:   -0.25716
+Measured Pitch:   -0.35255
+Motor Front : 509
+Motor Back : 490
+Pitch Angle:   -0.00941
+Measured Pitch:   -0.34342
+Motor Front : 509
+Motor Back : 490
+Pitch Angle:   -0.45192
+Measured Pitch:   -0.34456
+Motor Front : 509
+Motor Back : 490
+Pitch Angle:   -0.38193
+Measured Pitch:   -0.34675
+Motor Front : 511
+Motor Back : 488
+Pitch Angle:   -0.06137
+Measured Pitch:   -0.34474
+Motor Front : 512
+Motor Back : 487
+Pitch Angle:   -0.04397
+Measured Pitch:   -0.34284
+Motor Front : 512
+Motor Back : 487
+Pitch Angle:   -0.55618
+Measured Pitch:   -0.35164
+Motor Front : 512
+Motor Back : 487
+Pitch Angle:   -0.92148
+Measured Pitch:   -0.36634
+Motor Front : 512
+Motor Back : 487
+Pitch Angle:   -1.18065
+Measured Pitch:   -0.38138
+Motor Front : 510
+Motor Back : 489
+Pitch Angle:   -1.23711
+Measured Pitch:   -0.39437
+Motor Front : 509
+Motor Back : 490
+Pitch Angle:   -0.90726
+Measured Pitch:   -0.39555
+Motor Front : 507
+Motor Back : 492
+Pitch Angle:   -0.49335
+Measured Pitch:   -0.38575
+Motor Front : 506
+Motor Back : 493
+Pitch Angle:   -0.26297
+Measured Pitch:   -0.37217
+Motor Front : 505
+Motor Back : 494
+Pitch Angle:    0.29943
+Measured Pitch:   -0.35091
+Motor Front : 506
+Motor Back : 493
+Pitch Angle:   -0.19005
+Measured Pitch:   -0.34461
+Motor Front : 508
+Motor Back : 491
+Pitch Angle:   -0.03662
+Measured Pitch:   -0.34154
+Motor Front : 511
+Motor Back : 488
+Pitch Angle:   -0.18696
+Measured Pitch:   -0.34442
+Motor Front : 513
+Motor Back : 486
+Pitch Angle:   -0.03008
+Measured Pitch:   -0.34719
+Motor Front : 514
+Motor Back : 485
+Pitch Angle:   -0.04187
+Measured Pitch:   -0.35241
+Motor Front : 515
+Motor Back : 484
+Pitch Angle:   -0.40555
+Measured Pitch:   -0.36645
+Motor Front : 517
+Motor Back : 482
+Pitch Angle:   -0.47311
+Measured Pitch:   -0.37973
+Motor Front : 516
+Motor Back : 483
+Pitch Angle:   -0.82056
+Measured Pitch:   -0.39637
+Motor Front : 515
+Motor Back : 484
+Pitch Angle:   -0.27463
+Measured Pitch:   -0.40053
+Motor Front : 515
+Motor Back : 484
+Pitch Angle:   -0.62588
+Measured Pitch:   -0.40874
+Motor Front : 514
+Motor Back : 485
+Pitch Angle:    0.19328
+Measured Pitch:   -0.39877
+Motor Front : 512
+Motor Back : 487
+Pitch Angle:   -0.45276
+Measured Pitch:   -0.39985
+Motor Front : 511
+Motor Back : 488
+Pitch Angle:   -1.04637
+Measured Pitch:   -0.40928
+Motor Front : 510
+Motor Back : 489
+Pitch Angle:   -0.43814
+Measured Pitch:   -0.40265
+Motor Front : 508
+Motor Back : 491
+Pitch Angle:   -0.54143
+Measured Pitch:   -0.39431
+Motor Front : 506
+Motor Back : 493
+Pitch Angle:    0.26819
+Measured Pitch:   -0.36871
+Motor Front : 505
+Motor Back : 494
+Pitch Angle:    0.76783
+Measured Pitch:   -0.33634
+Motor Front : 505
+Motor Back : 494
+Pitch Angle:    0.44989
+Measured Pitch:   -0.31794
+Motor Front : 508
+Motor Back : 491
+Pitch Angle:    0.03973
+Measured Pitch:   -0.31470
+Motor Front : 511
+Motor Back : 488
+Pitch Angle:   -0.02413
+Measured Pitch:   -0.31589
+Motor Front : 512
+Motor Back : 487
+Pitch Angle:    0.06559
+Measured Pitch:   -0.31588
+Motor Front : 513
+Motor Back : 486
+Pitch Angle:   -0.79609
+Measured Pitch:   -0.33436
+Motor Front : 514
+Motor Back : 485
+Pitch Angle:   -0.74918
+Measured Pitch:   -0.34884
+Motor Front : 513
+Motor Back : 486
+Pitch Angle:   -1.08344
+Measured Pitch:   -0.36476
+Motor Front : 511
+Motor Back : 488
+Pitch Angle:   -0.55357
+Measured Pitch:   -0.37080
+Motor Front : 512
+Motor Back : 487
+Pitch Angle:   -1.12567
+Measured Pitch:   -0.38363
+Motor Front : 510
+Motor Back : 489
+Pitch Angle:   -0.36461
+Measured Pitch:   -0.37769
+Motor Front : 508
+Motor Back : 491
+Pitch Angle:   -1.21849
+Measured Pitch:   -0.39178
+Motor Front : 510
+Motor Back : 489
+Pitch Angle:   -0.61923
+Measured Pitch:   -0.38521
+Motor Front : 506
+Motor Back : 493
+Pitch Angle:   -2.76984
+Measured Pitch:   -0.42156
+Motor Front : 507
+Motor Back : 492
+Pitch Angle:   -2.59468
+Measured Pitch:   -0.44358
+Motor Front : 503
+Motor Back : 496
+Pitch Angle:   -1.23578
+Measured Pitch:   -0.43655
+Motor Front : 502
+Motor Back : 497
+Pitch Angle:   -1.10870
+Measured Pitch:   -0.42691
+Motor Front : 501
+Motor Back : 498
+Pitch Angle:    1.05683
+Measured Pitch:   -0.37271
+Motor Front : 499
+Motor Back : 500
+Pitch Angle:    1.08246
+Measured Pitch:   -0.33515
+Motor Front : 506
+Motor Back : 493
+Pitch Angle:    0.54245
+Measured Pitch:   -0.32132
+Motor Front : 511
+Motor Back : 488
+Pitch Angle:    1.61819
+Measured Pitch:   -0.29758
+Motor Front : 516
+Motor Back : 483
+Pitch Angle:   -0.18602
+Measured Pitch:   -0.32148
+Motor Front : 522
+Motor Back : 477
+Pitch Angle:    0.56657
+Measured Pitch:   -0.33253
+Motor Front : 523
+Motor Back : 476
+Pitch Angle:   -1.01927
+Measured Pitch:   -0.37138
+Motor Front : 523
+Motor Back : 476
+Pitch Angle:   -0.20250
+Measured Pitch:   -0.38591
+Motor Front : 520
+Motor Back : 479
+Pitch Angle:   -1.91652
+Measured Pitch:   -0.42476
+Motor Front : 516
+Motor Back : 483
+Pitch Angle:   -0.51519
+Measured Pitch:   -0.41422
+Motor Front : 506
+Motor Back : 493
+Pitch Angle:   -0.58024
+Measured Pitch:   -0.38753
+Motor Front : 497
+Motor Back : 502
+Pitch Angle:   -1.90384
+Measured Pitch:   -0.35381
+Motor Front : 480
+Motor Back : 519
+Pitch Angle:   -1.47468
+Measured Pitch:   -0.29103
+Motor Front : 468
+Motor Back : 531
+Pitch Angle:   -1.03169
+Measured Pitch:   -0.20194
+Motor Front : 456
+Motor Back : 543
+Pitch Angle:   -0.03565
+Measured Pitch:   -0.06902
+Motor Front : 440
+Motor Back : 559
+Pitch Angle:   -1.63131
+Measured Pitch:    0.04068
+Motor Front : 431
+Motor Back : 568
+Pitch Angle:    0.21731
+Measured Pitch:    0.20161
+Motor Front : 419
+Motor Back : 580
+Pitch Angle:    1.11719
+Measured Pitch:    0.37698
+Motor Front : 414
+Motor Back : 585
+Pitch Angle:    1.08215
+Measured Pitch:    0.55186
+Motor Front : 407
+Motor Back : 592
+Pitch Angle:    2.24157
+Measured Pitch:    0.74726
+Motor Front : 400
+Motor Back : 599
+Pitch Angle:    1.53327
+Measured Pitch:    0.91548
+Motor Front : 400
+Motor Back : 599
+Pitch Angle:    2.95878
+Measured Pitch:    1.10529
+Motor Front : 396
+Motor Back : 603
+Pitch Angle:    2.31612
+Measured Pitch:    1.26680
+Motor Front : 396
+Motor Back : 603
+Pitch Angle:    2.88222
+Measured Pitch:    1.42067
+Motor Front : 399
+Motor Back : 600
+Pitch Angle:    3.44902
+Measured Pitch:    1.56380
+Motor Front : 404
+Motor Back : 595
+Pitch Angle:    3.16548
+Measured Pitch:    1.68578
+Motor Front : 406
+Motor Back : 593
+Pitch Angle:    2.96977
+Measured Pitch:    1.77816
+Motor Front : 415
+Motor Back : 584
+Pitch Angle:    3.21379
+Measured Pitch:    1.85420
+Motor Front : 421
+Motor Back : 578
+Pitch Angle:    3.33427
+Measured Pitch:    1.90892
+Motor Front : 430
+Motor Back : 569
+Pitch Angle:    2.94945
+Measured Pitch:    1.94228
+Motor Front : 435
+Motor Back : 564
+Pitch Angle:    2.76328
+Measured Pitch:    1.95356
+Motor Front : 443
+Motor Back : 556
+Pitch Angle:    1.91098
+Measured Pitch:    1.92796
+Motor Front : 453
+Motor Back : 546
+Pitch Angle:    2.54806
+Measured Pitch:    1.90187
+Motor Front : 461
+Motor Back : 538
+Pitch Angle:    1.79120
+Measured Pitch:    1.84921
+Motor Front : 468
+Motor Back : 531
+Pitch Angle:    1.90914
+Measured Pitch:    1.79079
+Motor Front : 474
+Motor Back : 525
+Pitch Angle:    1.28582
+Measured Pitch:    1.71213
+Motor Front : 481
+Motor Back : 518
+Pitch Angle:    1.10043
+Measured Pitch:    1.62974
+Motor Front : 484
+Motor Back : 515
+Pitch Angle:    0.27934
+Measured Pitch:    1.52926
+Motor Front : 488
+Motor Back : 511
+Pitch Angle:   -0.45900
+Measured Pitch:    1.41780
+Motor Front : 490
+Motor Back : 509
+Pitch Angle:    0.49234
+Measured Pitch:    1.33556
+Motor Front : 490
+Motor Back : 509
+Pitch Angle:   -0.67885
+Measured Pitch:    1.23573
+Motor Front : 491
+Motor Back : 508
+Pitch Angle:    0.16096
+Measured Pitch:    1.16692
+Motor Front : 487
+Motor Back : 512
+Pitch Angle:   -0.41098
+Measured Pitch:    1.09569
+Motor Front : 485
+Motor Back : 514
+Pitch Angle:   -0.31295
+Measured Pitch:    1.03738
+Motor Front : 483
+Motor Back : 516
+Pitch Angle:   -0.55380
+Measured Pitch:    0.98841
+Motor Front : 478
+Motor Back : 521
+Pitch Angle:   -0.24854
+Measured Pitch:    0.95790
+Motor Front : 473
+Motor Back : 526
+Pitch Angle:    0.10615
+Measured Pitch:    0.94706
+Motor Front : 468
+Motor Back : 531
+Pitch Angle:   -0.37686
+Measured Pitch:    0.93375
+Motor Front : 465
+Motor Back : 534
+Pitch Angle:    0.61647
+Measured Pitch:    0.95272
+Motor Front : 459
+Motor Back : 540
+Pitch Angle:    0.80696
+Measured Pitch:    0.98457
+Motor Front : 453
+Motor Back : 546
+Pitch Angle:    1.04912
+Measured Pitch:    1.02804
+Motor Front : 449
+Motor Back : 550
+Pitch Angle:    1.25840
+Measured Pitch:    1.07731
+Motor Front : 446
+Motor Back : 553
+Pitch Angle:    1.49575
+Measured Pitch:    1.13346
+Motor Front : 443
+Motor Back : 556
+Pitch Angle:    1.46698
+Measured Pitch:    1.19074
+Motor Front : 440
+Motor Back : 559
+Pitch Angle:    2.26654
+Measured Pitch:    1.26162
+Motor Front : 438
+Motor Back : 561
+Pitch Angle:    2.68904
+Measured Pitch:    1.33767
+Motor Front : 437
+Motor Back : 562
+Pitch Angle:    2.39115
+Measured Pitch:    1.40170
+Motor Front : 437
+Motor Back : 562
+Pitch Angle:    2.54410
+Measured Pitch:    1.46425
+Motor Front : 437
+Motor Back : 562
+Pitch Angle:    3.19971
+Measured Pitch:    1.53273
+Motor Front : 438
+Motor Back : 561
+Pitch Angle:    2.59583
+Measured Pitch:    1.57997
+Motor Front : 440
+Motor Back : 559
+Pitch Angle:    2.58888
+Measured Pitch:    1.61906
+Motor Front : 442
+Motor Back : 557
+Pitch Angle:    3.45941
+Measured Pitch:    1.66618
+Motor Front : 445
+Motor Back : 554
+Pitch Angle:    2.07625
+Measured Pitch:    1.67253
+Motor Front : 450
+Motor Back : 549
+Pitch Angle:    3.01676
+Measured Pitch:    1.69304
+Motor Front : 452
+Motor Back : 547
+Pitch Angle:    3.45356
+Measured Pitch:    1.71261
+Motor Front : 456
+Motor Back : 543
+Pitch Angle:    1.57181
+Measured Pitch:    1.68552
+Motor Front : 460
+Motor Back : 539
+Pitch Angle:    2.07426
+Measured Pitch:    1.66697
+Motor Front : 462
+Motor Back : 537
+Pitch Angle:    1.26484
+Measured Pitch:    1.62683
+Motor Front : 466
+Motor Back : 533
+Pitch Angle:    1.33490
+Measured Pitch:    1.58542
+Motor Front : 469
+Motor Back : 530
+Pitch Angle:    2.07545
+Measured Pitch:    1.55787
+Motor Front : 470
+Motor Back : 529
+Pitch Angle:    0.70303
+Measured Pitch:    1.49968
+Motor Front : 474
+Motor Back : 525
+Pitch Angle:    0.80799
+Measured Pitch:    1.44914
+Motor Front : 473
+Motor Back : 526
+Pitch Angle:    0.93252
+Measured Pitch:    1.40444
+Motor Front : 474
+Motor Back : 525
+Pitch Angle:   -0.32493
+Measured Pitch:    1.33753
+Motor Front : 475
+Motor Back : 524
+Pitch Angle:    0.52614
+Measured Pitch:    1.29410
+Motor Front : 474
+Motor Back : 525
+Pitch Angle:   -0.49706
+Measured Pitch:    1.23579
+Motor Front : 473
+Motor Back : 526
+Pitch Angle:   -0.12038
+Measured Pitch:    1.19300
+Motor Front : 471
+Motor Back : 528
+Pitch Angle:    0.40681
+Measured Pitch:    1.16821
+Motor Front : 469
+Motor Back : 530
+Pitch Angle:   -0.02187
+Measured Pitch:    1.14172
+Motor Front : 467
+Motor Back : 532
+Pitch Angle:   -0.00641
+Measured Pitch:    1.12597
+Motor Front : 462
+Motor Back : 537
+Pitch Angle:    0.15240
+Measured Pitch:    1.11784
+Motor Front : 461
+Motor Back : 538
+Pitch Angle:   -0.28457
+Measured Pitch:    1.10957
+Motor Front : 457
+Motor Back : 542
+Pitch Angle:    0.15988
+Measured Pitch:    1.11592
+Motor Front : 454
+Motor Back : 545
+Pitch Angle:   -0.15102
+Measured Pitch:    1.12191
+Motor Front : 451
+Motor Back : 548
+Pitch Angle:    0.71224
+Measured Pitch:    1.14953
+Motor Front : 448
+Motor Back : 551
+Pitch Angle:    0.78195
+Measured Pitch:    1.18048
+Motor Front : 446
+Motor Back : 553
+Pitch Angle:    1.43524
+Measured Pitch:    1.22531
+Motor Front : 444
+Motor Back : 555
+Pitch Angle:    0.94428
+Measured Pitch:    1.25933
+Motor Front : 443
+Motor Back : 556
+Pitch Angle:    1.94374
+Measured Pitch:    1.31146
+Motor Front : 442
+Motor Back : 557
+Pitch Angle:    2.24520
+Measured Pitch:    1.36611
+Motor Front : 442
+Motor Back : 557
+Pitch Angle:    1.89666
+Measured Pitch:    1.40666
+Motor Front : 443
+Motor Back : 556
+Pitch Angle:    2.12717
+Measured Pitch:    1.44909
+Motor Front : 443
+Motor Back : 556
+Pitch Angle:    2.99649
+Measured Pitch:    1.49980
+Motor Front : 445
+Motor Back : 554
+Pitch Angle:    2.42517
+Measured Pitch:    1.53211
+Motor Front : 447
+Motor Back : 552
+Pitch Angle:    2.77503
+Measured Pitch:    1.56561
+Motor Front : 448
+Motor Back : 551
+Pitch Angle:    3.20127
+Measured Pitch:    1.59792
+Motor Front : 452
+Motor Back : 547
+Pitch Angle:    2.57367
+Measured Pitch:    1.60607
+Motor Front : 457
+Motor Back : 542
+Pitch Angle:    2.86976
+Measured Pitch:    1.61816
+Motor Front : 457
+Motor Back : 542
+Pitch Angle:    2.84833
+Measured Pitch:    1.61847
+Motor Front : 462
+Motor Back : 537
+Pitch Angle:    1.89640
+Measured Pitch:    1.58966
+Motor Front : 468
+Motor Back : 531
+Pitch Angle:    2.54260
+Measured Pitch:    1.57434
+Motor Front : 469
+Motor Back : 530
+Pitch Angle:    2.78414
+Measured Pitch:    1.55819
+Motor Front : 472
+Motor Back : 527
+Pitch Angle:    1.44495
+Measured Pitch:    1.51064
+Motor Front : 476
+Motor Back : 523
+Pitch Angle:    2.24279
+Measured Pitch:    1.48269
+Motor Front : 475
+Motor Back : 524
+Pitch Angle:    1.41370
+Measured Pitch:    1.43549
+Motor Front : 478
+Motor Back : 521
+Pitch Angle:    1.58495
+Measured Pitch:    1.39300
+Motor Front : 479
+Motor Back : 520
+Pitch Angle:    0.79262
+Measured Pitch:    1.33841
+Motor Front : 479
+Motor Back : 520
+Pitch Angle:    1.42923
+Measured Pitch:    1.30114
+Motor Front : 479
+Motor Back : 520
+Pitch Angle:    0.70027
+Measured Pitch:    1.25382
+Motor Front : 479
+Motor Back : 520
+Pitch Angle:    0.83970
+Measured Pitch:    1.21331
+Motor Front : 478
+Motor Back : 521
+Pitch Angle:    0.15928
+Measured Pitch:    1.16558
+Motor Front : 477
+Motor Back : 522
+Pitch Angle:    0.45821
+Measured Pitch:    1.13342
+Motor Front : 474
+Motor Back : 525
+Pitch Angle:   -0.14493
+Measured Pitch:    1.09771
+Motor Front : 471
+Motor Back : 528
+Pitch Angle:   -0.12010
+Measured Pitch:    1.07295
+Motor Front : 468
+Motor Back : 531
+Pitch Angle:   -0.65064
+Measured Pitch:    1.04445
+Motor Front : 465
+Motor Back : 534
+Pitch Angle:    0.05488
+Measured Pitch:    1.04114
+Motor Front : 460
+Motor Back : 539
+Pitch Angle:   -0.58096
+Measured Pitch:    1.03466
+Motor Front : 456
+Motor Back : 543
+Pitch Angle:    0.06617
+Measured Pitch:    1.04823
+Motor Front : 452
+Motor Back : 547
+Pitch Angle:    0.47650
+Measured Pitch:    1.07407
+Motor Front : 450
+Motor Back : 549
+Pitch Angle:    0.29091
+Measured Pitch:    1.10239
+Motor Front : 446
+Motor Back : 553
+Pitch Angle:    0.44286
+Measured Pitch:    1.13670
+Motor Front : 443
+Motor Back : 556
+Pitch Angle:    0.81197
+Measured Pitch:    1.17917
+Motor Front : 441
+Motor Back : 558
+Pitch Angle:    1.03594
+Measured Pitch:    1.22774
+Motor Front : 438
+Motor Back : 561
+Pitch Angle:    0.73303
+Measured Pitch:    1.26819
+Motor Front : 438
+Motor Back : 561
+Pitch Angle:    0.83515
+Measured Pitch:    1.30670
+Motor Front : 438
+Motor Back : 561
+Pitch Angle:    1.79085
+Measured Pitch:    1.36305
+Motor Front : 436
+Motor Back : 563
+Pitch Angle:    1.79429
+Measured Pitch:    1.41488
+Motor Front : 437
+Motor Back : 562
+Pitch Angle:    1.95320
+Measured Pitch:    1.46037
+Motor Front : 439
+Motor Back : 560
+Pitch Angle:    1.61746
+Measured Pitch:    1.49394
+Motor Front : 440
+Motor Back : 559
+Pitch Angle:    2.75609
+Measured Pitch:    1.54099
+Motor Front : 443
+Motor Back : 556
+Pitch Angle:    1.84588
+Measured Pitch:    1.56231
+Motor Front : 445
+Motor Back : 554
+Pitch Angle:    2.09326
+Measured Pitch:    1.58423
+Motor Front : 447
+Motor Back : 552
+Pitch Angle:    2.81039
+Measured Pitch:    1.60670
+Motor Front : 452
+Motor Back : 547
+Pitch Angle:    1.74944
+Measured Pitch:    1.59988
+Motor Front : 456
+Motor Back : 543
+Pitch Angle:    3.89442
+Measured Pitch:    1.63114
+Motor Front : 457
+Motor Back : 542
+Pitch Angle:    1.93097
+Measured Pitch:    1.60753
+Motor Front : 465
+Motor Back : 534
+Pitch Angle:    2.41877
+Measured Pitch:    1.59044
+Motor Front : 468
+Motor Back : 531
+Pitch Angle:    2.36605
+Measured Pitch:    1.56038
+Motor Front : 474
+Motor Back : 525
+Pitch Angle:    1.77329
+Measured Pitch:    1.51566
+Motor Front : 477
+Motor Back : 522
+Pitch Angle:    3.08490
+Measured Pitch:    1.49993
+Motor Front : 477
+Motor Back : 522
+Pitch Angle:    1.91257
+Measured Pitch:    1.45303
+Motor Front : 482
+Motor Back : 517
+Pitch Angle:    0.95384
+Measured Pitch:    1.38958
+Motor Front : 483
+Motor Back : 516
+Pitch Angle:    1.61051
+Measured Pitch:    1.34089
+Motor Front : 484
+Motor Back : 515
+Pitch Angle:    1.12851
+Measured Pitch:    1.28489
+Motor Front : 485
+Motor Back : 514
+Pitch Angle:    1.09788
+Measured Pitch:    1.23612
+Motor Front : 484
+Motor Back : 515
+Pitch Angle:    0.93974
+Measured Pitch:    1.18861
+Motor Front : 483
+Motor Back : 516
+Pitch Angle:    1.17740
+Measured Pitch:    1.15581
+Motor Front : 480
+Motor Back : 519
+Pitch Angle:    0.81218
+Measured Pitch:    1.12110
+Motor Front : 479
+Motor Back : 520
+Pitch Angle:    0.87958
+Measured Pitch:    1.09405
+Motor Front : 477
+Motor Back : 522
+Pitch Angle:    0.57502
+Measured Pitch:    1.07295
+Motor Front : 472
+Motor Back : 527
+Pitch Angle:    0.14288
+Measured Pitch:    1.05085
+Motor Front : 470
+Motor Back : 529
+Pitch Angle:   -0.27727
+Measured Pitch:    1.02882
+Motor Front : 466
+Motor Back : 533
+Pitch Angle:    0.46983
+Measured Pitch:    1.03103
+Motor Front : 462
+Motor Back : 537
+Pitch Angle:   -0.26362
+Measured Pitch:    1.02573
+Motor Front : 459
+Motor Back : 540
+Pitch Angle:    0.34227
+Measured Pitch:    1.04131
+Motor Front : 454
+Motor Back : 545
+Pitch Angle:   -0.00310
+Measured Pitch:    1.05381
+Motor Front : 452
+Motor Back : 547
+Pitch Angle:    0.23921
+Measured Pitch:    1.07565
+Motor Front : 449
+Motor Back : 550
+Pitch Angle:    0.36962
+Measured Pitch:    1.10395
+Motor Front : 446
+Motor Back : 553
+Pitch Angle:    0.69694
+Measured Pitch:    1.14094
+Motor Front : 444
+Motor Back : 555
+Pitch Angle:    0.63387
+Measured Pitch:    1.17776
+Motor Front : 442
+Motor Back : 557
+Pitch Angle:    0.80628
+Measured Pitch:    1.21778
+Motor Front : 440
+Motor Back : 559
+Pitch Angle:    1.06879
+Measured Pitch:    1.26276
+Motor Front : 439
+Motor Back : 560
+Pitch Angle:    1.34129
+Measured Pitch:    1.31174
+Motor Front : 438
+Motor Back : 561
+Pitch Angle:    1.26388
+Measured Pitch:    1.35434
+Motor Front : 438
+Motor Back : 561
+Pitch Angle:    1.52232
+Measured Pitch:    1.39848
+Motor Front : 438
+Motor Back : 561
+Pitch Angle:    1.72054
+Measured Pitch:    1.44121
+Motor Front : 439
+Motor Back : 560
+Pitch Angle:    2.38889
+Measured Pitch:    1.49146
+Motor Front : 440
+Motor Back : 559
+Pitch Angle:    1.98947
+Measured Pitch:    1.52574
+Motor Front : 442
+Motor Back : 557
+Pitch Angle:    2.30543
+Measured Pitch:    1.56068
+Motor Front : 443
+Motor Back : 556
+Pitch Angle:    2.39947
+Measured Pitch:    1.58776
+Motor Front : 447
+Motor Back : 552
+Pitch Angle:    2.10830
+Measured Pitch:    1.59797
+Motor Front : 452
+Motor Back : 547
+Pitch Angle:    2.54444
+Measured Pitch:    1.61072
+Motor Front : 454
+Motor Back : 545
+Pitch Angle:    2.73480
+Measured Pitch:    1.62187
+Motor Front : 456
+Motor Back : 543
+Pitch Angle:    2.24378
+Measured Pitch:    1.61260
+Motor Front : 461
+Motor Back : 538
+Pitch Angle:    1.95815
+Measured Pitch:    1.59439
+Motor Front : 464
+Motor Back : 535
+Pitch Angle:    2.18812
+Measured Pitch:    1.57351
+Motor Front : 468
+Motor Back : 531
+Pitch Angle:    1.62479
+Measured Pitch:    1.53732
+Motor Front : 471
+Motor Back : 528
+Pitch Angle:    2.69808
+Measured Pitch:    1.52274
+Motor Front : 472
+Motor Back : 527
+Pitch Angle:    2.16007
+Measured Pitch:    1.49161
+Motor Front : 476
+Motor Back : 523
+Pitch Angle:    1.63186
+Measured Pitch:    1.45013
+Motor Front : 477
+Motor Back : 522
+Pitch Angle:    1.43244
+Measured Pitch:    1.40460
+Motor Front : 479
+Motor Back : 520
+Pitch Angle:    0.77118
+Measured Pitch:    1.34663
+Motor Front : 481
+Motor Back : 518
+Pitch Angle:    1.65758
+Measured Pitch:    1.31103
+Motor Front : 480
+Motor Back : 519
+Pitch Angle:    0.59598
+Measured Pitch:    1.25716
+Motor Front : 481
+Motor Back : 518
+Pitch Angle:    1.11369
+Measured Pitch:    1.22196
+Motor Front : 478
+Motor Back : 521
+Pitch Angle:    0.34610
+Measured Pitch:    1.17431
+Motor Front : 478
+Motor Back : 521
+Pitch Angle:    1.08356
+Measured Pitch:    1.14885
+Motor Front : 476
+Motor Back : 523
+Pitch Angle:    0.56560
+Measured Pitch:    1.11969
+Motor Front : 474
+Motor Back : 525
+Pitch Angle:    0.73833
+Measured Pitch:    1.10156
+Motor Front : 471
+Motor Back : 528
+Pitch Angle:    0.42972
+Measured Pitch:    1.08298
+Motor Front : 469
+Motor Back : 530
+Pitch Angle:    0.36295
+Measured Pitch:    1.06961
+Motor Front : 467
+Motor Back : 532
+Pitch Angle:    0.44573
+Measured Pitch:    1.06598
+Motor Front : 463
+Motor Back : 536
+Pitch Angle:    0.14479
+Measured Pitch:    1.06241
+Motor Front : 461
+Motor Back : 538
+Pitch Angle:    0.13916
+Measured Pitch:    1.06235
+Motor Front : 459
+Motor Back : 540
+Pitch Angle:    0.45149
+Measured Pitch:    1.07462
+Motor Front : 456
+Motor Back : 543
+Pitch Angle:    0.74476
+Measured Pitch:    1.09600
+Motor Front : 453
+Motor Back : 546
+Pitch Angle:    0.71241
+Measured Pitch:    1.12100
+Motor Front : 450
+Motor Back : 549
+Pitch Angle:    1.02204
+Measured Pitch:    1.15396
+Motor Front : 448
+Motor Back : 551
+Pitch Angle:    1.21175
+Measured Pitch:    1.19111
+Motor Front : 447
+Motor Back : 552
+Pitch Angle:    1.20906
+Measured Pitch:    1.22993
+Motor Front : 444
+Motor Back : 555
+Pitch Angle:    1.19858
+Measured Pitch:    1.26755
+Motor Front : 443
+Motor Back : 556
+Pitch Angle:    1.65127
+Measured Pitch:    1.31187
+Motor Front : 443
+Motor Back : 556
+Pitch Angle:    1.63682
+Measured Pitch:    1.35271
+Motor Front : 443
+Motor Back : 556
+Pitch Angle:    1.90152
+Measured Pitch:    1.39497
+Motor Front : 443
+Motor Back : 556
+Pitch Angle:    1.70717
+Measured Pitch:    1.42856
+Motor Front : 444
+Motor Back : 555
+Pitch Angle:    2.05851
+Measured Pitch:    1.46359
+Motor Front : 445
+Motor Back : 554
+Pitch Angle:    2.33303
+Measured Pitch:    1.50012
+Motor Front : 445
+Motor Back : 554
+Pitch Angle:    2.31412
+Measured Pitch:    1.52960
+Motor Front : 447
+Motor Back : 552
+Pitch Angle:    2.04288
+Measured Pitch:    1.54563
+Motor Front : 450
+Motor Back : 549
+Pitch Angle:    1.64820
+Measured Pitch:    1.54850
+Motor Front : 453
+Motor Back : 546
+Pitch Angle:    2.59201
+Measured Pitch:    1.56546
+Motor Front : 454
+Motor Back : 545
+Pitch Angle:    1.85387
+Measured Pitch:    1.56115
+Motor Front : 457
+Motor Back : 542
+Pitch Angle:    2.15726
+Measured Pitch:    1.55827
+Motor Front : 460
+Motor Back : 539
+Pitch Angle:    1.68841
+Measured Pitch:    1.54043
+Motor Front : 463
+Motor Back : 536
+Pitch Angle:    1.47589
+Measured Pitch:    1.51590
+Motor Front : 465
+Motor Back : 534
+Pitch Angle:    2.04953
+Measured Pitch:    1.50197
+Motor Front : 466
+Motor Back : 533
+Pitch Angle:    1.04334
+Measured Pitch:    1.46456
+Motor Front : 469
+Motor Back : 530
+Pitch Angle:    1.86206
+Measured Pitch:    1.44594
+Motor Front : 469
+Motor Back : 530
+Pitch Angle:    1.70675
+Measured Pitch:    1.42566
+Motor Front : 469
+Motor Back : 530
+Pitch Angle:    1.46172
+Measured Pitch:    1.40107
+Motor Front : 469
+Motor Back : 530
+Pitch Angle:    1.13934
+Measured Pitch:    1.37287
+Motor Front : 469
+Motor Back : 530
+Pitch Angle:    1.01289
+Measured Pitch:    1.34605
+Motor Front : 468
+Motor Back : 531
+Pitch Angle:    1.27499
+Measured Pitch:    1.32713
+Motor Front : 468
+Motor Back : 531
+Pitch Angle:    1.25906
+Measured Pitch:    1.30907
+Motor Front : 468
+Motor Back : 531
+Pitch Angle:    0.85177
+Measured Pitch:    1.28530
+Motor Front : 468
+Motor Back : 531
+Pitch Angle:    1.54409
+Measured Pitch:    1.28018
+Motor Front : 466
+Motor Back : 533
+Pitch Angle:    1.45678
+Measured Pitch:    1.27753
+Motor Front : 464
+Motor Back : 535
+Pitch Angle:    1.52674
+Measured Pitch:    1.27757
+Motor Front : 464
+Motor Back : 535
+Pitch Angle:    1.37325
+Measured Pitch:    1.27659
+Motor Front : 463
+Motor Back : 536
+Pitch Angle:    1.25914
+Measured Pitch:    1.27686
+Motor Front : 461
+Motor Back : 538
+Pitch Angle:    1.22898
+Measured Pitch:    1.28025
+Motor Front : 459
+Motor Back : 540
+Pitch Angle:    1.07213
+Measured Pitch:    1.28186
+Motor Front : 458
+Motor Back : 541
+Pitch Angle:    1.46844
+Measured Pitch:    1.29286
+Motor Front : 457
+Motor Back : 542
+Pitch Angle:    1.04857
+Measured Pitch:    1.29683
+Motor Front : 456
+Motor Back : 543
+Pitch Angle:    1.32124
+Measured Pitch:    1.31030
+Motor Front : 454
+Motor Back : 545
+Pitch Angle:    1.63042
+Measured Pitch:    1.33071
+Motor Front : 453
+Motor Back : 546
+Pitch Angle:    1.76482
+Measured Pitch:    1.35219
+Motor Front : 453
+Motor Back : 546
+Pitch Angle:    1.30999
+Measured Pitch:    1.36474
+Motor Front : 452
+Motor Back : 547
+Pitch Angle:    1.35250
+Measured Pitch:    1.38097
+Motor Front : 450
+Motor Back : 549
+Pitch Angle:    1.81257
+Measured Pitch:    1.40754
+Motor Front : 449
+Motor Back : 550
+Pitch Angle:    1.20544
+Measured Pitch:    1.41770
+Motor Front : 450
+Motor Back : 549
+Pitch Angle:    1.32027
+Measured Pitch:    1.43126
+Motor Front : 449
+Motor Back : 550
+Pitch Angle:    1.30346
+Measured Pitch:    1.44189
+Motor Front : 450
+Motor Back : 549
+Pitch Angle:    1.74721
+Measured Pitch:    1.46056
+Motor Front : 450
+Motor Back : 549
+Pitch Angle:    1.43121
+Measured Pitch:    1.46928
+Motor Front : 451
+Motor Back : 548
+Pitch Angle:    1.35803
+Measured Pitch:    1.47570
+Motor Front : 451
+Motor Back : 548
+Pitch Angle:    1.03079
+Measured Pitch:    1.47505
+Motor Front : 451
+Motor Back : 548
+Pitch Angle:    1.18512
+Measured Pitch:    1.47420
+Motor Front : 453
+Motor Back : 546
+Pitch Angle:    1.17446
+Measured Pitch:    1.47233
+Motor Front : 453
+Motor Back : 546
+Pitch Angle:    1.65475
+Measured Pitch:    1.47948
+Motor Front : 453
+Motor Back : 546
+Pitch Angle:    1.33528
+Measured Pitch:    1.47866
+Motor Front : 454
+Motor Back : 545
+Pitch Angle:    1.63240
+Measured Pitch:    1.48339
+Motor Front : 454
+Motor Back : 545
+Pitch Angle:    1.21346
+Measured Pitch:    1.47716
+Motor Front : 456
+Motor Back : 543
+Pitch Angle:    0.91574
+Measured Pitch:    1.46593
+Motor Front : 456
+Motor Back : 543
+Pitch Angle:    1.63191
+Measured Pitch:    1.46822
+Motor Front : 456
+Motor Back : 543
+Pitch Angle:    1.36162
+Measured Pitch:    1.46156
+Motor Front : 458
+Motor Back : 541
+Pitch Angle:    1.47991
+Measured Pitch:    1.45780
+Motor Front : 458
+Motor Back : 541
+Pitch Angle:    1.59731
+Measured Pitch:    1.45647
+Motor Front : 458
+Motor Back : 541
+Pitch Angle:    1.78698
+Measured Pitch:    1.45589
+Motor Front : 459
+Motor Back : 540
+Pitch Angle:    1.41809
+Measured Pitch:    1.44447
+Motor Front : 461
+Motor Back : 538
+Pitch Angle:    1.59330
+Measured Pitch:    1.43652
+Motor Front : 405
+Motor Back : 594
+Pitch Angle:    1.65175
+Measured Pitch:    1.43095
+Motor Front : 405
+Motor Back : 594
+Pitch Angle:    2.04932
+Measured Pitch:    1.43013
+Motor Front : 407
+Motor Back : 592
+Pitch Angle:    2.55178
+Measured Pitch:    1.43690
+Motor Front : 408
+Motor Back : 591
+Pitch Angle:    2.79301
+Measured Pitch:    1.43895
+Motor Front : 412
+Motor Back : 587
+Pitch Angle:    3.01135
+Measured Pitch:    1.43729
+Motor Front : 416
+Motor Back : 583
+Pitch Angle:    2.55338
+Measured Pitch:    1.41070
+Motor Front : 424
+Motor Back : 575
+Pitch Angle:    2.14923
+Measured Pitch:    1.36335
+Motor Front : 432
+Motor Back : 567
+Pitch Angle:    2.51021
+Measured Pitch:    1.30675
+Motor Front : 202
+Motor Back : 797
+Pitch Angle:    1.83854
+Measured Pitch:    1.22903
+Motor Front : 209
+Motor Back : 790
+Pitch Angle:    2.80247
+Measured Pitch:    1.16120
+Motor Front : 216
+Motor Back : 783
+Pitch Angle:    3.86325
+Measured Pitch:    1.09434
+Motor Front : 229
+Motor Back : 770
+Pitch Angle:    4.44926
+Measured Pitch:    0.99576
+Motor Front : 253
+Motor Back : 746
+Pitch Angle:    4.08755
+Measured Pitch:    0.85790
+Motor Front : 274
+Motor Back : 725
+Pitch Angle:    5.57773
+Measured Pitch:    0.69426
+Motor Front : 306
+Motor Back : 693
+Pitch Angle:    4.20799
+Measured Pitch:    0.43750
+Motor Front : 346
+Motor Back : 653
+Pitch Angle:    4.27243
+Measured Pitch:    0.12254
+Motor Front : -8
+Motor Back : 1000
+Pitch Angle:    3.74741
+Measured Pitch:   -0.23297
+Motor Front : 20
+Motor Back : 979
+Pitch Angle:    1.22081
+Measured Pitch:   -0.69016
+Motor Front : 61
+Motor Back : 938
+Pitch Angle:    5.63083
+Measured Pitch:   -1.10262
+Motor Front : 99
+Motor Back : 900
+Pitch Angle:    4.25945
+Measured Pitch:   -1.64447
+Motor Front : 161
+Motor Back : 838
+Pitch Angle:    1.94938
+Measured Pitch:   -2.30429
+Motor Front : 226
+Motor Back : 773
+Pitch Angle:    2.67848
+Measured Pitch:   -2.99964
+Motor Front : 277
+Motor Back : 722
+Pitch Angle:   -0.52304
+Measured Pitch:   -3.85454
+Motor Front : 354
+Motor Back : 645
+Pitch Angle:   -1.03791
+Measured Pitch:   -4.78896
+Motor Front : 423
+Motor Back : 576
+Pitch Angle:   -2.16859
+Measured Pitch:   -5.80266
+Motor Front : 489
+Motor Back : 510
+Pitch Angle:   -8.05146
+Measured Pitch:   -6.95467
+Motor Front : 543
+Motor Back : 456
+Pitch Angle:   -9.01905
+Measured Pitch:   -8.14126
+Motor Front : 597
+Motor Back : 402
+Pitch Angle:  -13.76518
+Measured Pitch:   -9.41359
+Motor Front : 643
+Motor Back : 356
+Pitch Angle:  -17.26875
+Measured Pitch:  -10.70855
+Motor Front : 671
+Motor Back : 328
+Pitch Angle:  -17.04503
+Measured Pitch:  -11.94501
+Motor Front : 696
+Motor Back : 303
+Pitch Angle:  -22.42009
+Measured Pitch:  -13.21562
+Motor Front : 707
+Motor Back : 292
+Pitch Angle:  -23.77244
+Measured Pitch:  -14.39269
+Motor Front : 700
+Motor Back : 299
+Pitch Angle:  -27.02132
+Measured Pitch:  -15.51084
+Motor Front : 686
+Motor Back : 313
+Pitch Angle:  -26.54499
+Measured Pitch:  -16.47584
+Motor Front : 657
+Motor Back : 342
+Pitch Angle:  -27.23555
+Measured Pitch:  -17.35053
+Motor Front : 644
+Motor Back : 355
+Pitch Angle:  -28.50638
+Measured Pitch:  -18.10209
+Motor Front : 604
+Motor Back : 395
+Pitch Angle:  -26.91819
+Measured Pitch:  -18.66621
+Motor Front : 555
+Motor Back : 444
+Pitch Angle:  -27.95614
+Measured Pitch:  -19.10748
+Motor Front : 505
+Motor Back : 494
+Pitch Angle:  -26.61443
+Measured Pitch:  -19.42114
+Motor Front : 470
+Motor Back : 529
+Pitch Angle:  -25.91516
+Measured Pitch:  -19.58664
+Motor Front : 415
+Motor Back : 584
+Pitch Angle:  -25.15795
+Measured Pitch:  -19.61617
+Motor Front : 360
+Motor Back : 639
+Pitch Angle:  -23.05749
+Measured Pitch:  -19.49805
+Motor Front : 307
+Motor Back : 692
+Pitch Angle:  -22.99349
+Measured Pitch:  -19.31992
+Motor Front : 272
+Motor Back : 727
+Pitch Angle:  -20.08274
+Measured Pitch:  -19.00683
+Motor Front : 224
+Motor Back : 775
+Pitch Angle:  -18.61910
+Measured Pitch:  -18.60897
+Motor Front : 184
+Motor Back : 815
+Pitch Angle:  -15.54949
+Measured Pitch:  -18.11389
+Motor Front : 148
+Motor Back : 851
+Pitch Angle:  -14.46252
+Measured Pitch:  -17.59144
+Motor Front : 125
+Motor Back : 874
+Pitch Angle:  -14.03123
+Measured Pitch:  -17.05677
+Motor Front : 102
+Motor Back : 897
+Pitch Angle:   -9.42964
+Measured Pitch:  -16.44329
+Motor Front : 86
+Motor Back : 913
+Pitch Angle:   -9.92385
+Measured Pitch:  -15.88434
+Motor Front : 84
+Motor Back : 915
+Pitch Angle:   -6.22577
+Measured Pitch:  -15.28846
+Motor Front : 78
+Motor Back : 921
+Pitch Angle:   -6.86582
+Measured Pitch:  -14.76995
+Motor Front : 88
+Motor Back : 911
+Pitch Angle:   -5.24062
+Measured Pitch:  -14.29214
+Motor Front : -106
+Motor Back : 1000
+Pitch Angle:   -3.92263
+Measured Pitch:  -13.87085
+Motor Front : -84
+Motor Back : 1000
+Pitch Angle:   -6.34064
+Measured Pitch:  -13.56012
+Motor Front : -69
+Motor Back : 1000
+Pitch Angle:   -5.08902
+Measured Pitch:  -13.31292
+Motor Front : -37
+Motor Back : 1000
+Pitch Angle:   -5.58496
+Measured Pitch:  -13.17856
+Motor Front : 4
+Motor Back : 995
+Pitch Angle:   -7.23756
+Measured Pitch:  -13.18237
+Motor Front : 53
+Motor Back : 946
+Pitch Angle:   -4.34728
+Measured Pitch:  -13.22740
+Motor Front : 101
+Motor Back : 898
+Pitch Angle:   -7.93096
+Measured Pitch:  -13.41593
+Motor Front : 142
+Motor Back : 857
+Pitch Angle:   -8.88461
+Measured Pitch:  -13.71772
+Motor Front : 197
+Motor Back : 802
+Pitch Angle:   -9.54871
+Measured Pitch:  -14.12549
+Motor Front : 256
+Motor Back : 743
+Pitch Angle:  -12.58446
+Measured Pitch:  -14.67047
+Motor Front : 312
+Motor Back : 687
+Pitch Angle:  -16.42906
+Measured Pitch:  -15.32968
+Motor Front : 355
+Motor Back : 644
+Pitch Angle:  -18.32573
+Measured Pitch:  -16.07495
+Motor Front : 406
+Motor Back : 593
+Pitch Angle:  -20.18693
+Measured Pitch:  -16.87099
+Motor Front : 444
+Motor Back : 555
+Pitch Angle:  -24.39364
+Measured Pitch:  -17.75769
+Motor Front : 475
+Motor Back : 524
+Pitch Angle:  -27.34566
+Measured Pitch:  -18.66678
+Motor Front : 499
+Motor Back : 500
+Pitch Angle:  -30.19444
+Measured Pitch:  -19.58349
+Motor Front : 512
+Motor Back : 487
+Pitch Angle:  -32.96479
+Measured Pitch:  -20.48840
+Motor Front : 516
+Motor Back : 483
+Pitch Angle:  -31.97555
+Measured Pitch:  -21.28339
+Motor Front : 506
+Motor Back : 493
+Pitch Angle:  -34.24704
+Measured Pitch:  -22.03210
+Motor Front : 492
+Motor Back : 507
+Pitch Angle:  -34.79261
+Measured Pitch:  -22.71747
+Motor Front : 484
+Motor Back : 515
+Pitch Angle:  -34.37601
+Measured Pitch:  -23.28455
+Motor Front : 456
+Motor Back : 543
+Pitch Angle:  -33.85261
+Measured Pitch:  -23.73279
+Motor Front : 424
+Motor Back : 575
+Pitch Angle:  -33.38243
+Measured Pitch:  -24.06495
+Motor Front : 387
+Motor Back : 612
+Pitch Angle:  -31.03599
+Measured Pitch:  -24.27692
+Motor Front : 362
+Motor Back : 637
+Pitch Angle:  -30.05175
+Measured Pitch:  -24.37465
+Motor Front : 322
+Motor Back : 677
+Pitch Angle:  -27.98630
+Measured Pitch:  -24.34645
+Motor Front : 282
+Motor Back : 717
+Pitch Angle:  -26.41457
+Measured Pitch:  -24.21583
+Motor Front : 244
+Motor Back : 755
+Pitch Angle:  -24.72148
+Measured Pitch:  -24.01201
+Motor Front : 218
+Motor Back : 781
+Pitch Angle:  -20.88728
+Measured Pitch:  -23.68793
+Motor Front : 186
+Motor Back : 813
+Pitch Angle:  -19.36969
+Measured Pitch:  -23.30928
+Motor Front : 160
+Motor Back : 839
+Pitch Angle:  -17.54960
+Measured Pitch:  -22.88677
+Motor Front : 141
+Motor Back : 858
+Pitch Angle:  -13.14834
+Measured Pitch:  -22.38956
+Motor Front : 128
+Motor Back : 871
+Pitch Angle:  -11.86291
+Measured Pitch:  -21.89838
+Motor Front : 124
+Motor Back : 875
+Pitch Angle:   -8.84645
+Measured Pitch:  -21.39118
+Motor Front : 125
+Motor Back : 874
+Pitch Angle:   -8.46748
+Measured Pitch:  -20.93822
+Motor Front : 135
+Motor Back : 864
+Pitch Angle:   -7.44801
+Measured Pitch:  -20.51192
+Motor Front : 141
+Motor Back : 858
+Pitch Angle:   -5.82180
+Measured Pitch:  -20.12840
+Motor Front : 161
+Motor Back : 838
+Pitch Angle:   -6.73230
+Measured Pitch:  -19.84172
+Motor Front : 186
+Motor Back : 813
+Pitch Angle:   -7.38667
+Measured Pitch:  -19.64474
+Motor Front : 214
+Motor Back : 785
+Pitch Angle:   -8.43441
+Measured Pitch:  -19.54084
+Motor Front : 243
+Motor Back : 756
+Pitch Angle:  -10.09568
+Measured Pitch:  -19.51814
+Motor Front : 264
+Motor Back : 735
+Pitch Angle:  -12.73599
+Measured Pitch:  -19.60349
+Motor Front : 292
+Motor Back : 707
+Pitch Angle:  -14.67958
+Measured Pitch:  -19.76863
+Motor Front : 318
+Motor Back : 681
+Pitch Angle:  -18.08578
+Measured Pitch:  -20.02886
+Motor Front : 340
+Motor Back : 659
+Pitch Angle:  -19.38851
+Measured Pitch:  -20.32252
+Motor Front : 355
+Motor Back : 644
+Pitch Angle:  -21.96606
+Measured Pitch:  -20.66603
+Motor Front : 368
+Motor Back : 631
+Pitch Angle:  -25.71001
+Measured Pitch:  -21.07256
+Motor Front : 377
+Motor Back : 622
+Pitch Angle:  -27.44128
+Measured Pitch:  -21.48241
+Motor Front : 378
+Motor Back : 621
+Pitch Angle:  -29.76995
+Measured Pitch:  -21.90661
+Motor Front : 379
+Motor Back : 620
+Pitch Angle:  -32.16264
+Measured Pitch:  -22.32184
+Motor Front : 369
+Motor Back : 630
+Pitch Angle:  -32.42842
+Measured Pitch:  -22.68067
+Motor Front : 354
+Motor Back : 645
+Pitch Angle:  -34.62574
+Measured Pitch:  -23.01440
+Motor Front : 335
+Motor Back : 664
+Pitch Angle:  -35.14595
+Measured Pitch:  -23.30908
+Motor Front : 323
+Motor Back : 676
+Pitch Angle:  -35.39342
+Measured Pitch:  -23.53589
+Motor Front : 299
+Motor Back : 700
+Pitch Angle:  -35.08194
+Measured Pitch:  -23.68851
+Motor Front : 273
+Motor Back : 726
+Pitch Angle:  -35.61319
+Measured Pitch:  -23.78708
+Motor Front : 247
+Motor Back : 752
+Pitch Angle:  -33.85990
+Measured Pitch:  -23.80913
+Motor Front : 229
+Motor Back : 770
+Pitch Angle:  -33.26017
+Measured Pitch:  -23.76778
+Motor Front : 203
+Motor Back : 796
+Pitch Angle:  -32.81406
+Measured Pitch:  -23.67327
+Motor Front : 179
+Motor Back : 820
+Pitch Angle:  -29.85795
+Measured Pitch:  -23.48737
+Motor Front : 157
+Motor Back : 842
+Pitch Angle:  -27.69824
+Measured Pitch:  -23.24518
+Motor Front : 142
+Motor Back : 857
+Pitch Angle:  -26.13756
+Measured Pitch:  -22.95669
+Motor Front : 127
+Motor Back : 872
+Pitch Angle:  -23.53915
+Measured Pitch:  -22.62556
+Motor Front : 115
+Motor Back : 884
+Pitch Angle:  -22.56636
+Measured Pitch:  -22.28975
+Motor Front : 109
+Motor Back : 890
+Pitch Angle:  -19.48527
+Measured Pitch:  -21.91760
+Motor Front : 107
+Motor Back : 892
+Pitch Angle:  -17.16158
+Measured Pitch:  -21.52499
+Motor Front : 104
+Motor Back : 895
+Pitch Angle:  -16.29858
+Measured Pitch:  -21.16629
+Motor Front : 114
+Motor Back : 885
+Pitch Angle:  -12.29272
+Measured Pitch:  -20.78466
+Motor Front : 126
+Motor Back : 873
+Pitch Angle:  -10.99423
+Measured Pitch:  -20.44344
+Motor Front : 144
+Motor Back : 855
+Pitch Angle:  -10.02391
+Measured Pitch:  -20.13954
+Motor Front : 158
+Motor Back : 841
+Pitch Angle:   -8.74215
+Measured Pitch:  -19.88525
+Motor Front : 184
+Motor Back : 815
+Pitch Angle:   -9.35733
+Measured Pitch:  -19.72677
+Motor Front : 216
+Motor Back : 783
+Pitch Angle:   -8.51173
+Measured Pitch:  -19.62249
+Motor Front : 245
+Motor Back : 754
+Pitch Angle:   -7.92702
+Measured Pitch:  -19.55894
+Motor Front : 267
+Motor Back : 732
+Pitch Angle:   -9.17051
+Measured Pitch:  -19.59052
+Motor Front : 300
+Motor Back : 699
+Pitch Angle:   -9.14795
+Measured Pitch:  -19.67653
+Motor Front : 330
+Motor Back : 669
+Pitch Angle:  -10.88220
+Measured Pitch:  -19.84706
+Motor Front : 359
+Motor Back : 640
+Pitch Angle:  -14.86996
+Measured Pitch:  -20.11765
+Motor Front : 378
+Motor Back : 621
+Pitch Angle:  -14.44685
+Measured Pitch:  -20.40438
+Motor Front : 401
+Motor Back : 598
+Pitch Angle:  -17.81571
+Measured Pitch:  -20.76800
+Motor Front : 419
+Motor Back : 580
+Pitch Angle:  -19.21090
+Measured Pitch:  -21.14890
+Motor Front : 429
+Motor Back : 570
+Pitch Angle:  -20.17969
+Measured Pitch:  -21.53191
+Motor Front : 436
+Motor Back : 563
+Pitch Angle:  -24.54509
+Measured Pitch:  -21.97085
+Motor Front : 438
+Motor Back : 561
+Pitch Angle:  -24.97909
+Measured Pitch:  -22.36635
+Motor Front : 429
+Motor Back : 570
+Pitch Angle:  -26.99502
+Measured Pitch:  -22.74206
+Motor Front : 416
+Motor Back : 583
+Pitch Angle:  -29.57861
+Measured Pitch:  -23.09514
+Motor Front : 395
+Motor Back : 604
+Pitch Angle:  -29.95755
+Measured Pitch:  -23.40302
+Motor Front : 382
+Motor Back : 617
+Pitch Angle:  -31.97146
+Measured Pitch:  -23.66917
+Motor Front : 354
+Motor Back : 645
+Pitch Angle:  -31.61711
+Measured Pitch:  -23.84688
+Motor Front : 324
+Motor Back : 675
+Pitch Angle:  -32.77511
+Measured Pitch:  -23.97167
+Motor Front : 293
+Motor Back : 706
+Pitch Angle:  -33.19053
+Measured Pitch:  -24.05343
+Motor Front : 272
+Motor Back : 727
+Pitch Angle:  -31.83157
+Measured Pitch:  -24.04049
+Motor Front : 241
+Motor Back : 758
+Pitch Angle:  -31.25392
+Measured Pitch:  -23.95628
+Motor Front : 210
+Motor Back : 789
+Pitch Angle:  -31.48073
+Measured Pitch:  -23.82618
+Motor Front : 182
+Motor Back : 817
+Pitch Angle:  -30.83435
+Measured Pitch:  -23.65778
+Motor Front : 164
+Motor Back : 835
+Pitch Angle:  -28.30252
+Measured Pitch:  -23.40702
+Motor Front : 139
+Motor Back : 860
+Pitch Angle:  -27.83549
+Measured Pitch:  -23.13163
+Motor Front : 121
+Motor Back : 878
+Pitch Angle:  -25.54170
+Measured Pitch:  -22.80608
+Motor Front : 107
+Motor Back : 892
+Pitch Angle:  -24.33654
+Measured Pitch:  -22.46683
+Motor Front : 97
+Motor Back : 902
+Pitch Angle:  -22.70054
+Measured Pitch:  -22.11166
+Motor Front : 92
+Motor Back : 907
+Pitch Angle:  -20.22466
+Measured Pitch:  -21.73686
+Motor Front : 92
+Motor Back : 907
+Pitch Angle:  -17.70993
+Measured Pitch:  -21.35539
+Motor Front : 97
+Motor Back : 902
+Pitch Angle:  -17.91150
+Measured Pitch:  -21.01543
+Motor Front : 101
+Motor Back : 898
+Pitch Angle:  -16.77103
+Measured Pitch:  -20.70731
+Motor Front : 115
+Motor Back : 884
+Pitch Angle:  -15.94250
+Measured Pitch:  -20.44652
+Motor Front : 135
+Motor Back : 864
+Pitch Angle:  -15.29816
+Measured Pitch:  -20.23885
+Motor Front : 157
+Motor Back : 842
+Pitch Angle:  -14.64461
+Measured Pitch:  -20.08621
+Motor Front : 183
+Motor Back : 816
+Pitch Angle:  -12.68196
+Measured Pitch:  -19.94163
+Motor Front : 199
+Motor Back : 800
+Pitch Angle:  -12.55521
+Measured Pitch:  -19.85944
+Motor Front : 226
+Motor Back : 773
+Pitch Angle:  -12.76338
+Measured Pitch:  -19.84637
+Motor Front : 255
+Motor Back : 744
+Pitch Angle:  -15.03063
+Measured Pitch:  -19.93028
+Motor Front : 283
+Motor Back : 716
+Pitch Angle:  -16.08208
+Measured Pitch:  -20.06634
+Motor Front : 303
+Motor Back : 696
+Pitch Angle:  -17.12967
+Measured Pitch:  -20.26248
+Motor Front : 328
+Motor Back : 671
+Pitch Angle:  -18.61508
+Measured Pitch:  -20.51509
+Motor Front : 350
+Motor Back : 649
+Pitch Angle:  -17.92943
+Measured Pitch:  -20.76442
+Motor Front : 365
+Motor Back : 634
+Pitch Angle:  -18.07984
+Measured Pitch:  -21.02260
+Motor Front : 377
+Motor Back : 622
+Pitch Angle:  -20.24718
+Measured Pitch:  -21.32233
+Motor Front : 389
+Motor Back : 610
+Pitch Angle:  -20.52444
+Measured Pitch:  -21.61265
+Motor Front : 393
+Motor Back : 606
+Pitch Angle:  -23.05469
+Measured Pitch:  -21.92999
+Motor Front : 394
+Motor Back : 605
+Pitch Angle:  -23.13570
+Measured Pitch:  -22.22748
+Motor Front : 396
+Motor Back : 603
+Pitch Angle:  -23.89184
+Measured Pitch:  -22.50083
+Motor Front : 388
+Motor Back : 611
+Pitch Angle:  -25.09624
+Measured Pitch:  -22.75744
+Motor Front : 379
+Motor Back : 620
+Pitch Angle:  -25.79588
+Measured Pitch:  -22.97746
+Motor Front : 364
+Motor Back : 635
+Pitch Angle:  -26.09138
+Measured Pitch:  -23.14999
+Motor Front : 346
+Motor Back : 653
+Pitch Angle:  -27.07038
+Measured Pitch:  -23.30438
+Motor Front : 335
+Motor Back : 664
+Pitch Angle:  -26.80314
+Measured Pitch:  -23.39805
+Motor Front : 313
+Motor Back : 686
+Pitch Angle:  -27.16956
+Measured Pitch:  -23.44973
+Motor Front : 292
+Motor Back : 707
+Pitch Angle:  -26.65623
+Measured Pitch:  -23.44214
+Motor Front : 269
+Motor Back : 730
+Pitch Angle:  -25.99779
+Measured Pitch:  -23.39393
+Motor Front : 254
+Motor Back : 745
+Pitch Angle:  -25.77186
+Measured Pitch:  -23.30674
+Motor Front : 235
+Motor Back : 764
+Pitch Angle:  -25.85569
+Measured Pitch:  -23.19078
+Motor Front : 216
+Motor Back : 783
+Pitch Angle:  -24.49456
+Measured Pitch:  -23.02835
+Motor Front : 201
+Motor Back : 798
+Pitch Angle:  -24.11786
+Measured Pitch:  -22.84697
+Motor Front : 189
+Motor Back : 810
+Pitch Angle:  -24.02275
+Measured Pitch:  -22.65415
+Motor Front : 177
+Motor Back : 822
+Pitch Angle:  -22.64778
+Measured Pitch:  -22.43176
+Motor Front : 166
+Motor Back : 833
+Pitch Angle:  -21.38203
+Measured Pitch:  -22.18951
+Motor Front : 160
+Motor Back : 839
+Pitch Angle:  -20.79615
+Measured Pitch:  -21.94524
+Motor Front : 156
+Motor Back : 843
+Pitch Angle:  -20.78321
+Measured Pitch:  -21.71986
+Motor Front : 155
+Motor Back : 844
+Pitch Angle:  -20.72856
+Measured Pitch:  -21.51971
+Motor Front : 160
+Motor Back : 839
+Pitch Angle:  -20.47008
+Measured Pitch:  -21.34526
+Motor Front : 167
+Motor Back : 832
+Pitch Angle:  -18.55468
+Measured Pitch:  -21.15864
+Motor Front : 172
+Motor Back : 827
+Pitch Angle:  -17.23533
+Measured Pitch:  -20.98144
+Motor Front : 182
+Motor Back : 817
+Pitch Angle:  -19.32968
+Measured Pitch:  -20.88060
+Motor Front : 194
+Motor Back : 805
+Pitch Angle:  -17.02507
+Measured Pitch:  -20.76724
+Motor Front : 205
+Motor Back : 794
+Pitch Angle:  -17.37644
+Measured Pitch:  -20.69818
+Motor Front : 220
+Motor Back : 779
+Pitch Angle:  -19.54367
+Measured Pitch:  -20.69245
+Motor Front : 228
+Motor Back : 771
+Pitch Angle:  -20.02457
+Measured Pitch:  -20.72202
+Motor Front : 241
+Motor Back : 758
+Pitch Angle:  -17.74545
+Measured Pitch:  -20.73249
+Motor Front : 255
+Motor Back : 744
+Pitch Angle:  -20.86508
+Measured Pitch:  -20.82760
+Motor Front : 268
+Motor Back : 731
+Pitch Angle:  -21.29130
+Measured Pitch:  -20.93648
+Motor Front : 275
+Motor Back : 724
+Pitch Angle:  -19.65726
+Measured Pitch:  -21.02489
+Motor Front : 284
+Motor Back : 715
+Pitch Angle:  -21.66852
+Measured Pitch:  -21.16082
+Motor Front : 293
+Motor Back : 706
+Pitch Angle:  -21.77859
+Measured Pitch:  -21.30058
+Motor Front : 299
+Motor Back : 700
+Pitch Angle:  -23.19158
+Measured Pitch:  -21.46165
+Motor Front : 302
+Motor Back : 697
+Pitch Angle:  -23.15942
+Measured Pitch:  -21.61491
+Motor Front : 304
+Motor Back : 695
+Pitch Angle:  -23.44889
+Measured Pitch:  -21.76398
+Motor Front : 306
+Motor Back : 693
+Pitch Angle:  -23.25660
+Measured Pitch:  -21.89480
+Motor Front : 303
+Motor Back : 696
+Pitch Angle:  -23.48983
+Measured Pitch:  -22.01393
+Motor Front : 301
+Motor Back : 698
+Pitch Angle:  -23.34547
+Measured Pitch:  -22.11710
+Motor Front : 299
+Motor Back : 700
+Pitch Angle:  -22.90214
+Measured Pitch:  -22.19387
+Motor Front : 294
+Motor Back : 705
+Pitch Angle:  -23.22382
+Measured Pitch:  -22.26087
+Motor Front : 289
+Motor Back : 710
+Pitch Angle:  -23.09719
+Measured Pitch:  -22.30517
+Motor Front : 282
+Motor Back : 717
+Pitch Angle:  -22.67581
+Measured Pitch:  -22.33049
+Motor Front : 278
+Motor Back : 721
+Pitch Angle:  -23.12696
+Measured Pitch:  -22.34786
+Motor Front : 271
+Motor Back : 728
+Pitch Angle:  -21.84967
+Measured Pitch:  -22.32350
+Motor Front : 262
+Motor Back : 737
+Pitch Angle:  -21.47324
+Measured Pitch:  -22.28284
+Motor Front : 257
+Motor Back : 742
+Pitch Angle:  -21.65288
+Measured Pitch:  -22.24163
+Motor Front : 253
+Motor Back : 746
+Pitch Angle:  -21.30314
+Measured Pitch:  -22.18826
+Motor Front : 249
+Motor Back : 750
+Pitch Angle:  -20.53231
+Measured Pitch:  -22.11480
+Motor Front : 244
+Motor Back : 755
+Pitch Angle:  -20.54305
+Measured Pitch:  -22.04179
+Motor Front : 241
+Motor Back : 758
+Pitch Angle:  -20.11903
+Measured Pitch:  -21.96230
+Motor Front : 239
+Motor Back : 760
+Pitch Angle:  -20.35061
+Measured Pitch:  -21.89232
+Motor Front : 238
+Motor Back : 761
+Pitch Angle:  -20.06216
+Measured Pitch:  -21.82178
+Motor Front : 238
+Motor Back : 761
+Pitch Angle:  -19.58970
+Measured Pitch:  -21.75101
+Motor Front : 240
+Motor Back : 759
+Pitch Angle:  -20.38820
+Measured Pitch:  -21.70194
+Motor Front : 240
+Motor Back : 759
+Pitch Angle:  -20.52171
+Measured Pitch:  -21.66415
+Motor Front : 243
+Motor Back : 756
+Pitch Angle:  -20.43244
+Measured Pitch:  -21.63170
+Motor Front : 245
+Motor Back : 754
+Pitch Angle:  -20.42178
+Measured Pitch:  -21.60812
+Motor Front : 248
+Motor Back : 751
+Pitch Angle:  -20.64286
+Measured Pitch:  -21.59457
+Motor Front : 250
+Motor Back : 749
+Pitch Angle:  -22.04020
+Measured Pitch:  -21.61418
+Motor Front : 253
+Motor Back : 746
+Pitch Angle:  -21.62774
+Measured Pitch:  -21.62915
+Motor Front : 255
+Motor Back : 744
+Pitch Angle:  -22.57966
+Measured Pitch:  -21.66609
+Motor Front : 258
+Motor Back : 741
+Pitch Angle:  -21.80473
+Measured Pitch:  -21.68985
+Motor Front : 260
+Motor Back : 739
+Pitch Angle:  -23.34042
+Measured Pitch:  -21.74323
+Motor Front : 261
+Motor Back : 738
+Pitch Angle:  -23.08574
+Measured Pitch:  -21.79109
+Motor Front : 263
+Motor Back : 736
+Pitch Angle:  -24.37814
+Measured Pitch:  -21.86019
+Motor Front : 264
+Motor Back : 735
+Pitch Angle:  -23.55095
+Measured Pitch:  -21.90823
+Motor Front : 263
+Motor Back : 736
+Pitch Angle:  -24.48145
+Measured Pitch:  -21.97042
+Motor Front : 264
+Motor Back : 735
+Pitch Angle:  -23.91659
+Measured Pitch:  -22.01429
+Motor Front : 262
+Motor Back : 737
+Pitch Angle:  -23.31994
+Measured Pitch:  -22.03895
+Motor Front : 281
+Motor Back : 718
+Pitch Angle:  -24.88982
+Measured Pitch:  -22.08645
+Motor Front : 279
+Motor Back : 720
+Pitch Angle:  -24.12289
+Measured Pitch:  -22.11202
+Motor Front : 277
+Motor Back : 722
+Pitch Angle:  -24.69296
+Measured Pitch:  -22.13905
+Motor Front : 273
+Motor Back : 726
+Pitch Angle:  -24.13242
+Measured Pitch:  -22.14381
+Motor Front : 268
+Motor Back : 731
+Pitch Angle:  -23.91133
+Measured Pitch:  -22.13320
+Motor Front : 263
+Motor Back : 736
+Pitch Angle:  -24.33083
+Measured Pitch:  -22.12476
+Motor Front : 260
+Motor Back : 739
+Pitch Angle:  -23.25302
+Measured Pitch:  -22.08377
+Motor Front : 253
+Motor Back : 746
+Pitch Angle:  -23.19113
+Measured Pitch:  -22.03567
+Motor Front : 248
+Motor Back : 751
+Pitch Angle:  -23.12562
+Measured Pitch:  -21.97985
+Motor Front : 433
+Motor Back : 566
+Pitch Angle:  -21.83786
+Measured Pitch:  -21.89748
+Motor Front : 430
+Motor Back : 569
+Pitch Angle:  -21.96379
+Measured Pitch:  -21.82021
+Motor Front : 428
+Motor Back : 571
+Pitch Angle:  -23.36848
+Measured Pitch:  -21.76623
+Motor Front : 423
+Motor Back : 576
+Pitch Angle:  -23.18243
+Measured Pitch:  -21.68385
+Motor Front : 409
+Motor Back : 590
+Pitch Angle:  -23.18236
+Measured Pitch:  -21.57089
+Motor Front : 390
+Motor Back : 609
+Pitch Angle:  -24.44797
+Measured Pitch:  -21.45718
+Motor Front : 375
+Motor Back : 624
+Pitch Angle:  -22.76704
+Measured Pitch:  -21.26841
+Motor Front : 347
+Motor Back : 652
+Pitch Angle:  -22.88788
+Measured Pitch:  -21.04619
+Motor Front : 616
+Motor Back : 383
+Pitch Angle:  -22.25148
+Measured Pitch:  -20.77179
+Motor Front : 588
+Motor Back : 411
+Pitch Angle:  -20.88270
+Measured Pitch:  -20.44993
+Motor Front : 566
+Motor Back : 433
+Pitch Angle:  -23.03628
+Measured Pitch:  -20.13774
+Motor Front : 538
+Motor Back : 461
+Pitch Angle:  -22.11733
+Measured Pitch:  -19.74320
+Motor Front : 493
+Motor Back : 506
+Pitch Angle:  -21.89117
+Measured Pitch:  -19.28635
+Motor Front : 448
+Motor Back : 551
+Pitch Angle:  -22.94764
+Measured Pitch:  -18.78526
+Motor Front : 397
+Motor Back : 602
+Pitch Angle:  -20.72439
+Measured Pitch:  -18.19928
+Motor Front : 356
+Motor Back : 643
+Pitch Angle:  -20.10386
+Measured Pitch:  -17.54122
+Motor Front : 305
+Motor Back : 694
+Pitch Angle:  -16.96277
+Measured Pitch:  -16.77604
+Motor Front : 252
+Motor Back : 747
+Pitch Angle:  -16.47465
+Measured Pitch:  -15.96956
+Motor Front : 207
+Motor Back : 792
+Pitch Angle:  -15.17787
+Measured Pitch:  -15.13307
+Motor Front : 171
+Motor Back : 828
+Pitch Angle:  -11.93010
+Measured Pitch:  -14.22634
+Motor Front : 134
+Motor Back : 865
+Pitch Angle:   -9.79428
+Measured Pitch:  -13.29714
+Motor Front : 107
+Motor Back : 892
+Pitch Angle:   -6.96255
+Measured Pitch:  -12.34556
+Motor Front : 86
+Motor Back : 913
+Pitch Angle:   -6.50169
+Measured Pitch:  -11.42731
+Motor Front : 69
+Motor Back : 930
+Pitch Angle:   -4.65193
+Measured Pitch:  -10.54005
+Motor Front : 66
+Motor Back : 933
+Pitch Angle:   -2.22388
+Measured Pitch:   -9.68260
+Motor Front : 69
+Motor Back : 930
+Pitch Angle:   -1.29296
+Measured Pitch:   -8.90193
+Motor Front : 82
+Motor Back : 917
+Pitch Angle:    0.59792
+Measured Pitch:   -8.18717
+Motor Front : 103
+Motor Back : 896
+Pitch Angle:   -0.14555
+Measured Pitch:   -7.56184
+Motor Front : 112
+Motor Back : 887
+Pitch Angle:    0.90424
+Measured Pitch:   -7.03287
+Motor Front : 576
+Motor Back : 423
+Pitch Angle:    1.69042
+Measured Pitch:   -6.59922
+Motor Front : 611
+Motor Back : 388
+Pitch Angle:   -0.95912
+Measured Pitch:   -6.33641
+Motor Front : 654
+Motor Back : 345
+Pitch Angle:   -8.15689
+Measured Pitch:   -6.27953
+Motor Front : 679
+Motor Back : 320
+Pitch Angle:   -8.56671
+Measured Pitch:   -6.26644
+Motor Front : 695
+Motor Back : 304
+Pitch Angle:  -11.00904
+Measured Pitch:   -6.30713
+Motor Front : 698
+Motor Back : 301
+Pitch Angle:  -14.64820
+Measured Pitch:   -6.39254
+Motor Front : 688
+Motor Back : 311
+Pitch Angle:  -14.96999
+Measured Pitch:   -6.44384
+Motor Front : 671
+Motor Back : 328
+Pitch Angle:  -15.65728
+Measured Pitch:   -6.44313
+Motor Front : 1000
+Motor Back : -49
+Pitch Angle:  -15.95903
+Measured Pitch:   -6.36197
+Motor Front : 1000
+Motor Back : -5
+Pitch Angle:  -16.52764
+Measured Pitch:   -6.20488
+Motor Front : 958
+Motor Back : 41
+Pitch Angle:  -19.88477
+Measured Pitch:   -6.01171
+Motor Front : 902
+Motor Back : 97
+Pitch Angle:  -17.66101
+Measured Pitch:   -5.68199
+Motor Front : 847
+Motor Back : 152
+Pitch Angle:  -18.92041
+Measured Pitch:   -5.24305
+Motor Front : 766
+Motor Back : 233
+Pitch Angle:  -17.30726
+Measured Pitch:   -4.63020
+Motor Front : 677
+Motor Back : 322
+Pitch Angle:  -15.09261
+Measured Pitch:   -3.83740
+Motor Front : 580
+Motor Back : 419
+Pitch Angle:  -12.78169
+Measured Pitch:   -2.91147
+Motor Front : 953
+Motor Back : 46
+Pitch Angle:   -7.26604
+Measured Pitch:   -1.77090
+Motor Front : 858
+Motor Back : 141
+Pitch Angle:   -7.78867
+Measured Pitch:   -0.56117
+Motor Front : 772
+Motor Back : 227
+Pitch Angle:   -6.15372
+Measured Pitch:    0.75851
+Motor Front : 685
+Motor Back : 314
+Pitch Angle:   -1.18932
+Measured Pitch:    2.23177
+Motor Front : 603
+Motor Back : 396
+Pitch Angle:    2.77249
+Measured Pitch:    3.85733
+Motor Front : 506
+Motor Back : 493
+Pitch Angle:    7.13483
+Measured Pitch:    5.61745
+Motor Front : 415
+Motor Back : 584
+Pitch Angle:    7.90479
+Measured Pitch:    7.43505
+Motor Front : 328
+Motor Back : 671
+Pitch Angle:   16.28276
+Measured Pitch:    9.43732
+Motor Front : 257
+Motor Back : 742
+Pitch Angle:   21.09314
+Measured Pitch:   11.51369
+Motor Front : 193
+Motor Back : 806
+Pitch Angle:   27.25058
+Measured Pitch:   13.61548
+Motor Front : 140
+Motor Back : 859
+Pitch Angle:   29.48512
+Measured Pitch:   15.67142
+Motor Front : 104
+Motor Back : 895
+Pitch Angle:   32.97782
+Measured Pitch:   17.65854
+Motor Front : 87
+Motor Back : 912
+Pitch Angle:   36.38554
+Measured Pitch:   19.59163
+Motor Front : 67
+Motor Back : 932
+Pitch Angle:   36.71300
+Measured Pitch:   21.35661
+Motor Front : 80
+Motor Back : 919
+Pitch Angle:   38.60879
+Measured Pitch:   22.95778
+Motor Front : 110
+Motor Back : 889
+Pitch Angle:   39.34829
+Measured Pitch:   24.36397
+Motor Front : 152
+Motor Back : 847
+Pitch Angle:   40.28500
+Measured Pitch:   25.55762
+Motor Front : 212
+Motor Back : 787
+Pitch Angle:   39.98755
+Measured Pitch:   26.58682
+Motor Front : 244
+Motor Back : 755
+Pitch Angle:   38.52380
+Measured Pitch:   27.36301
+Motor Front : 317
+Motor Back : 682
+Pitch Angle:   36.79127
+Measured Pitch:   27.88120
+Motor Front : 400
+Motor Back : 599
+Pitch Angle:   37.84404
+Measured Pitch:   28.21853
+Motor Front : 481
+Motor Back : 518
+Pitch Angle:   35.37924
+Measured Pitch:   28.37332
+Motor Front : 536
+Motor Back : 463
+Pitch Angle:   32.85652
+Measured Pitch:   28.30523
+Motor Front : 618
+Motor Back : 381
+Pitch Angle:   31.85279
+Measured Pitch:   28.07591
+Motor Front : 692
+Motor Back : 307
+Pitch Angle:   30.70162
+Measured Pitch:   27.70520
+Motor Front : 762
+Motor Back : 237
+Pitch Angle:   26.63450
+Measured Pitch:   27.19806
+Motor Front : 806
+Motor Back : 193
+Pitch Angle:   24.26702
+Measured Pitch:   26.58636
+Motor Front : 857
+Motor Back : 142
+Pitch Angle:   19.30731
+Measured Pitch:   25.84036
+Motor Front : 901
+Motor Back : 98
+Pitch Angle:   18.81526
+Measured Pitch:   25.08636
+Motor Front : 929
+Motor Back : 70
+Pitch Angle:   16.04917
+Measured Pitch:   24.29945
+Motor Front : 951
+Motor Back : 48
+Pitch Angle:   12.01173
+Measured Pitch:   23.47079
+Motor Front : 964
+Motor Back : 35
+Pitch Angle:   10.53130
+Measured Pitch:   22.68198
+Motor Front : 963
+Motor Back : 36
+Pitch Angle:    7.37205
+Measured Pitch:   21.92159
+Motor Front : 950
+Motor Back : 49
+Pitch Angle:    8.52581
+Measured Pitch:   21.28505
+Motor Front : 929
+Motor Back : 70
+Pitch Angle:    6.14764
+Measured Pitch:   20.67274
+Motor Front : 920
+Motor Back : 79
+Pitch Angle:    7.54908
+Measured Pitch:   20.20237
+Motor Front : 885
+Motor Back : 114
+Pitch Angle:    8.33609
+Measured Pitch:   19.85094
+Motor Front : 851
+Motor Back : 148
+Pitch Angle:   10.63014
+Measured Pitch:   19.65271
+Motor Front : 809
+Motor Back : 190
+Pitch Angle:   10.81446
+Measured Pitch:   19.51990
+Motor Front : 786
+Motor Back : 213
+Pitch Angle:   11.67340
+Measured Pitch:   19.49544
+Motor Front : 745
+Motor Back : 254
+Pitch Angle:   15.88416
+Measured Pitch:   19.62978
+Motor Front : 706
+Motor Back : 293
+Pitch Angle:   16.97510
+Measured Pitch:   19.84751
+Motor Front : 669
+Motor Back : 330
+Pitch Angle:   21.85739
+Measured Pitch:   20.19603
+Motor Front : 641
+Motor Back : 358
+Pitch Angle:   22.80607
+Measured Pitch:   20.59078
+Motor Front : 614
+Motor Back : 385
+Pitch Angle:   25.33574
+Measured Pitch:   21.05353
+Motor Front : 587
+Motor Back : 412
+Pitch Angle:   27.47412
+Measured Pitch:   21.55772
+Motor Front : 568
+Motor Back : 431
+Pitch Angle:   31.48317
+Measured Pitch:   22.12601
+Motor Front : 554
+Motor Back : 445
+Pitch Angle:   31.37950
+Measured Pitch:   22.66635
+Motor Front : 545
+Motor Back : 454
+Pitch Angle:   32.97978
+Measured Pitch:   23.19133
+Motor Front : 546
+Motor Back : 453
+Pitch Angle:   35.51280
+Measured Pitch:   23.71544
+Motor Front : 550
+Motor Back : 449
+Pitch Angle:   36.75036
+Measured Pitch:   24.20111
+Motor Front : 561
+Motor Back : 438
+Pitch Angle:   35.57496
+Measured Pitch:   24.61139
+Motor Front : 568
+Motor Back : 431
+Pitch Angle:   36.20193
+Measured Pitch:   24.96590
+Motor Front : 586
+Motor Back : 413
+Pitch Angle:   35.56588
+Measured Pitch:   25.23591
+Motor Front : 608
+Motor Back : 391
+Pitch Angle:   34.88301
+Measured Pitch:   25.42328
+Motor Front : 632
+Motor Back : 367
+Pitch Angle:   33.58138
+Measured Pitch:   25.51843
+Motor Front : 658
+Motor Back : 341
+Pitch Angle:   32.06200
+Measured Pitch:   25.54568
+Motor Front : 675
+Motor Back : 324
+Pitch Angle:   30.79156
+Measured Pitch:   25.49826
+Motor Front : 699
+Motor Back : 300
+Pitch Angle:   28.13755
+Measured Pitch:   25.35981
+Motor Front : 722
+Motor Back : 277
+Pitch Angle:   26.50174
+Measured Pitch:   25.16282
+Motor Front : 741
+Motor Back : 258
+Pitch Angle:   23.54361
+Measured Pitch:   24.89849
+Motor Front : 755
+Motor Back : 244
+Pitch Angle:   21.72551
+Measured Pitch:   24.59301
+Motor Front : 768
+Motor Back : 231
+Pitch Angle:   20.05824
+Measured Pitch:   24.26535
+Motor Front : 776
+Motor Back : 223
+Pitch Angle:   16.65494
+Measured Pitch:   23.89641
+Motor Front : 778
+Motor Back : 221
+Pitch Angle:   16.08159
+Measured Pitch:   23.55272
+Motor Front : 774
+Motor Back : 225
+Pitch Angle:   12.38041
+Measured Pitch:   23.16718
+Motor Front : 774
+Motor Back : 225
+Pitch Angle:   11.58805
+Measured Pitch:   22.82092
+Motor Front : 762
+Motor Back : 237
+Pitch Angle:   10.79555
+Measured Pitch:   22.51969
+Motor Front : 746
+Motor Back : 253
+Pitch Angle:    9.86783
+Measured Pitch:   22.26295
+Motor Front : 726
+Motor Back : 273
+Pitch Angle:    9.68884
+Measured Pitch:   22.04895
+Motor Front : 713
+Motor Back : 286
+Pitch Angle:    9.75217
+Measured Pitch:   21.90078
+Motor Front : 689
+Motor Back : 310
+Pitch Angle:   10.39275
+Measured Pitch:   21.82849
+Motor Front : 663
+Motor Back : 336
+Pitch Angle:   10.90622
+Measured Pitch:   21.82221
+Motor Front : 638
+Motor Back : 361
+Pitch Angle:   13.10395
+Measured Pitch:   21.89288
+Motor Front : 620
+Motor Back : 379
+Pitch Angle:   14.63519
+Measured Pitch:   22.03246
+Motor Front : 597
+Motor Back : 402
+Pitch Angle:   16.91403
+Measured Pitch:   22.24728
+Motor Front : 575
+Motor Back : 424
+Pitch Angle:   18.89624
+Measured Pitch:   22.51653
+Motor Front : 558
+Motor Back : 441
+Pitch Angle:   20.33664
+Measured Pitch:   22.81594
+Motor Front : 547
+Motor Back : 452
+Pitch Angle:   24.49828
+Measured Pitch:   23.18874
+Motor Front : 537
+Motor Back : 462
+Pitch Angle:   26.04487
+Measured Pitch:   23.56798
+Motor Front : 533
+Motor Back : 466
+Pitch Angle:   29.21239
+Measured Pitch:   23.97161
+Motor Front : 536
+Motor Back : 463
+Pitch Angle:   30.31621
+Measured Pitch:   24.34447
+Motor Front : 546
+Motor Back : 453
+Pitch Angle:   31.63214
+Measured Pitch:   24.70265
+Motor Front : 551
+Motor Back : 448
+Pitch Angle:   34.08085
+Measured Pitch:   25.04296
+Motor Front : 569
+Motor Back : 430
+Pitch Angle:   34.63177
+Measured Pitch:   25.32080
+Motor Front : 592
+Motor Back : 407
+Pitch Angle:   35.25008
+Measured Pitch:   25.53568
+Motor Front : 619
+Motor Back : 380
+Pitch Angle:   36.40506
+Measured Pitch:   25.72162
+Motor Front : 636
+Motor Back : 363
+Pitch Angle:   36.13111
+Measured Pitch:   25.82470
+Motor Front : 667
+Motor Back : 332
+Pitch Angle:   35.93695
+Measured Pitch:   25.85667
+Motor Front : 697
+Motor Back : 302
+Pitch Angle:   35.84761
+Measured Pitch:   25.82721
+Motor Front : 726
+Motor Back : 273
+Pitch Angle:   35.01091
+Measured Pitch:   25.74360
+Motor Front : 747
+Motor Back : 252
+Pitch Angle:   33.95383
+Measured Pitch:   25.59428
+Motor Front : 773
+Motor Back : 226
+Pitch Angle:   32.57627
+Measured Pitch:   25.38214
+Motor Front : 797
+Motor Back : 202
+Pitch Angle:   30.56536
+Measured Pitch:   25.10773
+Motor Front : 818
+Motor Back : 181
+Pitch Angle:   29.62626
+Measured Pitch:   24.80467
+Motor Front : 834
+Motor Back : 165
+Pitch Angle:   27.96396
+Measured Pitch:   24.47151
+Motor Front : 844
+Motor Back : 155
+Pitch Angle:   24.75140
+Measured Pitch:   24.08780
+Motor Front : 854
+Motor Back : 145
+Pitch Angle:   23.75520
+Measured Pitch:   23.71165
+Motor Front : 856
+Motor Back : 143
+Pitch Angle:   20.76550
+Measured Pitch:   23.31695
+Motor Front : 852
+Motor Back : 147
+Pitch Angle:   18.42036
+Measured Pitch:   22.90800
+Motor Front : 851
+Motor Back : 148
+Pitch Angle:   17.03432
+Measured Pitch:   22.53105
+Motor Front : 839
+Motor Back : 160
+Pitch Angle:   14.63293
+Measured Pitch:   22.17192
+Motor Front : 822
+Motor Back : 177
+Pitch Angle:   14.39144
+Measured Pitch:   21.87724
+Motor Front : 802
+Motor Back : 197
+Pitch Angle:   12.88389
+Measured Pitch:   21.62552
+Motor Front : 777
+Motor Back : 222
+Pitch Angle:   11.45521
+Measured Pitch:   21.40269
+Motor Front : 760
+Motor Back : 239
+Pitch Angle:   11.95378
+Measured Pitch:   21.26607
+Motor Front : 730
+Motor Back : 269
+Pitch Angle:   12.59451
+Measured Pitch:   21.21374
+Motor Front : 699
+Motor Back : 300
+Pitch Angle:   10.67026
+Measured Pitch:   21.19317
+Motor Front : 666
+Motor Back : 333
+Pitch Angle:   11.42165
+Measured Pitch:   21.23202
+Motor Front : 645
+Motor Back : 354
+Pitch Angle:   14.21430
+Measured Pitch:   21.38157
+Motor Front : 614
+Motor Back : 385
+Pitch Angle:   12.78779
+Measured Pitch:   21.54996
+Motor Front : 585
+Motor Back : 414
+Pitch Angle:   16.58621
+Measured Pitch:   21.83374
+Motor Front : 557
+Motor Back : 442
+Pitch Angle:   17.68656
+Measured Pitch:   22.14964
+Motor Front : 539
+Motor Back : 460
+Pitch Angle:   17.77378
+Measured Pitch:   22.48088
+Motor Front : 520
+Motor Back : 479
+Pitch Angle:   20.59687
+Measured Pitch:   22.86705
+Motor Front : 506
+Motor Back : 493
+Pitch Angle:   22.20672
+Measured Pitch:   23.27140
+Motor Front : 497
+Motor Back : 502
+Pitch Angle:   25.95426
+Measured Pitch:   23.72447
+Motor Front : 492
+Motor Back : 507
+Pitch Angle:   26.39705
+Measured Pitch:   24.15355
+Motor Front : 490
+Motor Back : 509
+Pitch Angle:   27.55527
+Measured Pitch:   24.55345
+Motor Front : 499
+Motor Back : 500
+Pitch Angle:   30.25461
+Measured Pitch:   24.94908
+Motor Front : 510
+Motor Back : 489
+Pitch Angle:   30.50750
+Measured Pitch:   25.27911
+Motor Front : 530
+Motor Back : 469
+Pitch Angle:   32.32889
+Measured Pitch:   25.59302
+Motor Front : 543
+Motor Back : 456
+Pitch Angle:   32.66183
+Measured Pitch:   25.83684
+Motor Front : 569
+Motor Back : 430
+Pitch Angle:   32.66904
+Measured Pitch:   26.00065
+Motor Front : 600
+Motor Back : 399
+Pitch Angle:   33.80103
+Measured Pitch:   26.11045
+Motor Front : 631
+Motor Back : 368
+Pitch Angle:   33.15897
+Measured Pitch:   26.15685
+Motor Front : 652
+Motor Back : 347
+Pitch Angle:   33.30988
+Measured Pitch:   26.13941
+Motor Front : 684
+Motor Back : 315
+Pitch Angle:   33.18472
+Measured Pitch:   26.05750
+Motor Front : 716
+Motor Back : 283
+Pitch Angle:   32.03725
+Measured Pitch:   25.90270
+Motor Front : 745
+Motor Back : 254
+Pitch Angle:   31.59661
+Measured Pitch:   25.71399
+Motor Front : 764
+Motor Back : 235
+Pitch Angle:   30.15376
+Measured Pitch:   25.46042
+Motor Front : 790
+Motor Back : 209
+Pitch Angle:   27.86408
+Measured Pitch:   25.14824
+Motor Front : 810
+Motor Back : 189
+Pitch Angle:   27.86996
+Measured Pitch:   24.82463
+Motor Front : 826
+Motor Back : 173
+Pitch Angle:   26.56980
+Measured Pitch:   24.48042
+Motor Front : 837
+Motor Back : 162
+Pitch Angle:   23.33786
+Measured Pitch:   24.08480
+Motor Front : 846
+Motor Back : 153
+Pitch Angle:   23.16142
+Measured Pitch:   23.71241
+Motor Front : 848
+Motor Back : 151
+Pitch Angle:   21.95380
+Measured Pitch:   23.35413
+Motor Front : 845
+Motor Back : 154
+Pitch Angle:   21.24394
+Measured Pitch:   23.02835
+Motor Front : 836
+Motor Back : 163
+Pitch Angle:   17.89648
+Measured Pitch:   22.67038
+Motor Front : 833
+Motor Back : 166
+Pitch Angle:   16.86774
+Measured Pitch:   22.35537
+Motor Front : 816
+Motor Back : 183
+Pitch Angle:   17.98250
+Measured Pitch:   22.12466
+Motor Front : 797
+Motor Back : 202
+Pitch Angle:   15.61725
+Measured Pitch:   21.90682
+Motor Front : 777
+Motor Back : 222
+Pitch Angle:   15.74796
+Measured Pitch:   21.73906
+Motor Front : 761
+Motor Back : 238
+Pitch Angle:   16.70306
+Measured Pitch:   21.65297
+Motor Front : 736
+Motor Back : 263
+Pitch Angle:   16.46592
+Measured Pitch:   21.61768
+Motor Front : 712
+Motor Back : 287
+Pitch Angle:   16.23646
+Measured Pitch:   21.62814
+Motor Front : 688
+Motor Back : 311
+Pitch Angle:   16.15279
+Measured Pitch:   21.67498
+Motor Front : 669
+Motor Back : 330
+Pitch Angle:   15.75800
+Measured Pitch:   21.75595
+Motor Front : 645
+Motor Back : 354
+Pitch Angle:   18.98555
+Measured Pitch:   21.93546
+Motor Front : 624
+Motor Back : 375
+Pitch Angle:   20.51629
+Measured Pitch:   22.17248
+Motor Front : 602
+Motor Back : 397
+Pitch Angle:   19.75503
+Measured Pitch:   22.41030
+Motor Front : 585
+Motor Back : 414
+Pitch Angle:   20.92773
+Measured Pitch:   22.68329
+Motor Front : 571
+Motor Back : 428
+Pitch Angle:   23.09789
+Measured Pitch:   22.99312
+Motor Front : 560
+Motor Back : 439
+Pitch Angle:   22.84897
+Measured Pitch:   23.28938
+Motor Front : 552
+Motor Back : 447
+Pitch Angle:   24.99754
+Measured Pitch:   23.61045
+Motor Front : 548
+Motor Back : 451
+Pitch Angle:   25.45034
+Measured Pitch:   23.91867
+Motor Front : 546
+Motor Back : 453
+Pitch Angle:   26.43750
+Measured Pitch:   24.21543
+Motor Front : 549
+Motor Back : 450
+Pitch Angle:   27.61367
+Measured Pitch:   24.49718
+Motor Front : 556
+Motor Back : 443
+Pitch Angle:   27.76726
+Measured Pitch:   24.73511
+Motor Front : 569
+Motor Back : 430
+Pitch Angle:   28.34330
+Measured Pitch:   24.95106
+Motor Front : 576
+Motor Back : 423
+Pitch Angle:   29.16581
+Measured Pitch:   25.13428
+Motor Front : 592
+Motor Back : 407
+Pitch Angle:   29.28625
+Measured Pitch:   25.26907
+Motor Front : 610
+Motor Back : 389
+Pitch Angle:   29.54590
+Measured Pitch:   25.35893
+Motor Front : 630
+Motor Back : 369
+Pitch Angle:   29.69460
+Measured Pitch:   25.40353
+Motor Front : 650
+Motor Back : 349
+Pitch Angle:   29.30904
+Measured Pitch:   25.40981
+Motor Front : 664
+Motor Back : 335
+Pitch Angle:   28.97654
+Measured Pitch:   25.36972
+Motor Front : 684
+Motor Back : 315
+Pitch Angle:   27.96996
+Measured Pitch:   25.27442
+Motor Front : 704
+Motor Back : 295
+Pitch Angle:   27.21866
+Measured Pitch:   25.13957
+Motor Front : 721
+Motor Back : 278
+Pitch Angle:   27.16337
+Measured Pitch:   24.99045
+Motor Front : 732
+Motor Back : 267
+Pitch Angle:   26.28476
+Measured Pitch:   24.80888
+Motor Front : 746
+Motor Back : 253
+Pitch Angle:   25.19330
+Measured Pitch:   24.60366
+Motor Front : 755
+Motor Back : 244
+Pitch Angle:   24.84468
+Measured Pitch:   24.39285
+Motor Front : 763
+Motor Back : 236
+Pitch Angle:   23.77964
+Measured Pitch:   24.16588
+Motor Front : 769
+Motor Back : 230
+Pitch Angle:   23.47602
+Measured Pitch:   23.95062
+Motor Front : 769
+Motor Back : 230
+Pitch Angle:   21.65220
+Measured Pitch:   23.71612
+Motor Front : 770
+Motor Back : 229
+Pitch Angle:   21.92092
+Measured Pitch:   23.51241
+Motor Front : 767
+Motor Back : 232
+Pitch Angle:   21.38120
+Measured Pitch:   23.32003
+Motor Front : 764
+Motor Back : 235
+Pitch Angle:   20.39694
+Measured Pitch:   23.13881
+Motor Front : 757
+Motor Back : 242
+Pitch Angle:   20.24258
+Measured Pitch:   22.98879
+Motor Front : 747
+Motor Back : 252
+Pitch Angle:   19.76857
+Measured Pitch:   22.86369
+Motor Front : 735
+Motor Back : 264
+Pitch Angle:   19.50556
+Measured Pitch:   22.76788
+Motor Front : 723
+Motor Back : 276
+Pitch Angle:   20.26930
+Measured Pitch:   22.71048
+Motor Front : 715
+Motor Back : 284
+Pitch Angle:   21.25748
+Measured Pitch:   22.70248
+Motor Front : 701
+Motor Back : 298
+Pitch Angle:   20.33829
+Measured Pitch:   22.70349
+Motor Front : 689
+Motor Back : 310
+Pitch Angle:   20.54167
+Measured Pitch:   22.73470
+Motor Front : 675
+Motor Back : 324
+Pitch Angle:   21.28672
+Measured Pitch:   22.79653
+Motor Front : 666
+Motor Back : 333
+Pitch Angle:   21.57603
+Measured Pitch:   22.88114
+Motor Front : 654
+Motor Back : 345
+Pitch Angle:   21.70885
+Measured Pitch:   22.98422
+Motor Front : 643
+Motor Back : 356
+Pitch Angle:   22.89538
+Measured Pitch:   23.11776
+Motor Front : 635
+Motor Back : 364
+Pitch Angle:   23.64507
+Measured Pitch:   23.26917
+Motor Front : 628
+Motor Back : 371
+Pitch Angle:   23.55521
+Measured Pitch:   23.41854
+Motor Front : 622
+Motor Back : 377
+Pitch Angle:   25.09508
+Measured Pitch:   23.59188
+Motor Front : 618
+Motor Back : 381
+Pitch Angle:   24.82092
+Measured Pitch:   23.75145
+Motor Front : 616
+Motor Back : 383
+Pitch Angle:   26.21600
+Measured Pitch:   23.92758
+Motor Front : 614
+Motor Back : 385
+Pitch Angle:   25.72293
+Measured Pitch:   24.07590
+Motor Front : 617
+Motor Back : 382
+Pitch Angle:   26.35818
+Measured Pitch:   24.21250
+Motor Front : 623
+Motor Back : 376
+Pitch Angle:   26.46711
+Measured Pitch:   24.32991
+Motor Front : 628
+Motor Back : 371
+Pitch Angle:   27.14837
+Measured Pitch:   24.43116
+Motor Front : 638
+Motor Back : 361
+Pitch Angle:   26.16411
+Measured Pitch:   24.49534
+Motor Front : 644
+Motor Back : 355
+Pitch Angle:   27.34468
+Measured Pitch:   24.56101
+Motor Front : 652
+Motor Back : 347
+Pitch Angle:   26.53796
+Measured Pitch:   24.58368
+Motor Front : 663
+Motor Back : 336
+Pitch Angle:   26.05641
+Measured Pitch:   24.57917
+Motor Front : 671
+Motor Back : 328
+Pitch Angle:   26.23846
+Measured Pitch:   24.56465
+Motor Front : 678
+Motor Back : 321
+Pitch Angle:   25.15434
+Measured Pitch:   24.51140
+Motor Front : 688
+Motor Back : 311
+Pitch Angle:   25.12263
+Measured Pitch:   24.44341
+Motor Front : 697
+Motor Back : 302
+Pitch Angle:   24.18301
+Measured Pitch:   24.35158
+Motor Front : 703
+Motor Back : 296
+Pitch Angle:   24.68744
+Measured Pitch:   24.26545
+Motor Front : 709
+Motor Back : 290
+Pitch Angle:   23.03690
+Measured Pitch:   24.14559
+Motor Front : 713
+Motor Back : 286
+Pitch Angle:   23.67081
+Measured Pitch:   24.04285
+Motor Front : 715
+Motor Back : 284
+Pitch Angle:   21.92146
+Measured Pitch:   23.90862
+Motor Front : 719
+Motor Back : 280
+Pitch Angle:   22.22533
+Measured Pitch:   23.78821
+Motor Front : 720
+Motor Back : 279
+Pitch Angle:   22.47948
+Measured Pitch:   23.68472
+Motor Front : 719
+Motor Back : 280
+Pitch Angle:   21.10295
+Measured Pitch:   23.56921
+Motor Front : 716
+Motor Back : 283
+Pitch Angle:   23.02524
+Measured Pitch:   23.50711
+Motor Front : 712
+Motor Back : 287
+Pitch Angle:   22.05875
+Measured Pitch:   23.43413
+Motor Front : 710
+Motor Back : 289
+Pitch Angle:   21.81906
+Measured Pitch:   23.37360
+Motor Front : 705
+Motor Back : 294
+Pitch Angle:   21.87207
+Measured Pitch:   23.32874
+Motor Front : 700
+Motor Back : 299
+Pitch Angle:   21.95471
+Measured Pitch:   23.29858
+Motor Front : 695
+Motor Back : 304
+Pitch Angle:   22.57694
+Measured Pitch:   23.29654
+Motor Front : 688
+Motor Back : 311
+Pitch Angle:   22.26207
+Measured Pitch:   23.29502
+Motor Front : 685
+Motor Back : 314
+Pitch Angle:   22.29359
+Measured Pitch:   23.30631
+Motor Front : 678
+Motor Back : 321
+Pitch Angle:   22.49360
+Measured Pitch:   23.33148
+Motor Front : 673
+Motor Back : 326
+Pitch Angle:   23.29311
+Measured Pitch:   23.38059
+Motor Front : 667
+Motor Back : 332
+Pitch Angle:   23.18559
+Measured Pitch:   23.43050
+Motor Front : 664
+Motor Back : 335
+Pitch Angle:   23.47364
+Measured Pitch:   23.48821
+Motor Front : 661
+Motor Back : 338
+Pitch Angle:   24.53385
+Measured Pitch:   23.56744
+Motor Front : 658
+Motor Back : 341
+Pitch Angle:   23.89784
+Measured Pitch:   23.63152
+Motor Front : 656
+Motor Back : 343
+Pitch Angle:   24.82110
+Measured Pitch:   23.71220
+Motor Front : 654
+Motor Back : 345
+Pitch Angle:   24.76732
+Measured Pitch:   23.78751
+Motor Front : 653
+Motor Back : 346
+Pitch Angle:   25.21624
+Measured Pitch:   23.86204
+Motor Front : 655
+Motor Back : 344
+Pitch Angle:   25.26332
+Measured Pitch:   23.93005
+Motor Front : 656
+Motor Back : 343
+Pitch Angle:   25.87229
+Measured Pitch:   24.00210
+Motor Front : 657
+Motor Back : 342
+Pitch Angle:   25.77226
+Measured Pitch:   24.06124
+Motor Front : 659
+Motor Back : 340
+Pitch Angle:   25.13935
+Measured Pitch:   24.09556
+Motor Front : 664
+Motor Back : 335
+Pitch Angle:   25.40404
+Measured Pitch:   24.12545
+Motor Front : 667
+Motor Back : 332
+Pitch Angle:   25.07663
+Measured Pitch:   24.13624
+Motor Front : 672
+Motor Back : 327
+Pitch Angle:   24.95369
+Measured Pitch:   24.13777
+Motor Front : 675
+Motor Back : 324
+Pitch Angle:   24.51205
+Measured Pitch:   24.12097
+Motor Front : 680
+Motor Back : 319
+Pitch Angle:   25.71979
+Measured Pitch:   24.12105
+Motor Front : 684
+Motor Back : 315
+Pitch Angle:   24.60088
+Measured Pitch:   24.09339
+Motor Front : 687
+Motor Back : 312
+Pitch Angle:   24.77727
+Measured Pitch:   24.06745
+Motor Front : 682
+Motor Back : 317
+Pitch Angle:   23.59098
+Measured Pitch:   24.01531
+Motor Front : 685
+Motor Back : 314
+Pitch Angle:   24.41845
+Measured Pitch:   23.98081
+Motor Front : 686
+Motor Back : 313
+Pitch Angle:   23.63538
+Measured Pitch:   23.92903
+Motor Front : 689
+Motor Back : 310
+Pitch Angle:   23.87787
+Measured Pitch:   23.88187
+Motor Front : 691
+Motor Back : 308
+Pitch Angle:   22.88370
+Measured Pitch:   23.81987
+Motor Front : 691
+Motor Back : 308
+Pitch Angle:   22.40460
+Measured Pitch:   23.75239
+Motor Front : 691
+Motor Back : 308
+Pitch Angle:   22.85734
+Measured Pitch:   23.70078
+Motor Front : 690
+Motor Back : 309
+Pitch Angle:   22.34213
+Measured Pitch:   23.64623
+Motor Front : 619
+Motor Back : 380
+Pitch Angle:   22.80868
+Measured Pitch:   23.60859
+Motor Front : 617
+Motor Back : 382
+Pitch Angle:   22.03672
+Measured Pitch:   23.56396
+Motor Front : 614
+Motor Back : 385
+Pitch Angle:   22.51169
+Measured Pitch:   23.53279
+Motor Front : 614
+Motor Back : 385
+Pitch Angle:   23.90726
+Measured Pitch:   23.52666
+Motor Front : 616
+Motor Back : 383
+Pitch Angle:   22.99675
+Measured Pitch:   23.49833
+Motor Front : 619
+Motor Back : 380
+Pitch Angle:   23.87887
+Measured Pitch:   23.47667
+Motor Front : 625
+Motor Back : 374
+Pitch Angle:   23.75822
+Measured Pitch:   23.43838
+Motor Front : 633
+Motor Back : 366
+Pitch Angle:   24.01812
+Measured Pitch:   23.39341
+Motor Front : 317
+Motor Back : 682
+Pitch Angle:   24.15412
+Measured Pitch:   23.34116
+Motor Front : 323
+Motor Back : 676
+Pitch Angle:   23.79771
+Measured Pitch:   23.26904
+Motor Front : 332
+Motor Back : 667
+Pitch Angle:   27.24947
+Measured Pitch:   23.24606
+Motor Front : 343
+Motor Back : 656
+Pitch Angle:   28.22271
+Measured Pitch:   23.17946
+Motor Front : 375
+Motor Back : 624
+Pitch Angle:   26.77629
+Measured Pitch:   23.03973
+Motor Front : 400
+Motor Back : 599
+Pitch Angle:   27.98018
+Measured Pitch:   22.85278
+Motor Front : 441
+Motor Back : 558
+Pitch Angle:   28.07819
+Measured Pitch:   22.57900
+Motor Front : 493
+Motor Back : 506
+Pitch Angle:   27.49138
+Measured Pitch:   22.21280
+Motor Front : 269
+Motor Back : 730
+Pitch Angle:   26.36161
+Measured Pitch:   21.74727
+Motor Front : 324
+Motor Back : 675
+Pitch Angle:   25.50807
+Measured Pitch:   21.22364
+Motor Front : 364
+Motor Back : 635
+Pitch Angle:   27.09003
+Measured Pitch:   20.66884
+Motor Front : 416
+Motor Back : 583
+Pitch Angle:   25.17435
+Measured Pitch:   19.98932
+Motor Front : 482
+Motor Back : 517
+Pitch Angle:   24.61019
+Measured Pitch:   19.22493
+Motor Front : 546
+Motor Back : 453
+Pitch Angle:   22.75820
+Measured Pitch:   18.38113
+Motor Front : 599
+Motor Back : 400
+Pitch Angle:   20.98412
+Measured Pitch:   17.43802
+Motor Front : 666
+Motor Back : 333
+Pitch Angle:   18.71611
+Measured Pitch:   16.41755
+Motor Front : 720
+Motor Back : 279
+Pitch Angle:   15.47926
+Measured Pitch:   15.31245
+Motor Front : 772
+Motor Back : 227
+Pitch Angle:   13.72747
+Measured Pitch:   14.18257
+Motor Front : 812
+Motor Back : 187
+Pitch Angle:   10.42063
+Measured Pitch:   13.00715
+Motor Front : 848
+Motor Back : 151
+Pitch Angle:    7.32675
+Measured Pitch:   11.81136
+Motor Front : 874
+Motor Back : 125
+Pitch Angle:    4.19943
+Measured Pitch:   10.62531
+Motor Front : 888
+Motor Back : 111
+Pitch Angle:    2.92362
+Measured Pitch:    9.47735
+Motor Front : 904
+Motor Back : 95
+Pitch Angle:    1.17258
+Measured Pitch:    8.39398
+Motor Front : 901
+Motor Back : 98
+Pitch Angle:   -2.09518
+Measured Pitch:    7.36237
+Motor Front : 888
+Motor Back : 111
+Pitch Angle:   -3.19120
+Measured Pitch:    6.43758
+Motor Front : 864
+Motor Back : 135
+Pitch Angle:   -3.90270
+Measured Pitch:    5.59273
+Motor Front : 853
+Motor Back : 146
+Pitch Angle:   -6.19596
+Measured Pitch:    4.83851
+Motor Front : 818
+Motor Back : 181
+Pitch Angle:   -5.17150
+Measured Pitch:    4.24467
+Motor Front : 523
+Motor Back : 476
+Pitch Angle:   -5.20931
+Measured Pitch:    3.78874
+Motor Front : 478
+Motor Back : 521
+Pitch Angle:   -5.31163
+Measured Pitch:    3.46239
+Motor Front : 429
+Motor Back : 570
+Pitch Angle:   -2.81755
+Measured Pitch:    3.26888
+Motor Front : 399
+Motor Back : 600
+Pitch Angle:    1.44997
+Measured Pitch:    3.24238
+Motor Front : 362
+Motor Back : 637
+Pitch Angle:    1.75942
+Measured Pitch:    3.28091
+Motor Front : 334
+Motor Back : 665
+Pitch Angle:    4.98374
+Measured Pitch:    3.42457
+Motor Front : 310
+Motor Back : 689
+Pitch Angle:    5.98673
+Measured Pitch:    3.59541
+Motor Front : 300
+Motor Back : 699
+Pitch Angle:    6.98254
+Measured Pitch:    3.79017
+Motor Front : -95
+Motor Back : 1000
+Pitch Angle:    9.34819
+Measured Pitch:    4.01223
+Motor Front : -94
+Motor Back : 1000
+Pitch Angle:    9.92663
+Measured Pitch:    4.21379
+Motor Front : -86
+Motor Back : 1000
+Pitch Angle:   14.03115
+Measured Pitch:    4.46011
+Motor Front : -79
+Motor Back : 1000
+Pitch Angle:   14.71308
+Measured Pitch:    4.62635
+Motor Front : -42
+Motor Back : 1000
+Pitch Angle:   15.25959
+Measured Pitch:    4.69199
+Motor Front : 6
+Motor Back : 993
+Pitch Angle:   15.82927
+Measured Pitch:    4.64306
+Motor Front : 67
+Motor Back : 932
+Pitch Angle:   16.41713
+Measured Pitch:    4.46656
+Motor Front : 139
+Motor Back : 860
+Pitch Angle:   15.57443
+Measured Pitch:    4.18066
+Motor Front : -172
+Motor Back : 1000
+Pitch Angle:   14.47590
+Measured Pitch:    3.73219
+Motor Front : -89
+Motor Back : 1000
+Pitch Angle:   14.27950
+Measured Pitch:    3.14668
+Motor Front : -3
+Motor Back : 1000
+Pitch Angle:   11.68808
+Measured Pitch:    2.38080
+Motor Front : 85
+Motor Back : 914
+Pitch Angle:   10.16379
+Measured Pitch:    1.50418
+Motor Front : 157
+Motor Back : 842
+Pitch Angle:    8.19802
+Measured Pitch:    0.45404
+Motor Front : 257
+Motor Back : 742
+Pitch Angle:    6.50631
+Measured Pitch:   -0.74475
+Motor Front : 359
+Motor Back : 640
+Pitch Angle:    3.35730
+Measured Pitch:   -2.10684
+Motor Front : 459
+Motor Back : 540
+Pitch Angle:   -1.73754
+Measured Pitch:   -3.61033
+Motor Front : 535
+Motor Back : 464
+Pitch Angle:   -6.00331
+Measured Pitch:   -5.25088
+Motor Front : 623
+Motor Back : 376
+Pitch Angle:   -9.35730
+Measured Pitch:   -6.96742
+Motor Front : 694
+Motor Back : 305
+Pitch Angle:  -16.07072
+Measured Pitch:   -8.78970
+Motor Front : 752
+Motor Back : 247
+Pitch Angle:  -20.61994
+Measured Pitch:  -10.65392
+Motor Front : 802
+Motor Back : 197
+Pitch Angle:  -26.24978
+Measured Pitch:  -12.53833
+Motor Front : 832
+Motor Back : 167
+Pitch Angle:  -27.94652
+Measured Pitch:  -14.32624
+Motor Front : 843
+Motor Back : 156
+Pitch Angle:  -30.52655
+Measured Pitch:  -16.01247
+Motor Front : 838
+Motor Back : 161
+Pitch Angle:  -32.22720
+Measured Pitch:  -17.60191
+Motor Front : 840
+Motor Back : 159
+Pitch Angle:  -34.31767
+Measured Pitch:  -19.05001
+Motor Front : 812
+Motor Back : 187
+Pitch Angle:  -34.47234
+Measured Pitch:  -20.30138
+Motor Front : 768
+Motor Back : 231
+Pitch Angle:  -34.72187
+Measured Pitch:  -21.35489
+Motor Front : 715
+Motor Back : 284
+Pitch Angle:  -36.11366
+Measured Pitch:  -22.22924
+Motor Front : 653
+Motor Back : 346
+Pitch Angle:  -34.37558
+Measured Pitch:  -22.92187
+Motor Front : 615
+Motor Back : 384
+Pitch Angle:  -33.78937
+Measured Pitch:  -23.40819
+Motor Front : 542
+Motor Back : 457
+Pitch Angle:  -32.63341
+Measured Pitch:  -23.68390
+Motor Front : 466
+Motor Back : 533
+Pitch Angle:  -31.81903
+Measured Pitch:  -23.77287
+Motor Front : 390
+Motor Back : 609
+Pitch Angle:  -30.36795
+Measured Pitch:  -23.72591
+Motor Front : 339
+Motor Back : 660
+Pitch Angle:  -27.61497
+Measured Pitch:  -23.48496
+Motor Front : 265
+Motor Back : 734
+Pitch Angle:  -26.18467
+Measured Pitch:  -23.10150
+Motor Front : 198
+Motor Back : 801
+Pitch Angle:  -22.81931
+Measured Pitch:  -22.56281
+Motor Front : 136
+Motor Back : 863
+Pitch Angle:  -19.33514
+Measured Pitch:  -21.91725
+Motor Front : 94
+Motor Back : 905
+Pitch Angle:  -17.53182
+Measured Pitch:  -21.19366
+Motor Front : 47
+Motor Back : 952
+Pitch Angle:  -12.87505
+Measured Pitch:  -20.37111
+Motor Front : 12
+Motor Back : 987
+Pitch Angle:  -11.13236
+Measured Pitch:  -19.53864
+Motor Front : -8
+Motor Back : 1000
+Pitch Angle:   -7.81242
+Measured Pitch:  -18.66999
+Motor Front : -27
+Motor Back : 1000
+Pitch Angle:   -5.20360
+Measured Pitch:  -17.82448
+Motor Front : -25
+Motor Back : 1000
+Pitch Angle:   -4.12027
+Measured Pitch:  -17.04461
+Motor Front : -16
+Motor Back : 1000
+Pitch Angle:   -2.72783
+Measured Pitch:  -16.34051
+Motor Front : -106
+Motor Back : 1000
+Pitch Angle:   -1.77853
+Measured Pitch:  -15.70198
+Motor Front : -92
+Motor Back : 1000
+Pitch Angle:   -0.79324
+Measured Pitch:  -15.16223
+Motor Front : -59
+Motor Back : 1000
+Pitch Angle:   -3.16129
+Measured Pitch:  -14.79906
+Motor Front : -14
+Motor Back : 1000
+Pitch Angle:   -2.94719
+Measured Pitch:  -14.54985
+Motor Front : 30
+Motor Back : 969
+Pitch Angle:   -4.72194
+Measured Pitch:  -14.46192
+Motor Front : 84
+Motor Back : 915
+Pitch Angle:   -5.75634
+Measured Pitch:  -14.47313
+Motor Front : 121
+Motor Back : 878
+Pitch Angle:   -6.43115
+Measured Pitch:  -14.60814
+Motor Front : 178
+Motor Back : 821
+Pitch Angle:  -11.26868
+Measured Pitch:  -14.94306
+Motor Front : 238
+Motor Back : 761
+Pitch Angle:  -12.68639
+Measured Pitch:  -15.38824
+Motor Front : 293
+Motor Back : 706
+Pitch Angle:  -15.83354
+Measured Pitch:  -15.94124
+Motor Front : 335
+Motor Back : 664
+Pitch Angle:  -19.68235
+Measured Pitch:  -16.62395
+Motor Front : 386
+Motor Back : 613
+Pitch Angle:  -21.99535
+Measured Pitch:  -17.37415
+Motor Front : 425
+Motor Back : 574
+Pitch Angle:  -28.39434
+Measured Pitch:  -18.26113
+Motor Front : 460
+Motor Back : 539
+Pitch Angle:  -29.41154
+Measured Pitch:  -19.13151
+Motor Front : 480
+Motor Back : 519
+Pitch Angle:  -33.49131
+Measured Pitch:  -20.04738
+Motor Front : 499
+Motor Back : 500
+Pitch Angle:  -35.41279
+Measured Pitch:  -20.93881
+Motor Front : 504
+Motor Back : 495
+Pitch Angle:  -35.61366
+Measured Pitch:  -21.74876
+Motor Front : 497
+Motor Back : 502
+Pitch Angle:  -37.93018
+Measured Pitch:  -22.51126
+Motor Front : 483
+Motor Back : 516
+Pitch Angle:  -37.95719
+Measured Pitch:  -23.19667
+Motor Front : 474
+Motor Back : 525
+Pitch Angle:  -36.87907
+Measured Pitch:  -23.75277
+Motor Front : 446
+Motor Back : 553
+Pitch Angle:  -36.76166
+Measured Pitch:  -24.19173
+Motor Front : 411
+Motor Back : 588
+Pitch Angle:  -36.04344
+Measured Pitch:  -24.51040
+Motor Front : 373
+Motor Back : 626
+Pitch Angle:  -35.59071
+Measured Pitch:  -24.75180
+Motor Front : 351
+Motor Back : 648
+Pitch Angle:  -31.58958
+Measured Pitch:  -24.80608
+Motor Front : 305
+Motor Back : 694
+Pitch Angle:  -31.90095
+Measured Pitch:  -24.78806
+Motor Front : 267
+Motor Back : 732
+Pitch Angle:  -28.57730
+Measured Pitch:  -24.62185
+Motor Front : 224
+Motor Back : 775
+Pitch Angle:  -24.87835
+Measured Pitch:  -24.34095
+Motor Front : 195
+Motor Back : 804
+Pitch Angle:  -22.20910
+Measured Pitch:  -23.96498
+Motor Front : 161
+Motor Back : 838
+Pitch Angle:  -19.18576
+Measured Pitch:  -23.49921
+Motor Front : 129
+Motor Back : 870
+Pitch Angle:  -18.08313
+Measured Pitch:  -23.01166
+Motor Front : 110
+Motor Back : 889
+Pitch Angle:  -12.13946
+Measured Pitch:  -22.41403
+Motor Front : 92
+Motor Back : 907
+Pitch Angle:  -11.06265
+Measured Pitch:  -21.83044
+Motor Front : 85
+Motor Back : 914
+Pitch Angle:   -7.05819
+Measured Pitch:  -21.21791
+Motor Front : 86
+Motor Back : 913
+Pitch Angle:   -4.90932
+Measured Pitch:  -20.63386
+Motor Front : 96
+Motor Back : 903
+Pitch Angle:   -5.81359
+Measured Pitch:  -20.15778
+Motor Front : 119
+Motor Back : 880
+Pitch Angle:   -3.89931
+Measured Pitch:  -19.70444
+Motor Front : 130
+Motor Back : 869
+Pitch Angle:   -2.17008
+Measured Pitch:  -19.32055
+Motor Front : 163
+Motor Back : 836
+Pitch Angle:   -3.35873
+Measured Pitch:  -19.06325
+Motor Front : 201
+Motor Back : 798
+Pitch Angle:   -1.98629
+Measured Pitch:  -18.87383
+Motor Front : 238
+Motor Back : 761
+Pitch Angle:   -3.63777
+Measured Pitch:  -18.78156
+Motor Front : 264
+Motor Back : 735
+Pitch Angle:   -5.92329
+Measured Pitch:  -18.81552
+Motor Front : 302
+Motor Back : 697
+Pitch Angle:   -8.30498
+Measured Pitch:  -18.96609
+Motor Front : 339
+Motor Back : 660
+Pitch Angle:  -10.54415
+Measured Pitch:  -19.20404
+Motor Front : 368
+Motor Back : 631
+Pitch Angle:  -14.14252
+Measured Pitch:  -19.53025
+Motor Front : 388
+Motor Back : 611
+Pitch Angle:  -16.66701
+Measured Pitch:  -19.92305
+Motor Front : 411
+Motor Back : 588
+Pitch Angle:  -23.52009
+Measured Pitch:  -20.44034
+Motor Front : 424
+Motor Back : 575
+Pitch Angle:  -25.10274
+Measured Pitch:  -20.95794
+Motor Front : 430
+Motor Back : 569
+Pitch Angle:  -27.89439
+Measured Pitch:  -21.49838
+Motor Front : 435
+Motor Back : 564
+Pitch Angle:  -31.40229
+Measured Pitch:  -22.04782
+Motor Front : 428
+Motor Back : 571
+Pitch Angle:  -34.16941
+Measured Pitch:  -22.57808
+Motor Front : 413
+Motor Back : 586
+Pitch Angle:  -36.18615
+Measured Pitch:  -23.05823
+Motor Front : 390
+Motor Back : 609
+Pitch Angle:  -37.13075
+Measured Pitch:  -23.49328
+Motor Front : 377
+Motor Back : 622
+Pitch Angle:  -38.17535
+Measured Pitch:  -23.85325
+Motor Front : 346
+Motor Back : 653
+Pitch Angle:  -38.61590
+Measured Pitch:  -24.12545
+Motor Front : 312
+Motor Back : 687
+Pitch Angle:  -38.77917
+Measured Pitch:  -24.30984
+Motor Front : 277
+Motor Back : 722
+Pitch Angle:  -37.38233
+Measured Pitch:  -24.38224
+Motor Front : 241
+Motor Back : 758
+Pitch Angle:  -37.31852
+Measured Pitch:  -24.40361
+Motor Front : 219
+Motor Back : 780
+Pitch Angle:  -36.73714
+Measured Pitch:  -24.34560
+Motor Front : 185
+Motor Back : 814
+Pitch Angle:  -33.54761
+Measured Pitch:  -24.17203
+Motor Front : 155
+Motor Back : 844
+Pitch Angle:  -32.98777
+Measured Pitch:  -23.94968
+Motor Front : 129
+Motor Back : 870
+Pitch Angle:  -31.07096
+Measured Pitch:  -23.67148
+Motor Front : 110
+Motor Back : 889
+Pitch Angle:  -26.91802
+Measured Pitch:  -23.29748
+Motor Front : 90
+Motor Back : 909
+Pitch Angle:  -25.78846
+Measured Pitch:  -22.90559
+Motor Front : 77
+Motor Back : 922
+Pitch Angle:  -21.27493
+Measured Pitch:  -22.43918
+Motor Front : 67
+Motor Back : 932
+Pitch Angle:  -20.11207
+Measured Pitch:  -21.97148
+Motor Front : 59
+Motor Back : 940
+Pitch Angle:  -18.39842
+Measured Pitch:  -21.51415
+Motor Front : 62
+Motor Back : 937
+Pitch Angle:  -14.63242
+Measured Pitch:  -21.03666
+Motor Front : 69
+Motor Back : 930
+Pitch Angle:  -13.64735
+Measured Pitch:  -20.61016
+Motor Front : 86
+Motor Back : 913
+Pitch Angle:   -9.74815
+Measured Pitch:  -20.16598
+Motor Front : 97
+Motor Back : 902
+Pitch Angle:   -6.50214
+Measured Pitch:  -19.74492
+Motor Front : 122
+Motor Back : 877
+Pitch Angle:   -7.39722
+Measured Pitch:  -19.43964
+Motor Front : 155
+Motor Back : 844
+Pitch Angle:   -7.09757
+Measured Pitch:  -19.22303
+Motor Front : 191
+Motor Back : 808
+Pitch Angle:   -4.03679
+Measured Pitch:  -19.01145
+Motor Front : 214
+Motor Back : 785
+Pitch Angle:   -5.64720
+Measured Pitch:  -18.93712
+Motor Front : 259
+Motor Back : 740
+Pitch Angle:   -4.45033
+Measured Pitch:  -18.91782
+Motor Front : 295
+Motor Back : 704
+Pitch Angle:   -7.06581
+Measured Pitch:  -19.03692
+Motor Front : 340
+Motor Back : 659
+Pitch Angle:   -9.68588
+Measured Pitch:  -19.24641
+Motor Front : 365
+Motor Back : 634
+Pitch Angle:   -9.74778
+Measured Pitch:  -19.50588
+Motor Front : 398
+Motor Back : 601
+Pitch Angle:  -13.26216
+Measured Pitch:  -19.87385
+Motor Front : 429
+Motor Back : 570
+Pitch Angle:  -15.08514
+Measured Pitch:  -20.28548
+Motor Front : 449
+Motor Back : 550
+Pitch Angle:  -16.59569
+Measured Pitch:  -20.72869
+Motor Front : 466
+Motor Back : 533
+Pitch Angle:  -20.14883
+Measured Pitch:  -21.22415
+Motor Front : 477
+Motor Back : 522
+Pitch Angle:  -23.10254
+Measured Pitch:  -21.74391
+Motor Front : 480
+Motor Back : 519
+Pitch Angle:  -25.19632
+Measured Pitch:  -22.25436
+Motor Front : 476
+Motor Back : 523
+Pitch Angle:  -27.26707
+Measured Pitch:  -22.73524
+Motor Front : 462
+Motor Back : 537
+Pitch Angle:  -29.91941
+Measured Pitch:  -23.21753
+Motor Front : 456
+Motor Back : 543
+Pitch Angle:  -31.35273
+Measured Pitch:  -23.63761
+Motor Front : 431
+Motor Back : 568
+Pitch Angle:  -31.93357
+Measured Pitch:  -23.97552
+Motor Front : 400
+Motor Back : 599
+Pitch Angle:  -33.60031
+Measured Pitch:  -24.24944
+Motor Front : 366
+Motor Back : 633
+Pitch Angle:  -34.09206
+Measured Pitch:  -24.46483
+Motor Front : 342
+Motor Back : 657
+Pitch Angle:  -33.93597
+Measured Pitch:  -24.58015
+Motor Front : 302
+Motor Back : 697
+Pitch Angle:  -34.18220
+Measured Pitch:  -24.61881
+Motor Front : 265
+Motor Back : 734
+Pitch Angle:  -32.73041
+Measured Pitch:  -24.55032
+Motor Front : 226
+Motor Back : 773
+Pitch Angle:  -33.18151
+Measured Pitch:  -24.44893
+Motor Front : 203
+Motor Back : 796
+Pitch Angle:  -31.45181
+Measured Pitch:  -24.25428
+Motor Front : 169
+Motor Back : 830
+Pitch Angle:  -30.74886
+Measured Pitch:  -24.00461
+Motor Front : 140
+Motor Back : 859
+Pitch Angle:  -29.52089
+Measured Pitch:  -23.70340
+Motor Front : 115
+Motor Back : 884
+Pitch Angle:  -27.45827
+Measured Pitch:  -23.34953
+Motor Front : 97
+Motor Back : 902
+Pitch Angle:  -26.26853
+Measured Pitch:  -22.97192
+Motor Front : 82
+Motor Back : 917
+Pitch Angle:  -24.10231
+Measured Pitch:  -22.56252
+Motor Front : 72
+Motor Back : 927
+Pitch Angle:  -21.66398
+Measured Pitch:  -22.12417
+Motor Front : 67
+Motor Back : 932
+Pitch Angle:  -21.85867
+Measured Pitch:  -21.73763
+Motor Front : 71
+Motor Back : 928
+Pitch Angle:  -19.29558
+Measured Pitch:  -21.33170
+Motor Front : 70
+Motor Back : 929
+Pitch Angle:  -17.12847
+Measured Pitch:  -20.94610
+Motor Front : 85
+Motor Back : 914
+Pitch Angle:  -16.45223
+Measured Pitch:  -20.61430
+Motor Front : 103
+Motor Back : 896
+Pitch Angle:  -15.54273
+Measured Pitch:  -20.33581
+Motor Front : 126
+Motor Back : 873
+Pitch Angle:  -12.73840
+Measured Pitch:  -20.05395
+Motor Front : 140
+Motor Back : 859
+Pitch Angle:  -12.88152
+Measured Pitch:  -19.85855
+Motor Front : 171
+Motor Back : 828
+Pitch Angle:  -12.25221
+Measured Pitch:  -19.72170
+Motor Front : 198
+Motor Back : 801
+Pitch Angle:  -15.76632
+Measured Pitch:  -19.73611
+Motor Front : 236
+Motor Back : 763
+Pitch Angle:  -13.59120
+Measured Pitch:  -19.74323
+Motor Front : 253
+Motor Back : 746
+Pitch Angle:  -12.61885
+Measured Pitch:  -19.79682
+Motor Front : 286
+Motor Back : 713
+Pitch Angle:  -14.23129
+Measured Pitch:  -19.93552
+Motor Front : 316
+Motor Back : 683
+Pitch Angle:  -13.90099
+Measured Pitch:  -20.10514
+Motor Front : 340
+Motor Back : 659
+Pitch Angle:  -15.62642
+Measured Pitch:  -20.33062
+Motor Front : 358
+Motor Back : 641
+Pitch Angle:  -17.68118
+Measured Pitch:  -20.60894
+Motor Front : 375
+Motor Back : 624
+Pitch Angle:  -20.05015
+Measured Pitch:  -20.94598
+Motor Front : 392
+Motor Back : 607
+Pitch Angle:  -20.99876
+Measured Pitch:  -21.28963
+Motor Front : 401
+Motor Back : 598
+Pitch Angle:  -21.98086
+Measured Pitch:  -21.63865
+Motor Front : 408
+Motor Back : 591
+Pitch Angle:  -22.52365
+Measured Pitch:  -21.97706
+Motor Front : 411
+Motor Back : 588
+Pitch Angle:  -24.08376
+Measured Pitch:  -22.31211
+Motor Front : 408
+Motor Back : 591
+Pitch Angle:  -24.52146
+Measured Pitch:  -22.61540
+Motor Front : 401
+Motor Back : 598
+Pitch Angle:  -26.32439
+Measured Pitch:  -22.90319
+Motor Front : 388
+Motor Back : 611
+Pitch Angle:  -26.87931
+Measured Pitch:  -23.16442
+Motor Front : 381
+Motor Back : 618
+Pitch Angle:  -27.56941
+Measured Pitch:  -23.37990
+Motor Front : 361
+Motor Back : 638
+Pitch Angle:  -27.81809
+Measured Pitch:  -23.53929
+Motor Front : 339
+Motor Back : 660
+Pitch Angle:  -27.59623
+Measured Pitch:  -23.63443
+Motor Front : 315
+Motor Back : 684
+Pitch Angle:  -27.25148
+Measured Pitch:  -23.68413
+Motor Front : 299
+Motor Back : 700
+Pitch Angle:  -27.25471
+Measured Pitch:  -23.68195
+Motor Front : 275
+Motor Back : 724
+Pitch Angle:  -26.52318
+Measured Pitch:  -23.61915
+Motor Front : 251
+Motor Back : 748
+Pitch Angle:  -25.97637
+Measured Pitch:  -23.50969
+Motor Front : 230
+Motor Back : 769
+Pitch Angle:  -25.86781
+Measured Pitch:  -23.37838
+Motor Front : 217
+Motor Back : 782
+Pitch Angle:  -24.44538
+Measured Pitch:  -23.19531
+Motor Front : 198
+Motor Back : 801
+Pitch Angle:  -24.05950
+Measured Pitch:  -22.99193
+Motor Front : 184
+Motor Back : 815
+Pitch Angle:  -23.13694
+Measured Pitch:  -22.76210
+Motor Front : 172
+Motor Back : 827
+Pitch Angle:  -21.81236
+Measured Pitch:  -22.50681
+Motor Front : 163
+Motor Back : 836
+Pitch Angle:  -21.49058
+Measured Pitch:  -22.25335
+Motor Front : 156
+Motor Back : 843
+Pitch Angle:  -21.76776
+Measured Pitch:  -22.01920
+Motor Front : 154
+Motor Back : 845
+Pitch Angle:  -20.06922
+Measured Pitch:  -21.77641
+Motor Front : 156
+Motor Back : 843
+Pitch Angle:  -18.65952
+Measured Pitch:  -21.52654
+Motor Front : 156
+Motor Back : 843
+Pitch Angle:  -18.55311
+Measured Pitch:  -21.31033
+Motor Front : 164
+Motor Back : 835
+Pitch Angle:  -16.20499
+Measured Pitch:  -21.08662
+Motor Front : 174
+Motor Back : 825
+Pitch Angle:  -19.46544
+Measured Pitch:  -20.96653
+Motor Front : 187
+Motor Back : 812
+Pitch Angle:  -18.99618
+Measured Pitch:  -20.85724
+Motor Front : 192
+Motor Back : 807
+Pitch Angle:  -17.15678
+Measured Pitch:  -20.75256
+Motor Front : 208
+Motor Back : 791
+Pitch Angle:  -20.22804
+Measured Pitch:  -20.74331
+Motor Front : 222
+Motor Back : 777
+Pitch Angle:  -19.60481
+Measured Pitch:  -20.74967
+Motor Front : 236
+Motor Back : 763
+Pitch Angle:  -18.75359
+Measured Pitch:  -20.76872
+Motor Front : 250
+Motor Back : 749
+Pitch Angle:  -18.52866
+Measured Pitch:  -20.80310
+Motor Front : 261
+Motor Back : 738
+Pitch Angle:  -21.72426
+Measured Pitch:  -20.91985
+Motor Front : 274
+Motor Back : 725
+Pitch Angle:  -20.58512
+Measured Pitch:  -21.02584
+Motor Front : 284
+Motor Back : 715
+Pitch Angle:  -21.07613
+Measured Pitch:  -21.15293
+Motor Front : 294
+Motor Back : 705
+Pitch Angle:  -23.48011
+Measured Pitch:  -21.33220
+Motor Front : 302
+Motor Back : 697
+Pitch Angle:  -23.06811
+Measured Pitch:  -21.50044
+Motor Front : 308
+Motor Back : 691
+Pitch Angle:  -24.35719
+Measured Pitch:  -21.68922
+Motor Front : 312
+Motor Back : 687
+Pitch Angle:  -23.13619
+Measured Pitch:  -21.84151
+Motor Front : 313
+Motor Back : 686
+Pitch Angle:  -23.47761
+Measured Pitch:  -21.99127
+Motor Front : 315
+Motor Back : 684
+Pitch Angle:  -24.33631
+Measured Pitch:  -22.14137
+Motor Front : 312
+Motor Back : 687
+Pitch Angle:  -24.94845
+Measured Pitch:  -22.28609
+Motor Front : 310
+Motor Back : 689
+Pitch Angle:  -24.15124
+Measured Pitch:  -22.39441
+Motor Front : 305
+Motor Back : 694
+Pitch Angle:  -24.74016
+Measured Pitch:  -22.49190
+Motor Front : 298
+Motor Back : 701
+Pitch Angle:  -24.40712
+Measured Pitch:  -22.56732
+Motor Front : 294
+Motor Back : 705
+Pitch Angle:  -23.71279
+Measured Pitch:  -22.60340
+Motor Front : 284
+Motor Back : 715
+Pitch Angle:  -23.70639
+Measured Pitch:  -22.61887
+Motor Front : 275
+Motor Back : 724
+Pitch Angle:  -22.74916
+Measured Pitch:  -22.59607
+Motor Front : 265
+Motor Back : 734
+Pitch Angle:  -22.03607
+Measured Pitch:  -22.55026
+Motor Front : 260
+Motor Back : 739
+Pitch Angle:  -22.33503
+Measured Pitch:  -22.50081
+Motor Front : 253
+Motor Back : 746
+Pitch Angle:  -21.03503
+Measured Pitch:  -22.41729
+Motor Front : 246
+Motor Back : 753
+Pitch Angle:  -20.80318
+Measured Pitch:  -22.32877
+Motor Front : 243
+Motor Back : 756
+Pitch Angle:  -20.47427
+Measured Pitch:  -22.23273
+Motor Front : 239
+Motor Back : 760
+Pitch Angle:  -20.13007
+Measured Pitch:  -22.13417
+Motor Front : 237
+Motor Back : 762
+Pitch Angle:  -19.58602
+Measured Pitch:  -22.03086
+Motor Front : 236
+Motor Back : 763
+Pitch Angle:  -19.22159
+Measured Pitch:  -21.92925
+Motor Front : 236
+Motor Back : 763
+Pitch Angle:  -19.45583
+Measured Pitch:  -21.83920
+Motor Front : 235
+Motor Back : 764
+Pitch Angle:  -19.03799
+Measured Pitch:  -21.75125
+Motor Front : 237
+Motor Back : 762
+Pitch Angle:  -19.21335
+Measured Pitch:  -21.68312
+Motor Front : 242
+Motor Back : 757
+Pitch Angle:  -18.74653
+Measured Pitch:  -21.61739
+Motor Front : 245
+Motor Back : 754
+Pitch Angle:  -19.69102
+Measured Pitch:  -21.58216
+Motor Front : 249
+Motor Back : 750
+Pitch Angle:  -21.33958
+Measured Pitch:  -21.59199
+Motor Front : 254
+Motor Back : 745
+Pitch Angle:  -20.13633
+Measured Pitch:  -21.58616
+Motor Front : 258
+Motor Back : 741
+Pitch Angle:  -21.06404
+Measured Pitch:  -21.60847
+Motor Front : 263
+Motor Back : 736
+Pitch Angle:  -20.26494
+Measured Pitch:  -21.62146
+Motor Front : 267
+Motor Back : 732
+Pitch Angle:  -22.27577
+Measured Pitch:  -21.67725
+Motor Front : 270
+Motor Back : 729
+Pitch Angle:  -22.74446
+Measured Pitch:  -21.74247
+Motor Front : 273
+Motor Back : 726
+Pitch Angle:  -23.40346
+Measured Pitch:  -21.82084
+Motor Front : 276
+Motor Back : 723
+Pitch Angle:  -23.91245
+Measured Pitch:  -21.90654
+Motor Front : 277
+Motor Back : 722
+Pitch Angle:  -23.96828
+Measured Pitch:  -21.98976
+Motor Front : 279
+Motor Back : 720
+Pitch Angle:  -24.66795
+Measured Pitch:  -22.07943
+Motor Front : 279
+Motor Back : 720
+Pitch Angle:  -23.89380
+Measured Pitch:  -22.14474
+Motor Front : 278
+Motor Back : 721
+Pitch Angle:  -25.81288
+Measured Pitch:  -22.23726
+Motor Front : 276
+Motor Back : 723
+Pitch Angle:  -25.31264
+Measured Pitch:  -22.30987
+Motor Front : 274
+Motor Back : 725
+Pitch Angle:  -24.95287
+Measured Pitch:  -22.36005
+Motor Front : 269
+Motor Back : 730
+Pitch Angle:  -25.42176
+Measured Pitch:  -22.40545
+Motor Front : 264
+Motor Back : 735
+Pitch Angle:  -25.29227
+Measured Pitch:  -22.43582
+Motor Front : 260
+Motor Back : 739
+Pitch Angle:  -24.50717
+Measured Pitch:  -22.44287
+Motor Front : 256
+Motor Back : 743
+Pitch Angle:  -24.61536
+Measured Pitch:  -22.44219
+Motor Front : 252
+Motor Back : 747
+Pitch Angle:  -24.25524
+Measured Pitch:  -22.42754
+Motor Front : 255
+Motor Back : 744
+Pitch Angle:  -24.41802
+Measured Pitch:  -22.41175
+Motor Front : 253
+Motor Back : 746
+Pitch Angle:  -24.12753
+Measured Pitch:  -22.38624
+Motor Front : 250
+Motor Back : 749
+Pitch Angle:  -22.66234
+Measured Pitch:  -22.33009
+Motor Front : 247
+Motor Back : 752
+Pitch Angle:  -23.31085
+Measured Pitch:  -22.28571
+Motor Front : 245
+Motor Back : 754
+Pitch Angle:  -22.64760
+Measured Pitch:  -22.22634
+Motor Front : 242
+Motor Back : 757
+Pitch Angle:  -22.16728
+Measured Pitch:  -22.16173
+Motor Front : 241
+Motor Back : 758
+Pitch Angle:  -20.88479
+Measured Pitch:  -22.07504
+Motor Front : 240
+Motor Back : 759
+Pitch Angle:  -20.92752
+Measured Pitch:  -21.99640
+Motor Front : 423
+Motor Back : 576
+Pitch Angle:  -20.83006
+Measured Pitch:  -21.92645
+Motor Front : 425
+Motor Back : 574
+Pitch Angle:  -19.56019
+Measured Pitch:  -21.84346
+Motor Front : 428
+Motor Back : 571
+Pitch Angle:  -23.56176
+Measured Pitch:  -21.84688
+Motor Front : 430
+Motor Back : 569
+Pitch Angle:  -21.16583
+Measured Pitch:  -21.78309
+Motor Front : 419
+Motor Back : 580
+Pitch Angle:  -23.65039
+Measured Pitch:  -21.74676
+Motor Front : 407
+Motor Back : 592
+Pitch Angle:  -23.03135
+Measured Pitch:  -21.66105
+Motor Front : 386
+Motor Back : 613
+Pitch Angle:  -22.96936
+Measured Pitch:  -21.54554
+Motor Front : 369
+Motor Back : 630
+Pitch Angle:  -23.12455
+Measured Pitch:  -21.39562
+Motor Front : 345
+Motor Back : 654
+Pitch Angle:  -22.41538
+Measured Pitch:  -21.18799
+Motor Front : 753
+Motor Back : 246
+Pitch Angle:  -21.23915
+Measured Pitch:  -20.92496
+Motor Front : 728
+Motor Back : 271
+Pitch Angle:  -21.14568
+Measured Pitch:  -20.62895
+Motor Front : 702
+Motor Back : 297
+Pitch Angle:  -24.39304
+Measured Pitch:  -20.37268
+Motor Front : 680
+Motor Back : 319
+Pitch Angle:  -24.74910
+Measured Pitch:  -20.04507
+Motor Front : 630
+Motor Back : 369
+Pitch Angle:  -24.50542
+Measured Pitch:  -19.62173
+Motor Front : 573
+Motor Back : 426
+Pitch Angle:  -26.58419
+Measured Pitch:  -19.14377
+Motor Front : 508
+Motor Back : 491
+Pitch Angle:  -23.79822
+Measured Pitch:  -18.53808
+Motor Front : 451
+Motor Back : 548
+Pitch Angle:  -24.05647
+Measured Pitch:  -17.84910
+Motor Front : 383
+Motor Back : 616
+Pitch Angle:  -20.27005
+Measured Pitch:  -16.99231
+Motor Front : 307
+Motor Back : 692
+Pitch Angle:  -20.25470
+Measured Pitch:  -16.07006
+Motor Front : 240
+Motor Back : 759
+Pitch Angle:  -18.79717
+Measured Pitch:  -15.08505
+Motor Front : 186
+Motor Back : 813
+Pitch Angle:  -15.12697
+Measured Pitch:  -13.98966
+Motor Front : 127
+Motor Back : 872
+Pitch Angle:  -12.70371
+Measured Pitch:  -12.83690
+Motor Front : 77
+Motor Back : 922
+Pitch Angle:   -7.45560
+Measured Pitch:  -11.59276
+Motor Front : 35
+Motor Back : 964
+Pitch Angle:   -7.05765
+Measured Pitch:  -10.38308
+Motor Front : 7
+Motor Back : 992
+Pitch Angle:   -4.31208
+Measured Pitch:   -9.16257
+Motor Front : -19
+Motor Back : 1000
+Pitch Angle:    0.17485
+Measured Pitch:   -7.93783
+Motor Front : -26
+Motor Back : 1000
+Pitch Angle:    0.96775
+Measured Pitch:   -6.80655
+Motor Front : -21
+Motor Back : 1000
+Pitch Angle:    6.14980
+Measured Pitch:   -5.68821
+Motor Front : -8
+Motor Back : 1000
+Pitch Angle:    5.12508
+Measured Pitch:   -4.69743
+Motor Front : 0
+Motor Back : 1000
+Pitch Angle:    5.76757
+Measured Pitch:   -3.83726
+Motor Front : 32
+Motor Back : 967
+Pitch Angle:    7.62739
+Measured Pitch:   -3.09051
+Motor Front : 74
+Motor Back : 925
+Pitch Angle:    6.25048
+Measured Pitch:   -2.53898
+Motor Front : 128
+Motor Back : 871
+Pitch Angle:    6.32314
+Measured Pitch:   -2.08508
+Motor Front : 157
+Motor Back : 842
+Pitch Angle:    6.72743
+Measured Pitch:   -1.77916
+Motor Front : 217
+Motor Back : 782
+Pitch Angle:    5.55020
+Measured Pitch:   -1.64350
+Motor Front : 280
+Motor Back : 719
+Pitch Angle:    3.61002
+Measured Pitch:   -1.67463
+Motor Front : 340
+Motor Back : 659
+Pitch Angle:    2.35711
+Measured Pitch:   -1.80776
+Motor Front : 381
+Motor Back : 618
+Pitch Angle:    0.67446
+Measured Pitch:   -2.08024
+Motor Front : 440
+Motor Back : 559
+Pitch Angle:   -1.50655
+Measured Pitch:   -2.47486
+Motor Front : 488
+Motor Back : 511
+Pitch Angle:   -3.59316
+Measured Pitch:   -2.96405
+Motor Front : 837
+Motor Back : 162
+Pitch Angle:   -6.86262
+Measured Pitch:   -3.54495
+Motor Front : 871
+Motor Back : 128
+Pitch Angle:   -9.29378
+Measured Pitch:   -4.17130
+Motor Front : 895
+Motor Back : 104
+Pitch Angle:  -12.23618
+Measured Pitch:   -4.83981
+Motor Front : 913
+Motor Back : 86
+Pitch Angle:  -15.77554
+Measured Pitch:   -5.50348
+Motor Front : 903
+Motor Back : 96
+Pitch Angle:  -17.73828
+Measured Pitch:   -6.10307
+Motor Front : 879
+Motor Back : 120
+Pitch Angle:  -19.22734
+Measured Pitch:   -6.64641
+Motor Front : 860
+Motor Back : 139
+Pitch Angle:  -18.10302
+Measured Pitch:   -7.02604
+Motor Front : 810
+Motor Back : 189
+Pitch Angle:  -20.56317
+Measured Pitch:   -7.31397
+Motor Front : 1000
+Motor Back : -36
+Pitch Angle:  -17.37631
+Measured Pitch:   -7.38598
+Motor Front : 969
+Motor Back : 30
+Pitch Angle:  -18.91160
+Measured Pitch:   -7.39168
+Motor Front : 924
+Motor Back : 75
+Pitch Angle:  -19.06050
+Measured Pitch:   -7.25133
+Motor Front : 849
+Motor Back : 150
+Pitch Angle:  -15.79693
+Measured Pitch:   -6.88777
+Motor Front : 762
+Motor Back : 237
+Pitch Angle:  -16.28110
+Measured Pitch:   -6.38206
+Motor Front : 672
+Motor Back : 327
+Pitch Angle:  -12.34494
+Measured Pitch:   -5.70161
+Motor Front : 602
+Motor Back : 397
+Pitch Angle:  -11.35978
+Measured Pitch:   -4.87020
+Motor Front : 509
+Motor Back : 490
+Pitch Angle:   -9.67826
+Measured Pitch:   -3.89601
+Motor Front : 596
+Motor Back : 403
+Pitch Angle:   -3.34232
+Measured Pitch:   -2.71210
+Motor Front : 512
+Motor Back : 487
+Pitch Angle:   -0.91985
+Measured Pitch:   -1.42990
+Motor Front : 438
+Motor Back : 561
+Pitch Angle:    3.67727
+Measured Pitch:   -0.03625
+Motor Front : 375
+Motor Back : 624
+Pitch Angle:    5.94559
+Measured Pitch:    1.42938
+Motor Front : 309
+Motor Back : 690
+Pitch Angle:    9.37596
+Measured Pitch:    2.95125
+Motor Front : 251
+Motor Back : 748
+Pitch Angle:   14.00175
+Measured Pitch:    4.53204
+Motor Front : 205
+Motor Back : 794
+Pitch Angle:   15.31225
+Measured Pitch:    6.09436
+Motor Front : 163
+Motor Back : 836
+Pitch Angle:   19.40581
+Measured Pitch:    7.67437
+Motor Front : 313
+Motor Back : 686
+Pitch Angle:   21.54602
+Measured Pitch:    9.18969
+Motor Front : 300
+Motor Back : 699
+Pitch Angle:   22.79827
+Measured Pitch:   10.60914
+Motor Front : 299
+Motor Back : 700
+Pitch Angle:   22.97238
+Measured Pitch:   11.90034
+Motor Front : 310
+Motor Back : 689
+Pitch Angle:   24.19314
+Measured Pitch:   13.11865
+Motor Front : 304
+Motor Back : 695
+Pitch Angle:   23.82900
+Measured Pitch:   14.20272
+Motor Front : 323
+Motor Back : 676
+Pitch Angle:   23.68571
+Measured Pitch:   15.15328
+Motor Front : 346
+Motor Back : 653
+Pitch Angle:   23.06906
+Measured Pitch:   15.96480
+Motor Front : 372
+Motor Back : 627
+Pitch Angle:   22.96810
+Measured Pitch:   16.68531
+Motor Front : 554
+Motor Back : 445
+Pitch Angle:   22.08299
+Measured Pitch:   17.26736
+Motor Front : 587
+Motor Back : 412
+Pitch Angle:   20.50411
+Measured Pitch:   17.70635
+Motor Front : 621
+Motor Back : 378
+Pitch Angle:   17.82296
+Measured Pitch:   17.99989
+Motor Front : 651
+Motor Back : 348
+Pitch Angle:   16.71216
+Measured Pitch:   18.22663
+Motor Front : 663
+Motor Back : 336
+Pitch Angle:   14.86749
+Measured Pitch:   18.37276
+Motor Front : 677
+Motor Back : 322
+Pitch Angle:   13.22162
+Measured Pitch:   18.45583
+Motor Front : 688
+Motor Back : 311
+Pitch Angle:   11.35065
+Measured Pitch:   18.49745
+Motor Front : 688
+Motor Back : 311
+Pitch Angle:   11.06068
+Measured Pitch:   18.53296
+Motor Front : 686
+Motor Back : 313
+Pitch Angle:    9.93137
+Measured Pitch:   18.55459
+Motor Front : 681
+Motor Back : 318
+Pitch Angle:   10.06898
+Measured Pitch:   18.60331
+Motor Front : 668
+Motor Back : 331
+Pitch Angle:    9.79994
+Measured Pitch:   18.67038
+Motor Front : 654
+Motor Back : 345
+Pitch Angle:    9.83899
+Measured Pitch:   18.76576
+Motor Front : 638
+Motor Back : 361
+Pitch Angle:   11.53674
+Measured Pitch:   18.91179
+Motor Front : 624
+Motor Back : 375
+Pitch Angle:   11.55316
+Measured Pitch:   19.08659
+Motor Front : 607
+Motor Back : 392
+Pitch Angle:   14.89418
+Measured Pitch:   19.34556
+Motor Front : 587
+Motor Back : 412
+Pitch Angle:   15.19056
+Measured Pitch:   19.61632
+Motor Front : 574
+Motor Back : 425
+Pitch Angle:   16.82440
+Measured Pitch:   19.92297
+Motor Front : 561
+Motor Back : 438
+Pitch Angle:   19.73351
+Measured Pitch:   20.27938
+Motor Front : 550
+Motor Back : 449
+Pitch Angle:   20.96858
+Measured Pitch:   20.64200
+Motor Front : 545
+Motor Back : 454
+Pitch Angle:   24.06527
+Measured Pitch:   21.04036
+Motor Front : 542
+Motor Back : 457
+Pitch Angle:   24.69707
+Measured Pitch:   21.41098
+Motor Front : 546
+Motor Back : 453
+Pitch Angle:   26.38521
+Measured Pitch:   21.78678
+Motor Front : 545
+Motor Back : 454
+Pitch Angle:   28.39623
+Measured Pitch:   22.15184
+Motor Front : 554
+Motor Back : 445
+Pitch Angle:   29.31519
+Measured Pitch:   22.47955
+Motor Front : 567
+Motor Back : 432
+Pitch Angle:   31.22062
+Measured Pitch:   22.78470
+Motor Front : 584
+Motor Back : 415
+Pitch Angle:   31.63951
+Measured Pitch:   23.05467
+Motor Front : 594
+Motor Back : 405
+Pitch Angle:   32.10757
+Measured Pitch:   23.26760
+Motor Front : 616
+Motor Back : 383
+Pitch Angle:   32.78366
+Measured Pitch:   23.43215
+Motor Front : 638
+Motor Back : 361
+Pitch Angle:   32.58963
+Measured Pitch:   23.53051
+Motor Front : 663
+Motor Back : 336
+Pitch Angle:   32.07154
+Measured Pitch:   23.57850
+Motor Front : 680
+Motor Back : 319
+Pitch Angle:   31.69388
+Measured Pitch:   23.56913
+Motor Front : 703
+Motor Back : 296
+Pitch Angle:   30.61410
+Measured Pitch:   23.49471
+Motor Front : 726
+Motor Back : 273
+Pitch Angle:   29.20579
+Measured Pitch:   23.36110
+Motor Front : 746
+Motor Back : 253
+Pitch Angle:   28.64094
+Measured Pitch:   23.20177
+Motor Front : 759
+Motor Back : 240
+Pitch Angle:   26.59487
+Measured Pitch:   22.98489
+Motor Front : 775
+Motor Back : 224
+Pitch Angle:   24.89125
+Measured Pitch:   22.73259
+Motor Front : 785
+Motor Back : 214
+Pitch Angle:   23.07223
+Measured Pitch:   22.45153
+Motor Front : 792
+Motor Back : 207
+Pitch Angle:   21.71066
+Measured Pitch:   22.16205
+Motor Front : 794
+Motor Back : 205
+Pitch Angle:   19.93506
+Measured Pitch:   21.85757
+Motor Front : 797
+Motor Back : 202
+Pitch Angle:   16.95641
+Measured Pitch:   21.52756
+Motor Front : 793
+Motor Back : 206
+Pitch Angle:   16.05547
+Measured Pitch:   21.22658
+Motor Front : 783
+Motor Back : 216
+Pitch Angle:   14.30723
+Measured Pitch:   20.94315
+Motor Front : 769
+Motor Back : 230
+Pitch Angle:   13.36126
+Measured Pitch:   20.68243
+Motor Front : 760
+Motor Back : 239
+Pitch Angle:   11.93886
+Measured Pitch:   20.45439
+Motor Front : 741
+Motor Back : 258
+Pitch Angle:   13.14982
+Measured Pitch:   20.31324
+Motor Front : 717
+Motor Back : 282
+Pitch Angle:   12.01613
+Measured Pitch:   20.20851
+Motor Front : 694
+Motor Back : 305
+Pitch Angle:   11.57891
+Measured Pitch:   20.13549
+Motor Front : 678
+Motor Back : 321
+Pitch Angle:   12.11813
+Measured Pitch:   20.13074
+Motor Front : 652
+Motor Back : 347
+Pitch Angle:   12.38245
+Measured Pitch:   20.18084
+Motor Front : 627
+Motor Back : 372
+Pitch Angle:   12.78218
+Measured Pitch:   20.28043
+Motor Front : 603
+Motor Back : 396
+Pitch Angle:   13.95943
+Measured Pitch:   20.42830
+Motor Front : 586
+Motor Back : 413
+Pitch Angle:   15.31170
+Measured Pitch:   20.63135
+Motor Front : 566
+Motor Back : 433
+Pitch Angle:   16.40011
+Measured Pitch:   20.87606
+Motor Front : 547
+Motor Back : 452
+Pitch Angle:   18.30512
+Measured Pitch:   21.16866
+Motor Front : 531
+Motor Back : 468
+Pitch Angle:   19.13063
+Measured Pitch:   21.47299
+Motor Front : 521
+Motor Back : 478
+Pitch Angle:   21.71890
+Measured Pitch:   21.81877
+Motor Front : 513
+Motor Back : 486
+Pitch Angle:   22.53939
+Measured Pitch:   22.15962
+Motor Front : 518
+Motor Back : 481
+Pitch Angle:   23.59628
+Measured Pitch:   22.48633
+Motor Front : 521
+Motor Back : 478
+Pitch Angle:   25.53620
+Measured Pitch:   22.80701
+Motor Front : 529
+Motor Back : 470
+Pitch Angle:   27.04381
+Measured Pitch:   23.12228
+Motor Front : 533
+Motor Back : 466
+Pitch Angle:   28.64239
+Measured Pitch:   23.41281
+Motor Front : 548
+Motor Back : 451
+Pitch Angle:   28.92068
+Measured Pitch:   23.64800
+Motor Front : 569
+Motor Back : 430
+Pitch Angle:   29.74482
+Measured Pitch:   23.83356
+Motor Front : 591
+Motor Back : 408
+Pitch Angle:   30.46978
+Measured Pitch:   23.98900
+Motor Front : 606
+Motor Back : 393
+Pitch Angle:   30.33210
+Measured Pitch:   24.07910
+Motor Front : 631
+Motor Back : 368
+Pitch Angle:   30.87322
+Measured Pitch:   24.12159
+Motor Front : 657
+Motor Back : 342
+Pitch Angle:   30.22582
+Measured Pitch:   24.09459
+Motor Front : 677
+Motor Back : 322
+Pitch Angle:   29.95569
+Measured Pitch:   24.03439
+Motor Front : 692
+Motor Back : 307
+Pitch Angle:   29.21538
+Measured Pitch:   23.91496
+Motor Front : 717
+Motor Back : 282
+Pitch Angle:   28.18169
+Measured Pitch:   23.74053
+Motor Front : 740
+Motor Back : 259
+Pitch Angle:   27.41076
+Measured Pitch:   23.52962
+Motor Front : 756
+Motor Back : 243
+Pitch Angle:   26.31330
+Measured Pitch:   23.28334
+Motor Front : 774
+Motor Back : 225
+Pitch Angle:   25.18978
+Measured Pitch:   23.01408
+Motor Front : 785
+Motor Back : 214
+Pitch Angle:   24.13988
+Measured Pitch:   22.72896
+Motor Front : 793
+Motor Back : 206
+Pitch Angle:   22.68657
+Measured Pitch:   22.42477
+Motor Front : 800
+Motor Back : 199
+Pitch Angle:   20.27084
+Measured Pitch:   22.09978
+Motor Front : 800
+Motor Back : 199
+Pitch Angle:   20.47722
+Measured Pitch:   21.80204
+Motor Front : 801
+Motor Back : 198
+Pitch Angle:   19.10514
+Measured Pitch:   21.51411
+Motor Front : 795
+Motor Back : 204
+Pitch Angle:   17.89950
+Measured Pitch:   21.24552
+Motor Front : 785
+Motor Back : 214
+Pitch Angle:   15.92416
+Measured Pitch:   20.98595
+Motor Front : 772
+Motor Back : 227
+Pitch Angle:   14.77625
+Measured Pitch:   20.74039
+Motor Front : 764
+Motor Back : 235
+Pitch Angle:   14.02847
+Measured Pitch:   20.53495
+Motor Front : 747
+Motor Back : 252
+Pitch Angle:   15.21612
+Measured Pitch:   20.41104
+Motor Front : 725
+Motor Back : 274
+Pitch Angle:   15.61762
+Measured Pitch:   20.34979
+Motor Front : 702
+Motor Back : 297
+Pitch Angle:   14.30674
+Measured Pitch:   20.31382
+Motor Front : 680
+Motor Back : 319
+Pitch Angle:   14.89044
+Measured Pitch:   20.32298
+Motor Front : 664
+Motor Back : 335
+Pitch Angle:   15.48896
+Measured Pitch:   20.38798
+Motor Front : 641
+Motor Back : 358
+Pitch Angle:   14.99770
+Measured Pitch:   20.47823
+Motor Front : 621
+Motor Back : 378
+Pitch Angle:   17.51893
+Measured Pitch:   20.65185
+Motor Front : 599
+Motor Back : 400
+Pitch Angle:   17.99791
+Measured Pitch:   20.84820
+Motor Front : 585
+Motor Back : 414
+Pitch Angle:   17.67216
+Measured Pitch:   21.05330
+Motor Front : 570
+Motor Back : 429
+Pitch Angle:   20.87775
+Measured Pitch:   21.33220
+Motor Front : 555
+Motor Back : 444
+Pitch Angle:   20.93593
+Measured Pitch:   21.60773
+Motor Front : 547
+Motor Back : 452
+Pitch Angle:   22.36644
+Measured Pitch:   21.90388
+Motor Front : 539
+Motor Back : 460
+Pitch Angle:   23.00481
+Measured Pitch:   22.19542
+Motor Front : 535
+Motor Back : 464
+Pitch Angle:   24.01863
+Measured Pitch:   22.47746
+Motor Front : 538
+Motor Back : 461
+Pitch Angle:   25.53323
+Measured Pitch:   22.75812
+Motor Front : 543
+Motor Back : 456
+Pitch Angle:   26.28368
+Measured Pitch:   23.02272
+Motor Front : 546
+Motor Back : 453
+Pitch Angle:   27.45249
+Measured Pitch:   23.26538
+Motor Front : 558
+Motor Back : 441
+Pitch Angle:   27.38233
+Measured Pitch:   23.46016
+Motor Front : 572
+Motor Back : 427
+Pitch Angle:   27.42922
+Measured Pitch:   23.60547
+Motor Front : 590
+Motor Back : 409
+Pitch Angle:   28.52089
+Measured Pitch:   23.72127
+Motor Front : 609
+Motor Back : 390
+Pitch Angle:   27.25139
+Measured Pitch:   23.77522
+Motor Front : 624
+Motor Back : 375
+Pitch Angle:   27.64449
+Measured Pitch:   23.79468
+Motor Front : 643
+Motor Back : 356
+Pitch Angle:   27.20375
+Measured Pitch:   23.76064
+Motor Front : 665
+Motor Back : 334
+Pitch Angle:   26.52655
+Measured Pitch:   23.68023
+Motor Front : 683
+Motor Back : 316
+Pitch Angle:   25.99612
+Measured Pitch:   23.56934
+Motor Front : 697
+Motor Back : 302
+Pitch Angle:   25.50690
+Measured Pitch:   23.42323
+Motor Front : 714
+Motor Back : 285
+Pitch Angle:   24.91913
+Measured Pitch:   23.25159
+Motor Front : 719
+Motor Back : 280
+Pitch Angle:   23.75937
+Measured Pitch:   23.04477
+Motor Front : 731
+Motor Back : 268
+Pitch Angle:   23.44446
+Measured Pitch:   22.83850
+Motor Front : 738
+Motor Back : 261
+Pitch Angle:   22.10609
+Measured Pitch:   22.60829
+Motor Front : 746
+Motor Back : 253
+Pitch Angle:   21.18456
+Measured Pitch:   22.37221
+Motor Front : 749
+Motor Back : 250
+Pitch Angle:   21.08965
+Measured Pitch:   22.15025
+Motor Front : 750
+Motor Back : 249
+Pitch Angle:   20.84159
+Measured Pitch:   21.94919
+Motor Front : 746
+Motor Back : 253
+Pitch Angle:   19.47642
+Measured Pitch:   21.73783
+Motor Front : 747
+Motor Back : 252
+Pitch Angle:   20.24421
+Measured Pitch:   21.56784
+Motor Front : 748
+Motor Back : 251
+Pitch Angle:   19.97168
+Measured Pitch:   21.42316
+Motor Front : 740
+Motor Back : 259
+Pitch Angle:   17.95188
+Measured Pitch:   21.26809
+Motor Front : 732
+Motor Back : 267
+Pitch Angle:   18.70943
+Measured Pitch:   21.15323
+Motor Front : 725
+Motor Back : 274
+Pitch Angle:   18.12519
+Measured Pitch:   21.05927
+Motor Front : 713
+Motor Back : 286
+Pitch Angle:   18.61327
+Measured Pitch:   21.00953
+Motor Front : 699
+Motor Back : 300
+Pitch Angle:   18.48952
+Measured Pitch:   20.98902
+Motor Front : 685
+Motor Back : 314
+Pitch Angle:   17.70915
+Measured Pitch:   20.97193
+Motor Front : 677
+Motor Back : 322
+Pitch Angle:   19.42901
+Measured Pitch:   21.01645
+Motor Front : 670
+Motor Back : 329
+Pitch Angle:   19.59948
+Measured Pitch:   21.08791
+Motor Front : 656
+Motor Back : 343
+Pitch Angle:   19.36691
+Measured Pitch:   21.17260
+Motor Front : 645
+Motor Back : 354
+Pitch Angle:   20.37951
+Measured Pitch:   21.28610
+Motor Front : 636
+Motor Back : 363
+Pitch Angle:   20.82508
+Measured Pitch:   21.42093
+Motor Front : 626
+Motor Back : 373
+Pitch Angle:   21.32829
+Measured Pitch:   21.57255
+Motor Front : 616
+Motor Back : 383
+Pitch Angle:   21.70275
+Measured Pitch:   21.73279
+Motor Front : 610
+Motor Back : 389
+Pitch Angle:   22.61625
+Measured Pitch:   21.90716
+Motor Front : 605
+Motor Back : 394
+Pitch Angle:   23.01058
+Measured Pitch:   22.08166
+Motor Front : 595
+Motor Back : 404
+Pitch Angle:   23.47511
+Measured Pitch:   22.25529
+Motor Front : 593
+Motor Back : 406
+Pitch Angle:   24.04302
+Measured Pitch:   22.42238
+Motor Front : 594
+Motor Back : 405
+Pitch Angle:   24.52847
+Measured Pitch:   22.57798
+Motor Front : 598
+Motor Back : 401
+Pitch Angle:   24.32574
+Measured Pitch:   22.71330
+Motor Front : 600
+Motor Back : 399
+Pitch Angle:   24.42088
+Measured Pitch:   22.82684
+Motor Front : 607
+Motor Back : 392
+Pitch Angle:   25.57052
+Measured Pitch:   22.93909
+Motor Front : 614
+Motor Back : 385
+Pitch Angle:   25.13452
+Measured Pitch:   23.01424
+Motor Front : 624
+Motor Back : 375
+Pitch Angle:   24.48355
+Measured Pitch:   23.05934
+Motor Front : 630
+Motor Back : 369
+Pitch Angle:   25.19207
+Measured Pitch:   23.09554
+Motor Front : 639
+Motor Back : 360
+Pitch Angle:   24.46888
+Measured Pitch:   23.09450
+Motor Front : 650
+Motor Back : 349
+Pitch Angle:   24.35556
+Measured Pitch:   23.07144
+Motor Front : 660
+Motor Back : 339
+Pitch Angle:   24.08030
+Measured Pitch:   23.02432
+Motor Front : 670
+Motor Back : 329
+Pitch Angle:   23.51631
+Measured Pitch:   22.95780
+Motor Front : 677
+Motor Back : 322
+Pitch Angle:   23.43318
+Measured Pitch:   22.87988
+Motor Front : 684
+Motor Back : 315
+Pitch Angle:   22.89955
+Measured Pitch:   22.78343
+Motor Front : 692
+Motor Back : 307
+Pitch Angle:   22.42633
+Measured Pitch:   22.67544
+Motor Front : 697
+Motor Back : 302
+Pitch Angle:   22.41572
+Measured Pitch:   22.56803
+Motor Front : 700
+Motor Back : 299
+Pitch Angle:   21.81694
+Measured Pitch:   22.45024
+Motor Front : 704
+Motor Back : 295
+Pitch Angle:   20.75184
+Measured Pitch:   22.32088
+Motor Front : 705
+Motor Back : 294
+Pitch Angle:   20.61900
+Measured Pitch:   22.19923
+Motor Front : 705
+Motor Back : 294
+Pitch Angle:   19.42765
+Measured Pitch:   22.06130
+Motor Front : 706
+Motor Back : 293
+Pitch Angle:   21.22220
+Measured Pitch:   21.97623
+Motor Front : 702
+Motor Back : 297
+Pitch Angle:   19.45401
+Measured Pitch:   21.86987
+Motor Front : 699
+Motor Back : 300
+Pitch Angle:   19.09395
+Measured Pitch:   21.77530
+Motor Front : 694
+Motor Back : 305
+Pitch Angle:   20.30084
+Measured Pitch:   21.72459
+Motor Front : 694
+Motor Back : 305
+Pitch Angle:   19.90680
+Measured Pitch:   21.67728
+Motor Front : 691
+Motor Back : 308
+Pitch Angle:   21.14423
+Measured Pitch:   21.67281
+Motor Front : 683
+Motor Back : 316
+Pitch Angle:   19.66042
+Measured Pitch:   21.65445
+Motor Front : 676
+Motor Back : 323
+Pitch Angle:   20.05099
+Measured Pitch:   21.65848
+Motor Front : 669
+Motor Back : 330
+Pitch Angle:   22.30430
+Measured Pitch:   21.71572
+Motor Front : 664
+Motor Back : 335
+Pitch Angle:   20.92043
+Measured Pitch:   21.75754
+Motor Front : 656
+Motor Back : 343
+Pitch Angle:   20.92731
+Measured Pitch:   21.80561
+Motor Front : 651
+Motor Back : 348
+Pitch Angle:   22.48460
+Measured Pitch:   21.89162
+Motor Front : 638
+Motor Back : 361
+Pitch Angle:   21.98066
+Measured Pitch:   21.96868
+Motor Front : 635
+Motor Back : 364
+Pitch Angle:   23.37607
+Measured Pitch:   22.07059
+Motor Front : 632
+Motor Back : 367
+Pitch Angle:   22.61602
+Measured Pitch:   22.15508
+Motor Front : 630
+Motor Back : 369
+Pitch Angle:   23.47100
+Measured Pitch:   22.24731
+Motor Front : 631
+Motor Back : 368
+Pitch Angle:   23.19047
+Measured Pitch:   22.32456
+Motor Front : 632
+Motor Back : 367
+Pitch Angle:   24.37817
+Measured Pitch:   22.41566
+Motor Front : 633
+Motor Back : 366
+Pitch Angle:   23.86077
+Measured Pitch:   22.48421
+Motor Front : 636
+Motor Back : 363
+Pitch Angle:   24.78390
+Measured Pitch:   22.55515
+Motor Front : 641
+Motor Back : 358
+Pitch Angle:   23.85076
+Measured Pitch:   22.59154
+Motor Front : 646
+Motor Back : 353
+Pitch Angle:   24.33258
+Measured Pitch:   22.62821
+Motor Front : 649
+Motor Back : 350
+Pitch Angle:   23.41459
+Measured Pitch:   22.63218
+Motor Front : 656
+Motor Back : 343
+Pitch Angle:   23.21317
+Measured Pitch:   22.61882
+Motor Front : 662
+Motor Back : 337
+Pitch Angle:   23.65746
+Measured Pitch:   22.60493
+Motor Front : 667
+Motor Back : 332
+Pitch Angle:   23.84189
+Measured Pitch:   22.58715
+Motor Front : 672
+Motor Back : 327
+Pitch Angle:   23.35741
+Measured Pitch:   22.55560
+Motor Front : 675
+Motor Back : 324
+Pitch Angle:   23.18178
+Measured Pitch:   22.51558
+Motor Front : 679
+Motor Back : 320
+Pitch Angle:   23.06468
+Measured Pitch:   22.46772
+Motor Front : 683
+Motor Back : 316
+Pitch Angle:   21.68991
+Measured Pitch:   22.39848
+Motor Front : 683
+Motor Back : 316
+Pitch Angle:   21.49211
+Measured Pitch:   22.32768
+Motor Front : 684
+Motor Back : 315
+Pitch Angle:   20.67333
+Measured Pitch:   22.24159
+Motor Front : 687
+Motor Back : 312
+Pitch Angle:   21.16183
+Measured Pitch:   22.17846
+Motor Front : 683
+Motor Back : 316
+Pitch Angle:   21.78045
+Measured Pitch:   22.13193
+Motor Front : 683
+Motor Back : 316
+Pitch Angle:   19.79300
+Measured Pitch:   22.05569
+Motor Front : 681
+Motor Back : 318
+Pitch Angle:   21.04322
+Measured Pitch:   22.01626
+Motor Front : 671
+Motor Back : 328
+Pitch Angle:   19.77877
+Measured Pitch:   21.96181
+Motor Front : 668
+Motor Back : 331
+Pitch Angle:   20.87150
+Measured Pitch:   21.94412
+Motor Front : 662
+Motor Back : 337
+Pitch Angle:   21.55337
+Measured Pitch:   21.94393
+Motor Front : 660
+Motor Back : 339
+Pitch Angle:   20.46293
+Measured Pitch:   21.93081
+Motor Front : 656
+Motor Back : 343
+Pitch Angle:   21.84147
+Measured Pitch:   21.95212
+Motor Front : 653
+Motor Back : 346
+Pitch Angle:   20.86912
+Measured Pitch:   21.95687
+Motor Front : 651
+Motor Back : 348
+Pitch Angle:   22.42539
+Measured Pitch:   21.99761
+Motor Front : 647
+Motor Back : 352
+Pitch Angle:   21.59031
+Measured Pitch:   22.01898
+Motor Front : 648
+Motor Back : 351
+Pitch Angle:   22.88426
+Measured Pitch:   22.07104
+Motor Front : 552
+Motor Back : 447
+Pitch Angle:   22.26027
+Measured Pitch:   22.10521
+Motor Front : 553
+Motor Back : 446
+Pitch Angle:   23.16076
+Measured Pitch:   22.15652
+Motor Front : 552
+Motor Back : 447
+Pitch Angle:   23.70808
+Measured Pitch:   22.21460
+Motor Front : 552
+Motor Back : 447
+Pitch Angle:   24.20350
+Measured Pitch:   22.26242
+Motor Front : 559
+Motor Back : 440
+Pitch Angle:   23.86157
+Measured Pitch:   22.27936
+Motor Front : 569
+Motor Back : 430
+Pitch Angle:   25.22888
+Measured Pitch:   22.29653
+Motor Front : 581
+Motor Back : 418
+Pitch Angle:   24.21811
+Measured Pitch:   22.26979
+Motor Front : 594
+Motor Back : 405
+Pitch Angle:   24.74978
+Measured Pitch:   22.22588
+Motor Front : 538
+Motor Back : 461
+Pitch Angle:   24.82643
+Measured Pitch:   22.15408
+Motor Front : 554
+Motor Back : 445
+Pitch Angle:   23.91802
+Measured Pitch:   22.03531
+Motor Front : 572
+Motor Back : 427
+Pitch Angle:   24.61885
+Measured Pitch:   21.90457
+Motor Front : 590
+Motor Back : 409
+Pitch Angle:   24.19281
+Measured Pitch:   21.74574
+Motor Front : 605
+Motor Back : 394
+Pitch Angle:   23.49322
+Measured Pitch:   21.54471
+Motor Front : 626
+Motor Back : 373
+Pitch Angle:   23.27536
+Measured Pitch:   21.31160
+Motor Front : 648
+Motor Back : 351
+Pitch Angle:   21.99615
+Measured Pitch:   21.03162
+Motor Front : 668
+Motor Back : 331
+Pitch Angle:   21.79781
+Measured Pitch:   20.74018
+Motor Front : 627
+Motor Back : 372
+Pitch Angle:   21.08227
+Measured Pitch:   20.42377
+Motor Front : 644
+Motor Back : 355
+Pitch Angle:   19.76206
+Measured Pitch:   20.08342
+Motor Front : 656
+Motor Back : 343
+Pitch Angle:   19.10002
+Measured Pitch:   19.73441
+Motor Front : 668
+Motor Back : 331
+Pitch Angle:   18.41843
+Measured Pitch:   19.37863
+Motor Front : 679
+Motor Back : 320
+Pitch Angle:   17.71632
+Measured Pitch:   19.01880
+Motor Front : 688
+Motor Back : 311
+Pitch Angle:   17.45091
+Measured Pitch:   18.67084
+Motor Front : 694
+Motor Back : 305
+Pitch Angle:   16.84787
+Measured Pitch:   18.32953
+Motor Front : 699
+Motor Back : 300
+Pitch Angle:   15.56129
+Measured Pitch:   17.98226
+Motor Front : 703
+Motor Back : 296
+Pitch Angle:   15.22769
+Measured Pitch:   17.65488
+Motor Front : 569
+Motor Back : 430
+Pitch Angle:   14.79014
+Measured Pitch:   17.34088
+Motor Front : 567
+Motor Back : 432
+Pitch Angle:   13.89259
+Measured Pitch:   17.04998
+Motor Front : 564
+Motor Back : 435
+Pitch Angle:   15.75749
+Measured Pitch:   16.83037
+Motor Front : 557
+Motor Back : 442
+Pitch Angle:   15.37283
+Measured Pitch:   16.61461
+Motor Front : 560
+Motor Back : 439
+Pitch Angle:   15.54939
+Measured Pitch:   16.41546
+Motor Front : 562
+Motor Back : 437
+Pitch Angle:   16.73683
+Measured Pitch:   16.24922
+Motor Front : 565
+Motor Back : 434
+Pitch Angle:   16.11045
+Measured Pitch:   16.06910
+Motor Front : 572
+Motor Back : 427
+Pitch Angle:   16.56247
+Measured Pitch:   15.90048
+Motor Front : 437
+Motor Back : 562
+Pitch Angle:   16.12175
+Measured Pitch:   15.72250
+Motor Front : 444
+Motor Back : 555
+Pitch Angle:   16.16764
+Measured Pitch:   15.54538
+Motor Front : 452
+Motor Back : 547
+Pitch Angle:   17.73816
+Measured Pitch:   15.39256
+Motor Front : 461
+Motor Back : 538
+Pitch Angle:   17.57438
+Measured Pitch:   15.21114
+Motor Front : 480
+Motor Back : 519
+Pitch Angle:   17.37483
+Measured Pitch:   15.01036
+Motor Front : 495
+Motor Back : 504
+Pitch Angle:   17.87944
+Measured Pitch:   14.79081
+Motor Front : 517
+Motor Back : 482
+Pitch Angle:   17.24128
+Measured Pitch:   14.52697
+Motor Front : 542
+Motor Back : 457
+Pitch Angle:   16.50076
+Measured Pitch:   14.21950
+Motor Front : 237
+Motor Back : 762
+Pitch Angle:   15.93200
+Measured Pitch:   13.88568
+Motor Front : 257
+Motor Back : 742
+Pitch Angle:   15.27748
+Measured Pitch:   13.51853
+Motor Front : 281
+Motor Back : 718
+Pitch Angle:   17.87327
+Measured Pitch:   13.18032
+Motor Front : 306
+Motor Back : 693
+Pitch Angle:   17.12499
+Measured Pitch:   12.76806
+Motor Front : 349
+Motor Back : 650
+Pitch Angle:   16.92580
+Measured Pitch:   12.29598
+Motor Front : 393
+Motor Back : 606
+Pitch Angle:   17.40669
+Measured Pitch:   11.79493
+Motor Front : 431
+Motor Back : 568
+Pitch Angle:   14.66647
+Measured Pitch:   11.17535
+Motor Front : 487
+Motor Back : 512
+Pitch Angle:   13.96341
+Measured Pitch:   10.48883
+Motor Front : 536
+Motor Back : 463
+Pitch Angle:   13.83702
+Measured Pitch:    9.75416
+Motor Front : 586
+Motor Back : 413
+Pitch Angle:    9.91103
+Measured Pitch:    8.92662
+Motor Front : 625
+Motor Back : 374
+Pitch Angle:    8.46342
+Measured Pitch:    8.05812
+Motor Front : 664
+Motor Back : 335
+Pitch Angle:    5.42315
+Measured Pitch:    7.11222
+Motor Front : 700
+Motor Back : 299
+Pitch Angle:    3.16135
+Measured Pitch:    6.16350
+Motor Front : 726
+Motor Back : 273
+Pitch Angle:    2.03005
+Measured Pitch:    5.22490
+Motor Front : 748
+Motor Back : 251
+Pitch Angle:   -0.97761
+Measured Pitch:    4.28174
+Motor Front : 759
+Motor Back : 240
+Pitch Angle:   -2.52182
+Measured Pitch:    3.37855
+Motor Front : 761
+Motor Back : 238
+Pitch Angle:   -4.88265
+Measured Pitch:    2.50969
+Motor Front : 756
+Motor Back : 243
+Pitch Angle:   -5.68164
+Measured Pitch:    1.72740
+Motor Front : 741
+Motor Back : 258
+Pitch Angle:   -6.83464
+Measured Pitch:    0.99761
+Motor Front : 734
+Motor Back : 265
+Pitch Angle:   -8.12920
+Measured Pitch:    0.34889
+Motor Front : 709
+Motor Back : 290
+Pitch Angle:   -7.55173
+Measured Pitch:   -0.17450
+Motor Front : 678
+Motor Back : 321
+Pitch Angle:   -7.90906
+Measured Pitch:   -0.59097
+Motor Front : 641
+Motor Back : 358
+Pitch Angle:   -8.85395
+Measured Pitch:   -0.95220
+Motor Front : 621
+Motor Back : 378
+Pitch Angle:   -8.03568
+Measured Pitch:   -1.18863
+Motor Front : 580
+Motor Back : 419
+Pitch Angle:   -5.86744
+Measured Pitch:   -1.28118
+Motor Front : 537
+Motor Back : 462
+Pitch Angle:   -6.56445
+Measured Pitch:   -1.30280
+Motor Front : 499
+Motor Back : 500
+Pitch Angle:   -3.95555
+Measured Pitch:   -1.21783
+Motor Front : 471
+Motor Back : 528
+Pitch Angle:   -3.17013
+Measured Pitch:   -1.04817
+Motor Front : 432
+Motor Back : 567
+Pitch Angle:   -2.72735
+Measured Pitch:   -0.81596
+Motor Front : 398
+Motor Back : 601
+Pitch Angle:   -0.59348
+Measured Pitch:   -0.50127
+Motor Front : 367
+Motor Back : 632
+Pitch Angle:    0.80943
+Measured Pitch:   -0.14361
+Motor Front : 347
+Motor Back : 652
+Pitch Angle:    3.06418
+Measured Pitch:    0.27367
+Motor Front : 324
+Motor Back : 675
+Pitch Angle:    3.63742
+Measured Pitch:    0.69818
+Motor Front : 309
+Motor Back : 690
+Pitch Angle:    5.10708
+Measured Pitch:    1.13841
+Motor Front : 299
+Motor Back : 700
+Pitch Angle:    6.79014
+Measured Pitch:    1.58968
+Motor Front : 292
+Motor Back : 707
+Pitch Angle:    6.88989
+Measured Pitch:    2.00365
+Motor Front : 294
+Motor Back : 705
+Pitch Angle:    8.22589
+Measured Pitch:    2.39647
+Motor Front : 301
+Motor Back : 698
+Pitch Angle:    8.57652
+Measured Pitch:    2.73684
+Motor Front : 315
+Motor Back : 684
+Pitch Angle:    8.53326
+Measured Pitch:    3.01514
+Motor Front : 332
+Motor Back : 667
+Pitch Angle:    9.27776
+Measured Pitch:    3.26418
+Motor Front : 343
+Motor Back : 656
+Pitch Angle:    8.86833
+Measured Pitch:    3.43750
+Motor Front : 367
+Motor Back : 632
+Pitch Angle:    8.09460
+Measured Pitch:    3.53435
+Motor Front : 392
+Motor Back : 607
+Pitch Angle:    7.71676
+Measured Pitch:    3.56372
+Motor Front : 419
+Motor Back : 580
+Pitch Angle:    5.92467
+Measured Pitch:    3.51895
+Motor Front : 438
+Motor Back : 561
+Pitch Angle:    5.74712
+Measured Pitch:    3.42813
+Motor Front : 461
+Motor Back : 538
+Pitch Angle:    4.15494
+Measured Pitch:    3.26622
+Motor Front : 485
+Motor Back : 514
+Pitch Angle:    3.29609
+Measured Pitch:    3.06232
+Motor Front : 505
+Motor Back : 494
+Pitch Angle:    1.83673
+Measured Pitch:    2.82233
+Motor Front : 517
+Motor Back : 482
+Pitch Angle:    0.81137
+Measured Pitch:    2.55175
+Motor Front : 532
+Motor Back : 467
+Pitch Angle:   -0.89394
+Measured Pitch:    2.25082
+Motor Front : 542
+Motor Back : 457
+Pitch Angle:   -1.40855
+Measured Pitch:    1.95295
+Motor Front : 547
+Motor Back : 452
+Pitch Angle:   -1.75874
+Measured Pitch:    1.66217
+Motor Front : 552
+Motor Back : 447
+Pitch Angle:   -3.35128
+Measured Pitch:    1.36369
+Motor Front : 553
+Motor Back : 446
+Pitch Angle:   -3.04780
+Measured Pitch:    1.10650
+Motor Front : 546
+Motor Back : 453
+Pitch Angle:   -3.76122
+Measured Pitch:    0.87074
+Motor Front : 539
+Motor Back : 460
+Pitch Angle:   -3.80858
+Measured Pitch:    0.66361
+Motor Front : 533
+Motor Back : 466
+Pitch Angle:   -3.75527
+Measured Pitch:    0.49918
+Motor Front : 521
+Motor Back : 478
+Pitch Angle:   -3.49682
+Measured Pitch:    0.37992
+Motor Front : 507
+Motor Back : 492
+Pitch Angle:   -3.03833
+Measured Pitch:    0.30907
+Motor Front : 491
+Motor Back : 508
+Pitch Angle:   -3.05835
+Measured Pitch:    0.27608
+Motor Front : 475
+Motor Back : 524
+Pitch Angle:   -1.77329
+Measured Pitch:    0.29137
+Motor Front : 464
+Motor Back : 535
+Pitch Angle:   -1.49044
+Measured Pitch:    0.33895
+Motor Front : 450
+Motor Back : 549
+Pitch Angle:    0.10938
+Measured Pitch:    0.44320
+Motor Front : 435
+Motor Back : 564
+Pitch Angle:    0.53166
+Measured Pitch:    0.56945
+Motor Front : 423
+Motor Back : 576
+Pitch Angle:    1.43884
+Measured Pitch:    0.71972
+Motor Front : 415
+Motor Back : 584
+Pitch Angle:    2.49674
+Measured Pitch:    0.89573
+Motor Front : 406
+Motor Back : 593
+Pitch Angle:    3.25255
+Measured Pitch:    1.08253
+Motor Front : 401
+Motor Back : 598
+Pitch Angle:    4.57291
+Measured Pitch:    1.28358
+Motor Front : 399
+Motor Back : 600
+Pitch Angle:    5.49977
+Measured Pitch:    1.49207
+Motor Front : 396
+Motor Back : 603
+Pitch Angle:    5.92728
+Measured Pitch:    1.68710
+Motor Front : 398
+Motor Back : 601
+Pitch Angle:    6.35961
+Measured Pitch:    1.86210
+Motor Front : 405
+Motor Back : 594
+Pitch Angle:    7.07966
+Measured Pitch:    2.02208
+Motor Front : 412
+Motor Back : 587
+Pitch Angle:    7.20242
+Measured Pitch:    2.16116
+Motor Front : 418
+Motor Back : 581
+Pitch Angle:    7.04167
+Measured Pitch:    2.26414
+Motor Front : 429
+Motor Back : 570
+Pitch Angle:    6.63651
+Measured Pitch:    2.32728
+Motor Front : 441
+Motor Back : 558
+Pitch Angle:    6.08234
+Measured Pitch:    2.34904
+Motor Front : 454
+Motor Back : 545
+Pitch Angle:    6.10683
+Measured Pitch:    2.35400
+Motor Front : 462
+Motor Back : 537
+Pitch Angle:    5.38587
+Measured Pitch:    2.32080
+Motor Front : 474
+Motor Back : 525
+Pitch Angle:    4.43795
+Measured Pitch:    2.24936
+Motor Front : 486
+Motor Back : 513
+Pitch Angle:    3.56687
+Measured Pitch:    2.14601
+Motor Front : 497
+Motor Back : 502
+Pitch Angle:    2.66343
+Measured Pitch:    2.02032
+Motor Front : 503
+Motor Back : 496
+Pitch Angle:    1.91288
+Measured Pitch:    1.87806
+Motor Front : 510
+Motor Back : 489
+Pitch Angle:    0.17311
+Measured Pitch:    1.70536
+Motor Front : 514
+Motor Back : 485
+Pitch Angle:    0.01458
+Measured Pitch:    1.54021
+Motor Front : 516
+Motor Back : 483
+Pitch Angle:   -1.32239
+Measured Pitch:    1.36348
+Motor Front : 515
+Motor Back : 484
+Pitch Angle:   -1.45774
+Measured Pitch:    1.19963
+Motor Front : 514
+Motor Back : 485
+Pitch Angle:   -2.65695
+Measured Pitch:    1.03324
+Motor Front : 511
+Motor Back : 488
+Pitch Angle:   -2.79204
+Measured Pitch:    0.89261
+Motor Front : 503
+Motor Back : 496
+Pitch Angle:   -3.34805
+Measured Pitch:    0.76911
+Motor Front : 495
+Motor Back : 504
+Pitch Angle:   -3.94370
+Measured Pitch:    0.65512
+Motor Front : 489
+Motor Back : 510
+Pitch Angle:   -3.20048
+Measured Pitch:    0.58912
+Motor Front : 477
+Motor Back : 522
+Pitch Angle:   -3.65961
+Measured Pitch:    0.54099
+Motor Front : 466
+Motor Back : 533
+Pitch Angle:   -3.61477
+Measured Pitch:    0.52473
+Motor Front : 452
+Motor Back : 547
+Pitch Angle:   -2.81877
+Measured Pitch:    0.54176
+Motor Front : 443
+Motor Back : 556
+Pitch Angle:   -2.80985
+Measured Pitch:    0.58136
+Motor Front : 431
+Motor Back : 568
+Pitch Angle:   -1.80420
+Measured Pitch:    0.65843
+Motor Front : 420
+Motor Back : 579
+Pitch Angle:   -1.66419
+Measured Pitch:    0.75266
+Motor Front : 410
+Motor Back : 589
+Pitch Angle:   -0.80539
+Measured Pitch:    0.86990
+Motor Front : 403
+Motor Back : 596
+Pitch Angle:    0.13588
+Measured Pitch:    1.00700
+Motor Front : 397
+Motor Back : 602
+Pitch Angle:    1.09891
+Measured Pitch:    1.16217
+Motor Front : 392
+Motor Back : 607
+Pitch Angle:    1.97169
+Measured Pitch:    1.32615
+Motor Front : 389
+Motor Back : 610
+Pitch Angle:    3.56705
+Measured Pitch:    1.51232
+Motor Front : 387
+Motor Back : 612
+Pitch Angle:    3.40423
+Measured Pitch:    1.67249
+Motor Front : 391
+Motor Back : 608
+Pitch Angle:    4.67633
+Measured Pitch:    1.83523
+Motor Front : 396
+Motor Back : 603
+Pitch Angle:    5.45418
+Measured Pitch:    1.98556
+Motor Front : 403
+Motor Back : 596
+Pitch Angle:    5.20936
+Measured Pitch:    2.10905
+Motor Front : 408
+Motor Back : 591
+Pitch Angle:    6.47319
+Measured Pitch:    2.23058
+Motor Front : 416
+Motor Back : 583
+Pitch Angle:    6.15049
+Measured Pitch:    2.31044
+Motor Front : 430
+Motor Back : 569
+Pitch Angle:    5.95181
+Measured Pitch:    2.35569
+Motor Front : 442
+Motor Back : 557
+Pitch Angle:    6.44680
+Measured Pitch:    2.37960
+Motor Front : 456
+Motor Back : 543
+Pitch Angle:    5.74978
+Measured Pitch:    2.36879
+Motor Front : 466
+Motor Back : 533
+Pitch Angle:    6.12919
+Measured Pitch:    2.34428
+Motor Front : 477
+Motor Back : 522
+Pitch Angle:    5.05948
+Measured Pitch:    2.27479
+Motor Front : 490
+Motor Back : 509
+Pitch Angle:    4.20062
+Measured Pitch:    2.17656
+Motor Front : 499
+Motor Back : 500
+Pitch Angle:    3.83852
+Measured Pitch:    2.06442
+Motor Front : 507
+Motor Back : 492
+Pitch Angle:    3.65089
+Measured Pitch:    1.94101
+Motor Front : 515
+Motor Back : 484
+Pitch Angle:    2.87040
+Measured Pitch:    1.80055
+Motor Front : 521
+Motor Back : 478
+Pitch Angle:    1.95531
+Measured Pitch:    1.64724
+Motor Front : 524
+Motor Back : 475
+Pitch Angle:    1.63793
+Measured Pitch:    1.49670
+Motor Front : 526
+Motor Back : 473
+Pitch Angle:    0.85505
+Measured Pitch:    1.34262
+Motor Front : 526
+Motor Back : 473
+Pitch Angle:    0.27216
+Measured Pitch:    1.19691
+Motor Front : 522
+Motor Back : 477
+Pitch Angle:   -0.52884
+Measured Pitch:    1.05644
+Motor Front : 518
+Motor Back : 481
+Pitch Angle:   -1.31693
+Measured Pitch:    0.91788
+Motor Front : 515
+Motor Back : 484
+Pitch Angle:   -1.18468
+Measured Pitch:    0.80837
+Motor Front : 507
+Motor Back : 492
+Pitch Angle:   -2.34947
+Measured Pitch:    0.70563
+Motor Front : 497
+Motor Back : 502
+Pitch Angle:   -2.58742
+Measured Pitch:    0.62824
+Motor Front : 486
+Motor Back : 513
+Pitch Angle:   -2.06510
+Measured Pitch:    0.58158
+Motor Front : 479
+Motor Back : 520
+Pitch Angle:   -2.50100
+Measured Pitch:    0.55475
+Motor Front : 466
+Motor Back : 533
+Pitch Angle:   -2.49735
+Measured Pitch:    0.55468
+Motor Front : 454
+Motor Back : 545
+Pitch Angle:   -2.38952
+Measured Pitch:    0.57816
+Motor Front : 443
+Motor Back : 556
+Pitch Angle:   -2.43156
+Measured Pitch:    0.62092
+Motor Front : 432
+Motor Back : 567
+Pitch Angle:   -1.72662
+Measured Pitch:    0.68954
+Motor Front : 424
+Motor Back : 575
+Pitch Angle:   -1.69869
+Measured Pitch:    0.77275
+Motor Front : 414
+Motor Back : 585
+Pitch Angle:   -1.22619
+Measured Pitch:    0.87538
+Motor Front : 406
+Motor Back : 593
+Pitch Angle:   -0.41913
+Measured Pitch:    0.99847
+Motor Front : 399
+Motor Back : 600
+Pitch Angle:    0.93267
+Measured Pitch:    1.14745
+Motor Front : 394
+Motor Back : 605
+Pitch Angle:    0.74754
+Measured Pitch:    1.28911
+Motor Front : 390
+Motor Back : 609
+Pitch Angle:    1.93215
+Measured Pitch:    1.44183
+Motor Front : 390
+Motor Back : 609
+Pitch Angle:    1.79662
+Measured Pitch:    1.57635
+Motor Front : 392
+Motor Back : 607
+Pitch Angle:    3.02217
+Measured Pitch:    1.72636
+Motor Front : 390
+Motor Back : 609
+Pitch Angle:    3.63901
+Measured Pitch:    1.86855
+Motor Front : 394
+Motor Back : 605
+Pitch Angle:    2.89119
+Measured Pitch:    1.97136
+Motor Front : 401
+Motor Back : 598
+Pitch Angle:    4.28007
+Measured Pitch:    2.07931
+Motor Front : 408
+Motor Back : 591
+Pitch Angle:    4.22297
+Measured Pitch:    2.16706
+Motor Front : 413
+Motor Back : 586
+Pitch Angle:    4.50721
+Measured Pitch:    2.23433
+Motor Front : 423
+Motor Back : 576
+Pitch Angle:    4.72267
+Measured Pitch:    2.27688
+Motor Front : 435
+Motor Back : 564
+Pitch Angle:    4.80247
+Measured Pitch:    2.29544
+Motor Front : 446
+Motor Back : 553
+Pitch Angle:    4.79011
+Measured Pitch:    2.29637
+Motor Front : 454
+Motor Back : 545
+Pitch Angle:    4.53673
+Measured Pitch:    2.26867
+Motor Front : 466
+Motor Back : 533
+Pitch Angle:    4.72750
+Measured Pitch:    2.22613
+Motor Front : 476
+Motor Back : 523
+Pitch Angle:    4.17356
+Measured Pitch:    2.15623
+Motor Front : 487
+Motor Back : 512
+Pitch Angle:    4.03980
+Measured Pitch:    2.07274
+Motor Front : 495
+Motor Back : 504
+Pitch Angle:    3.37655
+Measured Pitch:    1.97027
+Motor Front : 501
+Motor Back : 498
+Pitch Angle:    2.33981
+Measured Pitch:    1.84019
+Motor Front : 510
+Motor Back : 489
+Pitch Angle:    2.73691
+Measured Pitch:    1.72034
+Motor Front : 512
+Motor Back : 487
+Pitch Angle:    1.71296
+Measured Pitch:    1.58396
+Motor Front : 517
+Motor Back : 482
+Pitch Angle:    1.10242
+Measured Pitch:    1.44387
+Motor Front : 518
+Motor Back : 481
+Pitch Angle:    1.32603
+Measured Pitch:    1.32364
+Motor Front : 516
+Motor Back : 483
+Pitch Angle:    0.26436
+Measured Pitch:    1.19565
+Motor Front : 514
+Motor Back : 485
+Pitch Angle:    0.45630
+Measured Pitch:    1.09139
+Motor Front : 509
+Motor Back : 490
+Pitch Angle:   -0.27108
+Measured Pitch:    0.98470
+Motor Front : 508
+Motor Back : 491
+Pitch Angle:   -0.63423
+Measured Pitch:    0.89311
+Motor Front : 501
+Motor Back : 498
+Pitch Angle:   -0.38644
+Measured Pitch:    0.83050
+Motor Front : 492
+Motor Back : 507
+Pitch Angle:   -0.84883
+Measured Pitch:    0.78313
+Motor Front : 483
+Motor Back : 516
+Pitch Angle:   -1.23122
+Measured Pitch:    0.74304
+Motor Front : 477
+Motor Back : 522
+Pitch Angle:   -0.73939
+Measured Pitch:    0.73544
+Motor Front : 467
+Motor Back : 532
+Pitch Angle:   -1.30537
+Measured Pitch:    0.73611
+Motor Front : 458
+Motor Back : 541
+Pitch Angle:   -1.08858
+Measured Pitch:    0.76053
+Motor Front : 448
+Motor Back : 551
+Pitch Angle:   -0.46782
+Measured Pitch:    0.80912
+Motor Front : 440
+Motor Back : 559
+Pitch Angle:   -0.98536
+Measured Pitch:    0.85967
+Motor Front : 433
+Motor Back : 566
+Pitch Angle:    0.17999
+Measured Pitch:    0.94541
+Motor Front : 424
+Motor Back : 575
+Pitch Angle:    0.09810
+Measured Pitch:    1.03249
+Motor Front : 419
+Motor Back : 580
+Pitch Angle:    0.60082
+Measured Pitch:    1.13197
+Motor Front : 414
+Motor Back : 585
+Pitch Angle:    1.10593
+Measured Pitch:    1.24172
+Motor Front : 410
+Motor Back : 589
+Pitch Angle:    1.59114
+Measured Pitch:    1.35476
+Motor Front : 408
+Motor Back : 591
+Pitch Angle:    1.92947
+Measured Pitch:    1.46728
+Motor Front : 408
+Motor Back : 591
+Pitch Angle:    1.36421
+Measured Pitch:    1.55953
+Motor Front : 408
+Motor Back : 591
+Pitch Angle:    2.11967
+Measured Pitch:    1.65502
+Motor Front : 410
+Motor Back : 589
+Pitch Angle:    2.42885
+Measured Pitch:    1.74290
+Motor Front : 413
+Motor Back : 586
+Pitch Angle:    2.45577
+Measured Pitch:    1.81380
+Motor Front : 418
+Motor Back : 581
+Pitch Angle:    3.14288
+Measured Pitch:    1.88833
+Motor Front : 420
+Motor Back : 579
+Pitch Angle:    2.01559
+Measured Pitch:    1.92006
+Motor Front : 428
+Motor Back : 571
+Pitch Angle:    3.48666
+Measured Pitch:    1.96456
+Motor Front : 434
+Motor Back : 565
+Pitch Angle:    3.46743
+Measured Pitch:    1.98928
+Motor Front : 442
+Motor Back : 557
+Pitch Angle:    2.70368
+Measured Pitch:    1.98115
+Motor Front : 451
+Motor Back : 548
+Pitch Angle:    2.93335
+Measured Pitch:    1.96787
+Motor Front : 456
+Motor Back : 543
+Pitch Angle:    2.90119
+Measured Pitch:    1.93747
+Motor Front : 465
+Motor Back : 534
+Pitch Angle:    2.28365
+Measured Pitch:    1.88331
+Motor Front : 472
+Motor Back : 527
+Pitch Angle:    2.61889
+Measured Pitch:    1.82556
+Motor Front : 479
+Motor Back : 520
+Pitch Angle:    1.48972
+Measured Pitch:    1.74059
+Motor Front : 484
+Motor Back : 515
+Pitch Angle:    2.59735
+Measured Pitch:    1.67602
+Motor Front : 488
+Motor Back : 511
+Pitch Angle:    1.55074
+Measured Pitch:    1.58599
+Motor Front : 493
+Motor Back : 506
+Pitch Angle:    2.16903
+Measured Pitch:    1.51135
+Motor Front : 495
+Motor Back : 504
+Pitch Angle:    1.64527
+Measured Pitch:    1.42906
+Motor Front : 497
+Motor Back : 502
+Pitch Angle:    1.25482
+Measured Pitch:    1.34547
+Motor Front : 497
+Motor Back : 502
+Pitch Angle:    1.50092
+Measured Pitch:    1.27792
+Motor Front : 495
+Motor Back : 504
+Pitch Angle:    0.75635
+Measured Pitch:    1.20468
+Motor Front : 493
+Motor Back : 506
+Pitch Angle:    0.75491
+Measured Pitch:    1.14113
+Motor Front : 491
+Motor Back : 508
+Pitch Angle:    0.90415
+Measured Pitch:    1.09291
+Motor Front : 487
+Motor Back : 512
+Pitch Angle:    0.43969
+Measured Pitch:    1.05019
+Motor Front : 482
+Motor Back : 517
+Pitch Angle:    0.58057
+Measured Pitch:    1.02556
+Motor Front : 476
+Motor Back : 523
+Pitch Angle:    0.53915
+Measured Pitch:    1.01048
+Motor Front : 472
+Motor Back : 527
+Pitch Angle:    0.18651
+Measured Pitch:    1.00257
+Motor Front : 465
+Motor Back : 534
+Pitch Angle:    0.87034
+Measured Pitch:    1.01950
+Motor Front : 460
+Motor Back : 539
+Pitch Angle:    0.15656
+Measured Pitch:    1.03395
+Motor Front : 453
+Motor Back : 546
+Pitch Angle:    0.73946
+Measured Pitch:    1.06864
+Motor Front : 448
+Motor Back : 551
+Pitch Angle:    0.73169
+Measured Pitch:    1.10722
+Motor Front : 445
+Motor Back : 554
+Pitch Angle:    0.96684
+Measured Pitch:    1.15775
+Motor Front : 440
+Motor Back : 559
+Pitch Angle:    1.46288
+Measured Pitch:    1.22046
+Motor Front : 436
+Motor Back : 563
+Pitch Angle:    1.24483
+Measured Pitch:    1.28146
+Motor Front : 432
+Motor Back : 567
+Pitch Angle:    1.60089
+Measured Pitch:    1.34966
+Motor Front : 430
+Motor Back : 569
+Pitch Angle:    1.46096
+Measured Pitch:    1.41327
+Motor Front : 428
+Motor Back : 571
+Pitch Angle:    1.69742
+Measured Pitch:    1.47927
+Motor Front : 427
+Motor Back : 572
+Pitch Angle:    1.50799
+Measured Pitch:    1.53510
+Motor Front : 427
+Motor Back : 572
+Pitch Angle:    1.86361
+Measured Pitch:    1.59644
+Motor Front : 426
+Motor Back : 573
+Pitch Angle:    2.14023
+Measured Pitch:    1.65364
+Motor Front : 428
+Motor Back : 571
+Pitch Angle:    1.14124
+Measured Pitch:    1.68437
+Motor Front : 430
+Motor Back : 569
+Pitch Angle:    2.57700
+Measured Pitch:    1.73881
+Motor Front : 430
+Motor Back : 569
+Pitch Angle:    1.55488
+Measured Pitch:    1.76255
+Motor Front : 434
+Motor Back : 565
+Pitch Angle:    2.75090
+Measured Pitch:    1.80689
+Motor Front : 434
+Motor Back : 565
+Pitch Angle:    2.46891
+Measured Pitch:    1.83228
+Motor Front : 439
+Motor Back : 560
+Pitch Angle:    0.82398
+Measured Pitch:    1.81624
+Motor Front : 443
+Motor Back : 556
+Pitch Angle:    3.31543
+Measured Pitch:    1.84499
+Motor Front : 445
+Motor Back : 554
+Pitch Angle:    1.31350
+Measured Pitch:    1.82220
+Motor Front : 451
+Motor Back : 548
+Pitch Angle:    2.55505
+Measured Pitch:    1.82286
+Motor Front : 451
+Motor Back : 548
+Pitch Angle:    2.33065
+Measured Pitch:    1.80772
+Motor Front : 457
+Motor Back : 542
+Pitch Angle:    1.69568
+Measured Pitch:    1.77445
+Motor Front : 461
+Motor Back : 538
+Pitch Angle:    2.69623
+Measured Pitch:    1.75937
+Motor Front : 463
+Motor Back : 536
+Pitch Angle:    1.31245
+Measured Pitch:    1.71153
+Motor Front : 467
+Motor Back : 532
+Pitch Angle:    2.32834
+Measured Pitch:    1.68309
+Motor Front : 468
+Motor Back : 531
+Pitch Angle:    1.64792
+Measured Pitch:    1.63902
+Motor Front : 471
+Motor Back : 528
+Pitch Angle:    1.90227
+Measured Pitch:    1.59967
+Motor Front : 473
+Motor Back : 526
+Pitch Angle:    1.94088
+Measured Pitch:    1.56168
+Motor Front : 474
+Motor Back : 525
+Pitch Angle:    1.82287
+Measured Pitch:    1.52312
+Motor Front : 475
+Motor Back : 524
+Pitch Angle:    0.93934
+Measured Pitch:    1.47091
+Motor Front : 475
+Motor Back : 524
+Pitch Angle:    1.65275
+Measured Pitch:    1.43286
+Motor Front : 476
+Motor Back : 523
+Pitch Angle:    0.95794
+Measured Pitch:    1.38328
+Motor Front : 477
+Motor Back : 522
+Pitch Angle:    1.65630
+Measured Pitch:    1.35255
+Motor Front : 476
+Motor Back : 523
+Pitch Angle:    0.85444
+Measured Pitch:    1.30671
+Motor Front : 477
+Motor Back : 522
+Pitch Angle:    1.50271
+Measured Pitch:    1.27956
+Motor Front : 476
+Motor Back : 523
+Pitch Angle:    1.25034
+Measured Pitch:    1.25143
+Motor Front : 475
+Motor Back : 524
+Pitch Angle:    1.21743
+Measured Pitch:    1.22587
+Motor Front : 475
+Motor Back : 524
+Pitch Angle:    1.35043
+Measured Pitch:    1.21067
+Motor Front : 472
+Motor Back : 527
+Pitch Angle:    1.38381
+Measured Pitch:    1.20036
+Motor Front : 470
+Motor Back : 529
+Pitch Angle:    0.98599
+Measured Pitch:    1.19011
+Motor Front : 467
+Motor Back : 532
+Pitch Angle:    1.38904
+Measured Pitch:    1.19470
+Motor Front : 463
+Motor Back : 536
+Pitch Angle:    1.02954
+Measured Pitch:    1.19572
+Motor Front : 462
+Motor Back : 537
+Pitch Angle:    1.02682
+Measured Pitch:    1.20159
+Motor Front : 459
+Motor Back : 540
+Pitch Angle:    1.00365
+Measured Pitch:    1.21058
+Motor Front : 457
+Motor Back : 542
+Pitch Angle:    0.84074
+Measured Pitch:    1.22333
+Motor Front : 453
+Motor Back : 546
+Pitch Angle:    1.14777
+Measured Pitch:    1.24453
+Motor Front : 452
+Motor Back : 547
+Pitch Angle:    0.85564
+Measured Pitch:    1.26164
+Motor Front : 450
+Motor Back : 549
+Pitch Angle:    1.54932
+Measured Pitch:    1.29357
+Motor Front : 448
+Motor Back : 551
+Pitch Angle:    0.99364
+Measured Pitch:    1.31451
+Motor Front : 447
+Motor Back : 552
+Pitch Angle:    1.69403
+Measured Pitch:    1.35134
+Motor Front : 445
+Motor Back : 554
+Pitch Angle:    1.74925
+Measured Pitch:    1.38707
+Motor Front : 445
+Motor Back : 554
+Pitch Angle:    1.57804
+Measured Pitch:    1.41618
+Motor Front : 445
+Motor Back : 554
+Pitch Angle:    0.84869
+Measured Pitch:    1.42794
+Motor Front : 446
+Motor Back : 553
+Pitch Angle:    1.45815
+Measured Pitch:    1.45020
+Motor Front : 446
+Motor Back : 553
+Pitch Angle:    1.75147
+Measured Pitch:    1.47372
+Motor Front : 447
+Motor Back : 552
+Pitch Angle:    1.02709
+Measured Pitch:    1.47920
+Motor Front : 448
+Motor Back : 551
+Pitch Angle:    2.00027
+Measured Pitch:    1.50302
+Motor Front : 448
+Motor Back : 551
+Pitch Angle:    1.18471
+Measured Pitch:    1.50715
+Motor Front : 449
+Motor Back : 550
+Pitch Angle:    1.52006
+Measured Pitch:    1.51606
+Motor Front : 450
+Motor Back : 549
+Pitch Angle:    1.52156
+Measured Pitch:    1.52400
+Motor Front : 450
+Motor Back : 549
+Pitch Angle:    0.54029
+Measured Pitch:    1.50803
+Motor Front : 453
+Motor Back : 546
+Pitch Angle:    1.87008
+Measured Pitch:    1.52021
+Motor Front : 452
+Motor Back : 547
+Pitch Angle:    1.56561
+Measured Pitch:    1.52091
+Motor Front : 454
+Motor Back : 545
+Pitch Angle:    2.07543
+Measured Pitch:    1.53118
+Motor Front : 454
+Motor Back : 545
+Pitch Angle:    1.50180
+Measured Pitch:    1.53018
+Motor Front : 454
+Motor Back : 545
+Pitch Angle:    1.73854
+Measured Pitch:    1.52734
+Motor Front : 457
+Motor Back : 542
+Pitch Angle:    1.69283
+Measured Pitch:    1.52468
+Motor Front : 457
+Motor Back : 542
+Pitch Angle:    2.39170
+Measured Pitch:    1.53357
+Motor Front : 457
+Motor Back : 542
+Pitch Angle:    1.62001
+Measured Pitch:    1.51862
+Motor Front : 462
+Motor Back : 537
+Pitch Angle:    1.92335
+Measured Pitch:    1.50632
+Motor Front : 464
+Motor Back : 535
+Pitch Angle:    1.32478
+Measured Pitch:    1.47860
+Motor Front : 467
+Motor Back : 532
+Pitch Angle:    2.01789
+Measured Pitch:    1.46283
+Motor Front : 468
+Motor Back : 531
+Pitch Angle:    1.33010
+Measured Pitch:    1.43299
+Motor Front : 469
+Motor Back : 530
+Pitch Angle:    1.46954
+Measured Pitch:    1.40995
+Motor Front : 468
+Motor Back : 531
+Pitch Angle:    1.87176
+Measured Pitch:    1.39777
+Motor Front : 468
+Motor Back : 531
+Pitch Angle:    1.57543
+Measured Pitch:    1.37971
+Motor Front : 468
+Motor Back : 531
+Pitch Angle:    1.51186
+Measured Pitch:    1.36233
+Motor Front : 468
+Motor Back : 531
+Pitch Angle:    1.86401
+Measured Pitch:    1.35441
+Motor Front : 467
+Motor Back : 532
+Pitch Angle:    1.92219
+Measured Pitch:    1.34621
+Motor Front : 468
+Motor Back : 531
+Pitch Angle:    1.73409
+Measured Pitch:    1.33373
+Motor Front : 469
+Motor Back : 530
+Pitch Angle:    1.14621
+Measured Pitch:    1.31011
+Motor Front : 470
+Motor Back : 529
+Pitch Angle:    2.04363
+Measured Pitch:    1.31011
+Motor Front : 467
+Motor Back : 532
+Pitch Angle:    1.59742
+Measured Pitch:    1.30368
+Motor Front : 466
+Motor Back : 533
+Pitch Angle:    1.42142
+Measured Pitch:    1.29984
+Motor Front : 463
+Motor Back : 536
+Pitch Angle:    1.34743
+Measured Pitch:    1.29666
+Motor Front : 463
+Motor Back : 536
+Pitch Angle:    1.62519
+Measured Pitch:    1.30158
+Motor Front : 461
+Motor Back : 538
+Pitch Angle:    1.76272
+Measured Pitch:    1.31309
+Motor Front : 459
+Motor Back : 540
+Pitch Angle:    1.74418
+Measured Pitch:    1.32339
+Motor Front : 459
+Motor Back : 540
+Pitch Angle:    1.35586
+Measured Pitch:    1.32735
+Motor Front : 458
+Motor Back : 541
+Pitch Angle:    1.89511
+Measured Pitch:    1.34117
+Motor Front : 458
+Motor Back : 541
+Pitch Angle:    0.49218
+Measured Pitch:    1.32626
+Motor Front : 459
+Motor Back : 540
+Pitch Angle:    1.12886
+Measured Pitch:    1.32728
+Motor Front : 457
+Motor Back : 542
+Pitch Angle:    0.80348
+Measured Pitch:    1.32248
+Motor Front : 457
+Motor Back : 542
+Pitch Angle:    0.72341
+Measured Pitch:    1.32247
+Motor Front : 454
+Motor Back : 545
+Pitch Angle:    0.46761
+Measured Pitch:    1.32062
+Motor Front : 453
+Motor Back : 546
+Pitch Angle:    0.62540
+Measured Pitch:    1.32608
+Motor Front : 451
+Motor Back : 548
+Pitch Angle:    0.70979
+Measured Pitch:    1.33952
+Motor Front : 447
+Motor Back : 552
+Pitch Angle:    0.55331
+Measured Pitch:    1.35449
+Motor Front : 444
+Motor Back : 555
+Pitch Angle:    0.39831
+Measured Pitch:    1.36669
+Motor Front : 444
+Motor Back : 555
+Pitch Angle:    0.82501
+Measured Pitch:    1.38717
+Motor Front : 443
+Motor Back : 556
+Pitch Angle:    1.01893
+Measured Pitch:    1.41313
+Motor Front : 441
+Motor Back : 558
+Pitch Angle:    0.67114
+Measured Pitch:    1.43062
+Motor Front : 441
+Motor Back : 558
+Pitch Angle:    0.90258
+Measured Pitch:    1.45180
+Motor Front : 441
+Motor Back : 558
+Pitch Angle:    1.41632
+Measured Pitch:    1.48055
+Motor Front : 441
+Motor Back : 558
+Pitch Angle:    1.71355
+Measured Pitch:    1.51363
+Motor Front : 441
+Motor Back : 558
+Pitch Angle:    1.84913
+Measured Pitch:    1.54759
+Motor Front : 441
+Motor Back : 558
+Pitch Angle:    1.24394
+Measured Pitch:    1.56185
+Motor Front : 443
+Motor Back : 556
+Pitch Angle:    1.67716
+Measured Pitch:    1.58334
+Motor Front : 443
+Motor Back : 556
+Pitch Angle:    2.43071
+Measured Pitch:    1.61470
+Motor Front : 444
+Motor Back : 555
+Pitch Angle:    1.58789
+Measured Pitch:    1.62591
+Motor Front : 445
+Motor Back : 554
+Pitch Angle:    2.48264
+Measured Pitch:    1.65046
+Motor Front : 446
+Motor Back : 553
+Pitch Angle:    2.27513
+Measured Pitch:    1.66563
+Motor Front : 448
+Motor Back : 551
+Pitch Angle:    2.62950
+Measured Pitch:    1.68285
+Motor Front : 450
+Motor Back : 549
+Pitch Angle:    2.67547
+Measured Pitch:    1.69138
+Motor Front : 454
+Motor Back : 545
+Pitch Angle:    1.92381
+Measured Pitch:    1.67916
+Motor Front : 457
+Motor Back : 542
+Pitch Angle:    3.01206
+Measured Pitch:    1.68216
+Motor Front : 460
+Motor Back : 539
+Pitch Angle:    2.28730
+Measured Pitch:    1.66546
+Motor Front : 463
+Motor Back : 536
+Pitch Angle:    2.75648
+Measured Pitch:    1.65430
+Motor Front : 465
+Motor Back : 534
+Pitch Angle:    2.31132
+Measured Pitch:    1.63197
+Motor Front : 467
+Motor Back : 532
+Pitch Angle:    2.25107
+Measured Pitch:    1.60732
+Motor Front : 469
+Motor Back : 530
+Pitch Angle:    2.01441
+Measured Pitch:    1.57682
+Motor Front : 470
+Motor Back : 529
+Pitch Angle:    2.13910
+Measured Pitch:    1.54766
+Motor Front : 472
+Motor Back : 527
+Pitch Angle:    1.96265
+Measured Pitch:    1.51438
+Motor Front : 474
+Motor Back : 525
+Pitch Angle:    1.77853
+Measured Pitch:    1.47712
+Motor Front : 475
+Motor Back : 524
+Pitch Angle:    2.31853
+Measured Pitch:    1.45219
+Motor Front : 476
+Motor Back : 523
+Pitch Angle:    1.89366
+Measured Pitch:    1.41783
+Motor Front : 478
+Motor Back : 521
+Pitch Angle:    1.11493
+Measured Pitch:    1.36871
+Motor Front : 479
+Motor Back : 520
+Pitch Angle:    1.27029
+Measured Pitch:    1.32760
+Motor Front : 478
+Motor Back : 521
+Pitch Angle:    0.94911
+Measured Pitch:    1.28563
+Motor Front : 477
+Motor Back : 522
+Pitch Angle:    0.41894
+Measured Pitch:    1.23826
+Motor Front : 477
+Motor Back : 522
+Pitch Angle:    0.23714
+Measured Pitch:    1.19496
+Motor Front : 475
+Motor Back : 524
+Pitch Angle:    0.49265
+Measured Pitch:    1.16711
+Motor Front : 471
+Motor Back : 528
+Pitch Angle:    0.02862
+Measured Pitch:    1.14146
+Motor Front : 467
+Motor Back : 532
+Pitch Angle:   -0.10284
+Measured Pitch:    1.11946
+Motor Front : 465
+Motor Back : 534
+Pitch Angle:    0.48456
+Measured Pitch:    1.12054
+Motor Front : 459
+Motor Back : 540
+Pitch Angle:    0.03220
+Measured Pitch:    1.11961
+Motor Front : 456
+Motor Back : 543
+Pitch Angle:    0.25203
+Measured Pitch:    1.13199
+Motor Front : 451
+Motor Back : 548
+Pitch Angle:    0.44710
+Measured Pitch:    1.15266
+Motor Front : 449
+Motor Back : 550
+Pitch Angle:    0.26346
+Measured Pitch:    1.17601
+Motor Front : 445
+Motor Back : 554
+Pitch Angle:    0.71634
+Measured Pitch:    1.21477
+Motor Front : 440
+Motor Back : 559
+Pitch Angle:    0.64646
+Measured Pitch:    1.25519
+Motor Front : 438
+Motor Back : 561
+Pitch Angle:    0.61997
+Measured Pitch:    1.29516
+Motor Front : 436
+Motor Back : 563
+Pitch Angle:    0.91900
+Measured Pitch:    1.33952
+Motor Front : 435
+Motor Back : 564
+Pitch Angle:    0.97911
+Measured Pitch:    1.38287
+Motor Front : 434
+Motor Back : 565
+Pitch Angle:    1.07298
+Measured Pitch:    1.42423
+Motor Front : 434
+Motor Back : 565
+Pitch Angle:    2.00753
+Measured Pitch:    1.47742
+Motor Front : 435
+Motor Back : 564
+Pitch Angle:    1.91054
+Measured Pitch:    1.52374
+Motor Front : 436
+Motor Back : 563
+Pitch Angle:    2.12500
+Measured Pitch:    1.56379
+Motor Front : 439
+Motor Back : 560
+Pitch Angle:    2.01549
+Measured Pitch:    1.59558
+Motor Front : 441
+Motor Back : 558
+Pitch Angle:    1.87065
+Measured Pitch:    1.61434
+Motor Front : 445
+Motor Back : 554
+Pitch Angle:    3.02177
+Measured Pitch:    1.64949
+Motor Front : 447
+Motor Back : 552
+Pitch Angle:    2.42361
+Measured Pitch:    1.66229
+Motor Front : 451
+Motor Back : 548
+Pitch Angle:    2.74470
+Measured Pitch:    1.67469
+Motor Front : 454
+Motor Back : 545
+Pitch Angle:    3.06921
+Measured Pitch:    1.68570
+Motor Front : 457
+Motor Back : 542
+Pitch Angle:    2.35348
+Measured Pitch:    1.67413
+Motor Front : 461
+Motor Back : 538
+Pitch Angle:    2.96252
+Measured Pitch:    1.67456
+Motor Front : 461
+Motor Back : 538
+Pitch Angle:    2.72978
+Measured Pitch:    1.66037
+Motor Front : 466
+Motor Back : 533
+Pitch Angle:    2.56337
+Measured Pitch:    1.64175
+Motor Front : 468
+Motor Back : 531
+Pitch Angle:    2.92809
+Measured Pitch:    1.62800
+Motor Front : 469
+Motor Back : 530
+Pitch Angle:    1.95879
+Measured Pitch:    1.58965
+Motor Front : 473
+Motor Back : 526
+Pitch Angle:    1.89682
+Measured Pitch:    1.55457
+Motor Front : 472
+Motor Back : 527
+Pitch Angle:    2.01859
+Measured Pitch:    1.52051
+Motor Front : 474
+Motor Back : 525
+Pitch Angle:    1.16636
+Measured Pitch:    1.47227
+Motor Front : 475
+Motor Back : 524
+Pitch Angle:    1.63277
+Measured Pitch:    1.43752
+Motor Front : 474
+Motor Back : 525
+Pitch Angle:    0.89503
+Measured Pitch:    1.39106
+Motor Front : 475
+Motor Back : 524
+Pitch Angle:    1.36210
+Measured Pitch:    1.36221
+Motor Front : 472
+Motor Back : 527
+Pitch Angle:    0.94688
+Measured Pitch:    1.32916
+Motor Front : 471
+Motor Back : 528
+Pitch Angle:    0.92990
+Measured Pitch:    1.30077
+Motor Front : 470
+Motor Back : 529
+Pitch Angle:    1.30003
+Measured Pitch:    1.28983
+Motor Front : 466
+Motor Back : 533
+Pitch Angle:    0.35917
+Measured Pitch:    1.26360
+Motor Front : 465
+Motor Back : 534
+Pitch Angle:    1.00209
+Measured Pitch:    1.26084
+Motor Front : 461
+Motor Back : 538
+Pitch Angle:    0.63847
+Measured Pitch:    1.25355
+Motor Front : 459
+Motor Back : 540
+Pitch Angle:    0.70191
+Measured Pitch:    1.25303
+Motor Front : 457
+Motor Back : 542
+Pitch Angle:    0.43470
+Measured Pitch:    1.25398
+Motor Front : 454
+Motor Back : 545
+Pitch Angle:    0.76243
+Measured Pitch:    1.26578
+Motor Front : 451
+Motor Back : 548
+Pitch Angle:    0.64761
+Measured Pitch:    1.28021
+Motor Front : 448
+Motor Back : 551
+Pitch Angle:    0.76637
+Measured Pitch:    1.29956
+Motor Front : 446
+Motor Back : 553
+Pitch Angle:    0.97610
+Measured Pitch:    1.32376
+Motor Front : 445
+Motor Back : 554
+Pitch Angle:    1.05325
+Measured Pitch:    1.35095
+Motor Front : 443
+Motor Back : 556
+Pitch Angle:    0.82856
+Measured Pitch:    1.37461
+Motor Front : 442
+Motor Back : 557
+Pitch Angle:    0.71921
+Measured Pitch:    1.39464
+Motor Front : 442
+Motor Back : 557
+Pitch Angle:    0.93324
+Measured Pitch:    1.41799
+Motor Front : 442
+Motor Back : 557
+Pitch Angle:    1.98974
+Measured Pitch:    1.46047
+Motor Front : 441
+Motor Back : 558
+Pitch Angle:    1.88091
+Measured Pitch:    1.49388
+Motor Front : 443
+Motor Back : 556
+Pitch Angle:    1.45925
+Measured Pitch:    1.51524
+Motor Front : 444
+Motor Back : 555
+Pitch Angle:    2.82283
+Measured Pitch:    1.56075
+Motor Front : 443
+Motor Back : 556
+Pitch Angle:    1.96489
+Measured Pitch:    1.57749
+Motor Front : 448
+Motor Back : 551
+Pitch Angle:    1.88375
+Measured Pitch:    1.58720
+Motor Front : 450
+Motor Back : 549
+Pitch Angle:    2.44062
+Measured Pitch:    1.60509
+Motor Front : 451
+Motor Back : 548
+Pitch Angle:    2.18929
+Measured Pitch:    1.60646
+Motor Front : 456
+Motor Back : 543
+Pitch Angle:    2.43124
+Measured Pitch:    1.61058
+Motor Front : 457
+Motor Back : 542
+Pitch Angle:    2.36135
+Measured Pitch:    1.60846
+Motor Front : 459
+Motor Back : 540
+Pitch Angle:    1.50358
+Measured Pitch:    1.58448
+Motor Front : 462
+Motor Back : 537
+Pitch Angle:    1.72724
+Measured Pitch:    1.56788
+Motor Front : 462
+Motor Back : 537
+Pitch Angle:    2.08064
+Measured Pitch:    1.55584
+Motor Front : 463
+Motor Back : 536
+Pitch Angle:    1.33140
+Measured Pitch:    1.52503
+Motor Front : 466
+Motor Back : 533
+Pitch Angle:    1.91787
+Measured Pitch:    1.50696
+Motor Front : 466
+Motor Back : 533
+Pitch Angle:    1.34109
+Measured Pitch:    1.47732
+Motor Front : 468
+Motor Back : 531
+Pitch Angle:    1.82207
+Measured Pitch:    1.45751
+Motor Front : 468
+Motor Back : 531
+Pitch Angle:    1.17932
+Measured Pitch:    1.42571
+Motor Front : 469
+Motor Back : 530
+Pitch Angle:    1.26646
+Measured Pitch:    1.40129
+Motor Front : 468
+Motor Back : 531
+Pitch Angle:    1.05114
+Measured Pitch:    1.37552
+Motor Front : 467
+Motor Back : 532
+Pitch Angle:    1.08123
+Measured Pitch:    1.35190
+Motor Front : 467
+Motor Back : 532
+Pitch Angle:    1.01758
+Measured Pitch:    1.33140
+Motor Front : 466
+Motor Back : 533
+Pitch Angle:    0.97495
+Measured Pitch:    1.31478
+Motor Front : 465
+Motor Back : 534
+Pitch Angle:    1.00983
+Measured Pitch:    1.30270
+Motor Front : 463
+Motor Back : 536
+Pitch Angle:    1.38477
+Measured Pitch:    1.29981
+Motor Front : 463
+Motor Back : 536
+Pitch Angle:    0.90879
+Measured Pitch:    1.29157
+Motor Front : 461
+Motor Back : 538
+Pitch Angle:    1.24895
+Measured Pitch:    1.29320
+Motor Front : 460
+Motor Back : 539
+Pitch Angle:    0.71457
+Measured Pitch:    1.28781
+Motor Front : 458
+Motor Back : 541
+Pitch Angle:    1.02805
+Measured Pitch:    1.29169
+Motor Front : 456
+Motor Back : 543
+Pitch Angle:    0.40107
+Measured Pitch:    1.28582
+Motor Front : 455
+Motor Back : 544
+Pitch Angle:    0.80883
+Measured Pitch:    1.29236
+Motor Front : 453
+Motor Back : 546
+Pitch Angle:    0.74577
+Measured Pitch:    1.30020
+Motor Front : 452
+Motor Back : 547
+Pitch Angle:    1.34024
+Measured Pitch:    1.32058
+Motor Front : 451
+Motor Back : 548
+Pitch Angle:    0.71318
+Measured Pitch:    1.32919
+Motor Front : 450
+Motor Back : 549
+Pitch Angle:    1.59126
+Measured Pitch:    1.35693
+Motor Front : 448
+Motor Back : 551
+Pitch Angle:    1.20104
+Measured Pitch:    1.37461
+Motor Front : 448
+Motor Back : 551
+Pitch Angle:    1.48124
+Measured Pitch:    1.39649
+Motor Front : 448
+Motor Back : 551
+Pitch Angle:    1.60050
+Measured Pitch:    1.41971
+Motor Front : 448
+Motor Back : 551
+Pitch Angle:    2.04441
+Measured Pitch:    1.44930
+Motor Front : 448
+Motor Back : 551
+Pitch Angle:    1.81197
+Measured Pitch:    1.47076
+Motor Front : 449
+Motor Back : 550
+Pitch Angle:    1.77087
+Measured Pitch:    1.48772
+Motor Front : 450
+Motor Back : 549
+Pitch Angle:    2.34501
+Measured Pitch:    1.51402
+Motor Front : 450
+Motor Back : 549
+Pitch Angle:    2.03960
+Measured Pitch:    1.52924
+Motor Front : 451
+Motor Back : 548
+Pitch Angle:    1.60731
+Measured Pitch:    1.52998
+Motor Front : 454
+Motor Back : 545
+Pitch Angle:    1.71307
+Measured Pitch:    1.53405
+Motor Front : 453
+Motor Back : 546
+Pitch Angle:    2.09206
+Measured Pitch:    1.54356
+Motor Front : 454
+Motor Back : 545
+Pitch Angle:    1.38512
+Measured Pitch:    1.53421
+Motor Front : 456
+Motor Back : 543
+Pitch Angle:    2.17175
+Measured Pitch:    1.54346
+Motor Front : 455
+Motor Back : 544
+Pitch Angle:    1.81087
+Measured Pitch:    1.54099
+Motor Front : 457
+Motor Back : 542
+Pitch Angle:    1.57899
+Measured Pitch:    1.53247
+Motor Front : 458
+Motor Back : 541
+Pitch Angle:    1.84731
+Measured Pitch:    1.53177
+Motor Front : 457
+Motor Back : 542
+Pitch Angle:    1.60138
+Measured Pitch:    1.52476
+Motor Front : 458
+Motor Back : 541
+Pitch Angle:    1.24564
+Measured Pitch:    1.50888
+Motor Front : 459
+Motor Back : 540
+Pitch Angle:    1.53036
+Measured Pitch:    1.50049
+Motor Front : 459
+Motor Back : 540
+Pitch Angle:    1.08086
+Measured Pitch:    1.48299
+Motor Front : 459
+Motor Back : 540
+Pitch Angle:    1.99628
+Measured Pitch:    1.48457
+Motor Front : 459
+Motor Back : 540
+Pitch Angle:    0.92348
+Measured Pitch:    1.46366
+Motor Front : 460
+Motor Back : 539
+Pitch Angle:    1.84412
+Measured Pitch:    1.46565
+Motor Front : 458
+Motor Back : 541
+Pitch Angle:    0.87807
+Measured Pitch:    1.44874
+Motor Front : 458
+Motor Back : 541
+Pitch Angle:    1.16905
+Measured Pitch:    1.43944
+Motor Front : 458
+Motor Back : 541
+Pitch Angle:    0.64755
+Measured Pitch:    1.42257
+Motor Front : 457
+Motor Back : 542
+Pitch Angle:    1.47022
+Measured Pitch:    1.42496
+Motor Front : 456
+Motor Back : 543
+Pitch Angle:    1.42488
+Measured Pitch:    1.42744
+Motor Front : 456
+Motor Back : 543
+Pitch Angle:    1.05565
+Measured Pitch:    1.42453
+Motor Front : 455
+Motor Back : 544
+Pitch Angle:    1.67701
+Measured Pitch:    1.43616
+Motor Front : 453
+Motor Back : 546
+Pitch Angle:    1.76064
+Measured Pitch:    1.44924
+Motor Front : 453
+Motor Back : 546
+Pitch Angle:    1.21347
+Measured Pitch:    1.45131
+Motor Front : 453
+Motor Back : 546
+Pitch Angle:    1.16689
+Measured Pitch:    1.45200
+Motor Front : 453
+Motor Back : 546
+Pitch Angle:    1.35182
+Measured Pitch:    1.45555
+Motor Front : 453
+Motor Back : 546
+Pitch Angle:    2.12680
+Measured Pitch:    1.47496
+Motor Front : 452
+Motor Back : 547
+Pitch Angle:    1.97396
+Measured Pitch:    1.49051
+Motor Front : 452
+Motor Back : 547
+Pitch Angle:    1.54924
+Measured Pitch:    1.49601
+Motor Front : 453
+Motor Back : 546
+Pitch Angle:    2.10419
+Measured Pitch:    1.50982
+Motor Front : 453
+Motor Back : 546
+Pitch Angle:    1.55742
+Measured Pitch:    1.51097
+Motor Front : 454
+Motor Back : 545
+Pitch Angle:    1.99009
+Measured Pitch:    1.51767
+Motor Front : 455
+Motor Back : 544
+Pitch Angle:    1.30551
+Measured Pitch:    1.50745
+Motor Front : 457
+Motor Back : 542
+Pitch Angle:    2.05040
+Measured Pitch:    1.50967
+Motor Front : 458
+Motor Back : 541
+Pitch Angle:    1.77842
+Measured Pitch:    1.50600
+Motor Front : 459
+Motor Back : 540
+Pitch Angle:    1.75941
+Measured Pitch:    1.50016
+Motor Front : 460
+Motor Back : 539
+Pitch Angle:    1.17113
+Measured Pitch:    1.48221
+Motor Front : 460
+Motor Back : 539
+Pitch Angle:    1.41108
+Measured Pitch:    1.47047
+Motor Front : 460
+Motor Back : 539
+Pitch Angle:    1.30203
+Measured Pitch:    1.45723
+Motor Front : 460
+Motor Back : 539
+Pitch Angle:    1.32843
+Measured Pitch:    1.44333
+Motor Front : 462
+Motor Back : 537
+Pitch Angle:    1.29582
+Measured Pitch:    1.43010
+Motor Front : 461
+Motor Back : 538
+Pitch Angle:    1.76653
+Measured Pitch:    1.42587
+Motor Front : 462
+Motor Back : 537
+Pitch Angle:    1.44325
+Measured Pitch:    1.41715
+Motor Front : 461
+Motor Back : 538
+Pitch Angle:    1.33822
+Measured Pitch:    1.40796
+Motor Front : 461
+Motor Back : 538
+Pitch Angle:    1.12403
+Measured Pitch:    1.39470
+Motor Front : 461
+Motor Back : 538
+Pitch Angle:    1.45485
+Measured Pitch:    1.38952
+Motor Front : 461
+Motor Back : 538
+Pitch Angle:    0.99262
+Measured Pitch:    1.37478
+Motor Front : 461
+Motor Back : 538
+Pitch Angle:    0.90858
+Measured Pitch:    1.36237
+Motor Front : 460
+Motor Back : 539
+Pitch Angle:    1.10599
+Measured Pitch:    1.35477
+Motor Front : 460
+Motor Back : 539
+Pitch Angle:    1.00599
+Measured Pitch:    1.34553
+Motor Front : 460
+Motor Back : 539
+Pitch Angle:    1.04940
+Measured Pitch:    1.34105
+Motor Front : 459
+Motor Back : 540
+Pitch Angle:    0.66963
+Measured Pitch:    1.33072
+Motor Front : 458
+Motor Back : 541
+Pitch Angle:    1.33743
+Measured Pitch:    1.33725
+Motor Front : 456
+Motor Back : 543
+Pitch Angle:    1.21414
+Measured Pitch:    1.34324
+Motor Front : 455
+Motor Back : 544
+Pitch Angle:    0.55330
+Measured Pitch:    1.33733
+Motor Front : 455
+Motor Back : 544
+Pitch Angle:    1.00677
+Measured Pitch:    1.34186
+Motor Front : 454
+Motor Back : 545
+Pitch Angle:    1.47828
+Measured Pitch:    1.35612
+Motor Front : 453
+Motor Back : 546
+Pitch Angle:    
