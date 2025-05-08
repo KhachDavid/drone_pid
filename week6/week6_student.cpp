@@ -24,6 +24,7 @@ void trap(int signal);
 void calculate_thrust();
 void calculate_desired_pitch();
 void calculate_desired_roll();
+void calculate_desired_yaw();
 void pid_control();
 
 #define RANGE 65535.0
@@ -33,20 +34,21 @@ void pid_control();
 #define ROLL_UPPER_LIMIT 45.0
 #define PITCH_LOWER_LIMIT -45.0
 #define PITCH_UPPER_LIMIT 45.0
-#define GYRO_RATE_UPPER_LIMIT 300.0
-#define GYRO_RATE_LOWER_LIMIT -300.0
-#define JOYSTICK_TIMEOUT 0.35
+#define GYRO_RATE_UPPER_LIMIT 600.0
+#define GYRO_RATE_LOWER_LIMIT -600.0
+#define JOYSTICK_TIMEOUT 0.5
 #define JOYSTICK_MAXIMUM 256.0
 #define JOYSTICK_NEUTRAL 128.0
 
-#define MOTOR_MAXIMUM 1200
-#define THRUST_NEUTRAL 700
+#define MOTOR_MAXIMUM 2000
+#define THRUST_NEUTRAL 1100
 #define THRUST_AMPLITUDE 100
 #define THRUST_MAXIMUM 2000
 #define THRUST_MINIMUM 0
 
 #define PITCH_AMPLITUDE 25.0
 #define ROLL_AMPLITUDE 25.0
+#define YAW_AMPLITUDE 120.0
 
 //#define PITCH_P_GAIN 16
 #define PITCH_P_GAIN 16
@@ -56,6 +58,8 @@ void pid_control();
 #define PITCH_I_GAIN .4
 
 #define PITCH_I_SATURATE 175
+
+#define YAW_P_GAIN 1
 
 // Roll PID defines
 #define ROLL_P_GAIN 16 //30
@@ -102,6 +106,8 @@ float integral_pitch = 0;
 
 float desired_roll = 0;
 float integral_roll = 0;
+
+float desired_yaw = 0;
 
 bool motor_paused = false;
 
@@ -161,11 +167,11 @@ int main(int argc, char *argv[])
 
 
     // Milestone 3
-    printf("Desired Roll: %10.5f\n", desired_roll);
-    printf("Measured Roll: %10.5f\n", filter_roll);
+    printf("Desired Yaw: %10.5f\n", desired_yaw);
+    printf("Measured Yaw: %10.5f\n", imu_data[3]);
     //printf("Thrust: %10.5f\n", thrust);
-    printf("Motor Right : %d\n", motor_commands[MOTOR_TR]);
-    printf("Motor Left : %d\n", motor_commands[MOTOR_TL]);
+    printf("Motor Top Right: %d\n", motor_commands[MOTOR_TR]);
+    printf("Motor Top Left: %d\n", motor_commands[MOTOR_TL]);
 
     // arg 1 is bottom right
     // arg 2 is top right
@@ -336,7 +342,6 @@ int setup_imu()
     wiringPiI2CWriteReg8(accel_address, 0x40, 0x89); // high speed filtered accel
 
     auto val = wiringPiI2CReadReg8(accel_address, 0x40);
-    std::cout << val << std::endl;
 
     // page 36 location of gyro registers map
     wiringPiI2CWriteReg8(gyro_address, 0x11, 0x00); // power on gyro
@@ -484,7 +489,10 @@ void calculate_desired_roll()
   desired_roll = 2 * (ROLL_AMPLITUDE / JOYSTICK_MAXIMUM) * (shared_memory->roll - JOYSTICK_NEUTRAL);
 }
 
-
+void calculate_desired_yaw()
+{
+  desired_yaw = - 2 * (YAW_AMPLITUDE / JOYSTICK_MAXIMUM) * (shared_memory->yaw - JOYSTICK_NEUTRAL);
+}
 
 void pid_control()
 {
@@ -511,10 +519,12 @@ void pid_control()
 
   calculate_desired_pitch();
   calculate_desired_roll();
+  calculate_desired_yaw();
   calculate_thrust();
 
   float p_error = desired_pitch - filter_pitch;
   float r_error = desired_roll - filter_roll;
+  float y_error = desired_yaw - imu_data[3];
   // front positive, back negative
 
   integral_pitch += PITCH_I_GAIN * p_error;
@@ -543,13 +553,17 @@ void pid_control()
   // calculate pid control terms
   float pitch_pid_control = (PITCH_P_GAIN * p_error) - (PITCH_D_GAIN * imu_data[5]) + integral_pitch;
   float roll_pid_control = (ROLL_P_GAIN * r_error) - (ROLL_D_GAIN * imu_data[4]) + integral_roll; 
+  float yaw_p_control = (YAW_P_GAIN * y_error);
+
+  pitch_pid_control = 0.0;
+  roll_pid_control = 0.0;
 
   // positive pitch error => positive front, negative back
   // positive roll error => negative right, positive left
-  motor_commands[MOTOR_TR] = thrust + pitch_pid_control - roll_pid_control; 
-  motor_commands[MOTOR_TL] = thrust + pitch_pid_control + roll_pid_control; 
-  motor_commands[MOTOR_BR] = thrust - pitch_pid_control - roll_pid_control; 
-  motor_commands[MOTOR_BL] = thrust - pitch_pid_control + roll_pid_control;
+  motor_commands[MOTOR_TR] = thrust + pitch_pid_control - roll_pid_control + yaw_p_control; 
+  motor_commands[MOTOR_TL] = thrust + pitch_pid_control + roll_pid_control - yaw_p_control; 
+  motor_commands[MOTOR_BR] = thrust - pitch_pid_control - roll_pid_control - yaw_p_control; 
+  motor_commands[MOTOR_BL] = thrust - pitch_pid_control + roll_pid_control + yaw_p_control;
 
   // limit motor commands
   for (int i = 0; i < 4; ++i) {
