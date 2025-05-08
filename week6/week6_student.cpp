@@ -1,4 +1,4 @@
---#include <stdio.h>
+#include <stdio.h>
 #include <wiringPi.h>
 #include <wiringPiI2C.h>
 #include <time.h>
@@ -11,7 +11,7 @@
 #include <vector>
 #include <iostream>
 
-// g++ -o week1 week1_student.cpp -lwiringPi -lm -g
+// g++ -o week6 week6_student.cpp -lwiringPi -lm -g
 int setup_imu();
 void calibrate_imu();
 void read_imu();
@@ -23,9 +23,7 @@ void safety_check();
 void trap(int signal);
 void calculate_thrust();
 void calculate_desired_pitch();
-void p_control();
-void d_control();
-void i_control();
+void calculate_desired_roll();
 void pid_control();
 
 #define RANGE 65535.0
@@ -41,23 +39,38 @@ void pid_control();
 #define JOYSTICK_MAXIMUM 256.0
 #define JOYSTICK_NEUTRAL 128.0
 
-#define MOTOR_MAXIMUM 1000
+#define MOTOR_MAXIMUM 1200
 #define THRUST_NEUTRAL 700
 #define THRUST_AMPLITUDE 100
 #define THRUST_MAXIMUM 2000
 #define THRUST_MINIMUM 0
 
-#define PITCH_AMPLITUDE 30.0
+#define PITCH_AMPLITUDE 25.0
+#define ROLL_AMPLITUDE 25.0
 
-//#define P_GAIN 25
-#define P_GAIN 30
-//#define D_GAIN 1
-#define D_GAIN 3.2
-//#define I_GAIN .1
-#define I_GAIN 0
-#define I_SATURATE 100
+//#define PITCH_P_GAIN 16
+#define PITCH_P_GAIN 16
+//#define PITCH_D_GAIN 2.5
+#define PITCH_D_GAIN 2.5
+//#define PITCH_I_GAIN .4
+#define PITCH_I_GAIN .4
 
-#define A_DELTA 0.02
+#define PITCH_I_SATURATE 175
+
+// Roll PID defines
+#define ROLL_P_GAIN 16 //30
+#define ROLL_D_GAIN 2.5 //3.2
+#define ROLL_I_GAIN .4 //0
+#define ROLL_I_SATURATE 175
+
+// for the comp. filter
+#define A_DELTA 0.01
+
+// motor_commands indices
+#define MOTOR_BR 2
+#define MOTOR_TR 0
+#define MOTOR_BL 3
+#define MOTOR_TL 1
 
 // global variables
 int motor_address;
@@ -77,7 +90,7 @@ float pitch_angle = 0;
 float roll_angle = 0;
 
 float prev_roll = 0;
-float filter_rollshar = 0;
+float filter_roll = 0;
 float prev_pitch = 0;
 float filter_pitch = 0;
 float intl_pitch = 0;
@@ -86,6 +99,11 @@ float intl_roll = 0;
 float thrust = 0;
 float desired_pitch = 0;
 float integral_pitch = 0;
+
+float desired_roll = 0;
+float integral_roll = 0;
+
+bool motor_paused = false;
 
 int motor_commands[4];
 
@@ -138,46 +156,28 @@ int main(int argc, char *argv[])
     update_filter();
     safety_check();
 
-    // p_control();
-    // d_control();
-    // i_control();
-
+    
     pid_control();
-    // printf("%10.5f %10.5f %10.5f %10.5f %10.5f\n\r",imu_data[3],imu_data[4],imu_data[5],pitch_angle,roll_angle);
-    // sleep(1);
-    // printf("Pitch: %10.5f %10.5f %10.5f\n", pitch_angle, intl_pitch, filter_pitch);
-    // printf("Roll: %10.5f %10.5f %10.5f\n", roll_angle, intl_roll, current_roll);
 
-    // Milestone 2
-    // printf("Pitch Angle: %10.5f\n", pitch_angle);
-    // printf("Pitch Velocity: %10.5f\n", imu_data[5]);
-    // printf("Thrust: %10.5f\n", thrust);
-    // printf("Motor Front : %d\n", motor_commands[0]);
-    // printf("Motor Back : %d\n", motor_commands[2]);
 
     // Milestone 3
-    printf("Pitch Angle: %10.5f\n", pitch_angle);
-    printf("Measured Pitch: %10.5f\n", filter_pitch);
+    printf("Desired Roll: %10.5f\n", desired_roll);
+    printf("Measured Roll: %10.5f\n", filter_roll);
     //printf("Thrust: %10.5f\n", thrust);
-    printf("Motor Front : %d\n", motor_commands[0]);
-    printf("Motor Back : %d\n", motor_commands[2]);
-    //motor_commands[0] = 0;
-    //motor_commands[1] = 0;
-    ////motor_commands[2] = 0;
-    //motor_commands[3] = 0;
-    // 3 is front
+    printf("Motor Right : %d\n", motor_commands[MOTOR_TR]);
+    printf("Motor Left : %d\n", motor_commands[MOTOR_TL]);
 
     // arg 1 is bottom right
     // arg 2 is top right
     // arg 3 is bottom left
     // arg 4 is top left
-    set_motors(motor_commands[2], motor_commands[0], motor_commands[3], motor_commands[1]);
+    set_motors(motor_commands[MOTOR_BR], motor_commands[MOTOR_TR], motor_commands[MOTOR_BL], motor_commands[MOTOR_TL]);
   }
 
-  motor_commands[0] = 0;
-  motor_commands[1] = 0;
-  motor_commands[2] = 0;
-  motor_commands[3] = 0;
+  motor_commands[MOTOR_TR] = 0;
+  motor_commands[MOTOR_TL] = 0;
+  motor_commands[MOTOR_BR] = 0;
+  motor_commands[MOTOR_BL] = 0;
 
   return 0;
 }
@@ -374,9 +374,9 @@ void update_filter()
   //
   // Roll_t=roll_accel*A+(1-A)*(roll_gyro_delta+Rollt-1),
   // Where A << 1 (try .02)
-  filter_rollshar = roll_angle * A_DELTA +
+  filter_roll = roll_angle * A_DELTA +
                     (1 - A_DELTA) * (imu_data[4] * imu_diff + prev_roll);
-  prev_roll = filter_rollshar;
+  prev_roll = filter_roll;
 
   filter_pitch = pitch_angle * A_DELTA +
                  (1 - A_DELTA) * (imu_data[5] * imu_diff + prev_pitch);
@@ -424,7 +424,7 @@ void safety_check()
     run_program = 0;
     std::cout << "Ending Program - Invalid Pitch" << std::endl;
   }
-  else if (filter_rollshar > ROLL_UPPER_LIMIT || filter_rollshar < ROLL_LOWER_LIMIT)
+  else if (filter_roll > ROLL_UPPER_LIMIT || filter_roll < ROLL_LOWER_LIMIT)
   {
     run_program = 0;
     std::cout << "Ending Program - Invalid Roll" << std::endl;
@@ -476,77 +476,82 @@ void calculate_thrust()
 
 void calculate_desired_pitch()
 {
-  desired_pitch = 2 * PITCH_AMPLITUDE / JOYSTICK_MAXIMUM * (shared_memory->pitch - JOYSTICK_NEUTRAL);
+  desired_pitch = 2 * (PITCH_AMPLITUDE / JOYSTICK_MAXIMUM) * (shared_memory->pitch - JOYSTICK_NEUTRAL);
 }
 
-void p_control()
+void calculate_desired_roll() 
 {
-  calculate_desired_pitch();
-  calculate_thrust();
-  float p_error = desired_pitch - filter_pitch;
-  // front positive, back negative
-  motor_commands[0] = thrust + P_GAIN * p_error;
-  motor_commands[1] = thrust + P_GAIN * p_error;
-  motor_commands[2] = thrust - P_GAIN * p_error;
-  motor_commands[3] = thrust - P_GAIN * p_error;
+  desired_roll = 2 * (ROLL_AMPLITUDE / JOYSTICK_MAXIMUM) * (shared_memory->roll - JOYSTICK_NEUTRAL);
 }
 
-void d_control()
-{
-  calculate_thrust();
-  motor_commands[0] = thrust - D_GAIN * imu_data[5];
-  motor_commands[1] = thrust - D_GAIN * imu_data[5];
-  motor_commands[2] = thrust + D_GAIN * imu_data[5];
-  motor_commands[3] = thrust + D_GAIN * imu_data[5];
-}
 
-void i_control()
-{
-  calculate_desired_pitch();
-  calculate_thrust();
-  float p_error = desired_pitch - filter_pitch;
-  integral_pitch += I_GAIN * p_error;
-
-  // Limit pitch to I_Saturate
-  if (integral_pitch > I_SATURATE)
-  {
-    integral_pitch = I_SATURATE;
-  }
-  else if (integral_pitch < -I_SATURATE)
-  {
-    integral_pitch = -I_SATURATE;
-  }
-
-  motor_commands[0] = thrust + integral_pitch;
-  motor_commands[1] = thrust + integral_pitch;
-  motor_commands[2] = thrust - integral_pitch;
-  motor_commands[3] = thrust - integral_pitch;
-}
 
 void pid_control()
 {
+  // determine whether or not to disable motors
+  // pause if motor isn't paused and A is pressed
+  if (!motor_paused && (shared_memory->key0 != 0))
+  {
+    motor_paused = true;
+  }
+  // unpause if motor is paused and Y is pressed
+  else if (motor_paused && (shared_memory->key3 != 0))
+  {
+    motor_paused = false;
+  }
+
+  // if motor is paused, zero out values and return
+  if (motor_paused) {
+    motor_commands[MOTOR_TR] = 2;
+    motor_commands[MOTOR_TL] = 2;
+    motor_commands[MOTOR_BR] = 2;
+    motor_commands[MOTOR_BL] = 2;
+    return;
+  }
+
   calculate_desired_pitch();
+  calculate_desired_roll();
   calculate_thrust();
+
   float p_error = desired_pitch - filter_pitch;
+  float r_error = desired_roll - filter_roll;
   // front positive, back negative
 
-  integral_pitch += I_GAIN * p_error;
+  integral_pitch += PITCH_I_GAIN * p_error;
+  integral_roll += ROLL_I_GAIN * r_error;
 
-  // Limit pitch to I_Saturate
-  if (integral_pitch > I_SATURATE)
+  // Limit i pitch control to PITCH_I_SATURATE
+  if (integral_pitch > PITCH_I_SATURATE)
   {
-    integral_pitch = I_SATURATE;
+    integral_pitch = PITCH_I_SATURATE;
   }
-  else if (integral_pitch < -I_SATURATE)
+  else if (integral_pitch < -PITCH_I_SATURATE)
   {
-    integral_pitch = -I_SATURATE;
+    integral_pitch = -PITCH_I_SATURATE;
   }
 
-  motor_commands[0] = thrust + (P_GAIN * p_error) - (D_GAIN * imu_data[5]) + integral_pitch;
-  motor_commands[1] = thrust + (P_GAIN * p_error) - (D_GAIN * imu_data[5]) + integral_pitch;
-  motor_commands[2] = thrust - (P_GAIN * p_error) + (D_GAIN * imu_data[5]) - integral_pitch;
-  motor_commands[3] = thrust - (P_GAIN * p_error) + (D_GAIN * imu_data[5]) - integral_pitch;
+  // Limit i roll control to ROLL_I_SATURATE
+  if (integral_roll > ROLL_I_SATURATE)
+  {
+    integral_roll = ROLL_I_SATURATE;
+  }
+  else if (integral_roll < -ROLL_I_SATURATE)
+  {
+    integral_roll = -ROLL_I_SATURATE;
+  }
 
+  // calculate pid control terms
+  float pitch_pid_control = (PITCH_P_GAIN * p_error) - (PITCH_D_GAIN * imu_data[5]) + integral_pitch;
+  float roll_pid_control = (ROLL_P_GAIN * r_error) - (ROLL_D_GAIN * imu_data[4]) + integral_roll; 
+
+  // positive pitch error => positive front, negative back
+  // positive roll error => negative right, positive left
+  motor_commands[MOTOR_TR] = thrust + pitch_pid_control - roll_pid_control; 
+  motor_commands[MOTOR_TL] = thrust + pitch_pid_control + roll_pid_control; 
+  motor_commands[MOTOR_BR] = thrust - pitch_pid_control - roll_pid_control; 
+  motor_commands[MOTOR_BL] = thrust - pitch_pid_control + roll_pid_control;
+
+  // limit motor commands
   for (int i = 0; i < 4; ++i) {
     if (motor_commands[i] > MOTOR_MAXIMUM) {
       motor_commands[i] = MOTOR_MAXIMUM;
