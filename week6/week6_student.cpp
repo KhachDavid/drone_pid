@@ -41,14 +41,14 @@ void pid_control();
 #define JOYSTICK_NEUTRAL 128.0
 
 #define MOTOR_MAXIMUM 2000
-#define THRUST_NEUTRAL 1100
-#define THRUST_AMPLITUDE 100
+#define THRUST_NEUTRAL 1500
+#define THRUST_AMPLITUDE 200
 #define THRUST_MAXIMUM 2000
 #define THRUST_MINIMUM 0
 
-#define PITCH_AMPLITUDE 25.0
-#define ROLL_AMPLITUDE 25.0
-#define YAW_AMPLITUDE 120.0
+#define PITCH_AMPLITUDE 15.0
+#define ROLL_AMPLITUDE 15.0
+#define YAW_AMPLITUDE 70.0
 
 //#define PITCH_P_GAIN 16
 #define PITCH_P_GAIN 16
@@ -59,12 +59,12 @@ void pid_control();
 
 #define PITCH_I_SATURATE 175
 
-#define YAW_P_GAIN 1
+#define YAW_P_GAIN 5.5//0.5
 
 // Roll PID defines
 #define ROLL_P_GAIN 16 //30
-#define ROLL_D_GAIN 2.5 //3.2
-#define ROLL_I_GAIN .4 //0
+#define ROLL_D_GAIN 2.5//3.2
+#define ROLL_I_GAIN .4//0
 #define ROLL_I_SATURATE 175
 
 // for the comp. filter
@@ -109,7 +109,7 @@ float integral_roll = 0;
 
 float desired_yaw = 0;
 
-bool motor_paused = false;
+bool motor_paused = true;
 
 int motor_commands[4];
 
@@ -164,14 +164,15 @@ int main(int argc, char *argv[])
 
     
     pid_control();
-
-
     // Milestone 3
-    printf("Desired Yaw: %10.5f\n", desired_yaw);
-    printf("Measured Yaw: %10.5f\n", imu_data[3]);
+    //printf("Desired Yaw: %10.5f\n", desired_yaw);
+    //printf("Measured Yaw: %10.5f\n", imu_data[3]);
     //printf("Thrust: %10.5f\n", thrust);
     printf("Motor Top Right: %d\n", motor_commands[MOTOR_TR]);
     printf("Motor Top Left: %d\n", motor_commands[MOTOR_TL]);
+
+    printf("Motor Bottom Right: %d\n", motor_commands[MOTOR_BR]);
+    printf("Motor Bottom Left: %d\n", motor_commands[MOTOR_BL]);
 
     // arg 1 is bottom right
     // arg 2 is top right
@@ -510,10 +511,10 @@ void pid_control()
 
   // if motor is paused, zero out values and return
   if (motor_paused) {
-    motor_commands[MOTOR_TR] = 2;
-    motor_commands[MOTOR_TL] = 2;
-    motor_commands[MOTOR_BR] = 2;
-    motor_commands[MOTOR_BL] = 2;
+    motor_commands[MOTOR_TR] = 10;
+    motor_commands[MOTOR_TL] = 10;
+    motor_commands[MOTOR_BR] = 10;
+    motor_commands[MOTOR_BL] = 10;
     return;
   }
 
@@ -555,9 +556,9 @@ void pid_control()
   float roll_pid_control = (ROLL_P_GAIN * r_error) - (ROLL_D_GAIN * imu_data[4]) + integral_roll; 
   float yaw_p_control = (YAW_P_GAIN * y_error);
 
-  pitch_pid_control = 0.0;
-  roll_pid_control = 0.0;
-
+  //roll_pid_control = 0.0;
+  //pitch_pid_control = 0.0;
+  //yaw_p_control = 0.0;
   // positive pitch error => positive front, negative back
   // positive roll error => negative right, positive left
   motor_commands[MOTOR_TR] = thrust + pitch_pid_control - roll_pid_control + yaw_p_control; 
