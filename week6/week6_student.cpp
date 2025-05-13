@@ -40,32 +40,32 @@ void pid_control();
 #define JOYSTICK_MAXIMUM 256.0
 #define JOYSTICK_NEUTRAL 128.0
 
-#define MOTOR_MAXIMUM 2000
-#define THRUST_NEUTRAL 1500
-#define THRUST_AMPLITUDE 200
-#define THRUST_MAXIMUM 2000
-#define THRUST_MINIMUM 0
+#define MOTOR_MAXIMUM 2000.0
+#define THRUST_NEUTRAL 1400.0
+#define THRUST_AMPLITUDE 150.0
+#define THRUST_MAXIMUM 2000.0
+#define THRUST_MINIMUM 0.0
 
-#define PITCH_AMPLITUDE 15.0
-#define ROLL_AMPLITUDE 15.0
-#define YAW_AMPLITUDE 70.0
+#define PITCH_AMPLITUDE 10.0
+#define ROLL_AMPLITUDE 10.0
+#define YAW_AMPLITUDE 50.0
 
 //#define PITCH_P_GAIN 16
-#define PITCH_P_GAIN 16
+#define PITCH_P_GAIN 10.0
 //#define PITCH_D_GAIN 2.5
-#define PITCH_D_GAIN 2.5
+#define PITCH_D_GAIN 2.0
 //#define PITCH_I_GAIN .4
-#define PITCH_I_GAIN .4
+#define PITCH_I_GAIN .1
 
-#define PITCH_I_SATURATE 175
+#define PITCH_I_SATURATE 100.0
 
 #define YAW_P_GAIN 5.5//0.5
 
 // Roll PID defines
-#define ROLL_P_GAIN 16 //30
+#define ROLL_P_GAIN 12.0 //30
 #define ROLL_D_GAIN 2.5//3.2
-#define ROLL_I_GAIN .4//0
-#define ROLL_I_SATURATE 175
+#define ROLL_I_GAIN .1//0
+#define ROLL_I_SATURATE 100
 
 // for the comp. filter
 #define A_DELTA 0.01
