@@ -41,34 +41,34 @@ void pid_control();
 #define JOYSTICK_NEUTRAL 128.0
 
 #define MOTOR_MAXIMUM 2000.0
-#define THRUST_NEUTRAL 1400.0
+#define THRUST_NEUTRAL 1550.0
 #define THRUST_AMPLITUDE 150.0
 #define THRUST_MAXIMUM 2000.0
 #define THRUST_MINIMUM 0.0
 
 #define PITCH_AMPLITUDE 10.0
 #define ROLL_AMPLITUDE 10.0
-#define YAW_AMPLITUDE 50.0
+#define YAW_AMPLITUDE 90.0
 
 //#define PITCH_P_GAIN 16
-#define PITCH_P_GAIN 10.0
+#define PITCH_P_GAIN 14.0
 //#define PITCH_D_GAIN 2.5
-#define PITCH_D_GAIN 2.0
+#define PITCH_D_GAIN 2.5
 //#define PITCH_I_GAIN .4
-#define PITCH_I_GAIN .1
+#define PITCH_I_GAIN 0.4
 
-#define PITCH_I_SATURATE 100.0
+#define PITCH_I_SATURATE 150.0
 
 #define YAW_P_GAIN 5.5//0.5
 
 // Roll PID defines
-#define ROLL_P_GAIN 12.0 //30
+#define ROLL_P_GAIN 14.0 //30
 #define ROLL_D_GAIN 2.5//3.2
-#define ROLL_I_GAIN .1//0
-#define ROLL_I_SATURATE 100
+#define ROLL_I_GAIN 0.4//0
+#define ROLL_I_SATURATE 150.0
 
 // for the comp. filter
-#define A_DELTA 0.01
+#define A_DELTA 0.02
 
 // motor_commands indices
 #define MOTOR_BR 2
@@ -149,6 +149,13 @@ int main(int argc, char *argv[])
 
   setup_imu();
   calibrate_imu();
+
+  while (roll_calibration < -3.5 || roll_calibration > 3.5 ||
+       pitch_calibration < -3.5 || pitch_calibration > 3.5 ||
+       accel_z_calibration < -3.5 || accel_z_calibration > 3.5) {
+    calibrate_imu();  
+  }
+
   motor_address=wiringPiI2CSetup (0x56);
   motor_enable();
   // Joystick setup
@@ -170,10 +177,8 @@ int main(int argc, char *argv[])
     //printf("Thrust: %10.5f\n", thrust);
     printf("Motor Top Right: %d\n", motor_commands[MOTOR_TR]);
     printf("Motor Top Left: %d\n", motor_commands[MOTOR_TL]);
-
     printf("Motor Bottom Right: %d\n", motor_commands[MOTOR_BR]);
     printf("Motor Bottom Left: %d\n", motor_commands[MOTOR_BL]);
-
     // arg 1 is bottom right
     // arg 2 is top right
     // arg 3 is bottom left
@@ -540,6 +545,8 @@ void pid_control()
   {
     integral_pitch = -PITCH_I_SATURATE;
   }
+  printf("Integral Pitch: %f\n", integral_pitch);
+
 
   // Limit i roll control to ROLL_I_SATURATE
   if (integral_roll > ROLL_I_SATURATE)
@@ -550,6 +557,7 @@ void pid_control()
   {
     integral_roll = -ROLL_I_SATURATE;
   }
+  printf("Integral Roll: %f\n", integral_roll);
 
   // calculate pid control terms
   float pitch_pid_control = (PITCH_P_GAIN * p_error) - (PITCH_D_GAIN * imu_data[5]) + integral_pitch;
