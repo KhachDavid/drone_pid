@@ -11,7 +11,7 @@
 #include <vector>
 #include <iostream>
 
-// g++ -o week6 week6_student.cpp -lwiringPi -lm -g
+// g++ -o week8 week8_student.cpp -lwiringPi -lm -g
 int setup_imu();
 void calibrate_imu();
 void read_imu();
@@ -41,14 +41,18 @@ void pid_control();
 #define JOYSTICK_NEUTRAL 128.0
 
 #define MOTOR_MAXIMUM 2000.0
-#define THRUST_NEUTRAL 1400.0
-#define THRUST_AMPLITUDE 150.0
+#define THRUST_NEUTRAL 800.0
+#define THRUST_AMPLITUDE 400.0
 #define THRUST_MAXIMUM 2000.0
 #define THRUST_MINIMUM 0.0
 
-#define PITCH_AMPLITUDE 5.0
-#define ROLL_AMPLITUDE 5.0
+#define PITCH_AMPLITUDE 7.5
+#define ROLL_AMPLITUDE 7.5
 #define YAW_AMPLITUDE 90.0
+
+// High level controller
+#define YAW_ANGLE_P_GAIN 4
+
 
 //#define PITCH_P_GAIN 16
 #define PITCH_P_GAIN 14.0
@@ -115,6 +119,30 @@ int motor_commands[4];
 
 // global variables to add
 
+struct Camera
+{
+  int x;
+  int y;
+  int z;
+  int yaw;
+  int sequence_num;
+};
+
+Camera* camera_memory; 
+
+//create a new camera shared memory function:
+
+void setup_camera();
+
+//before main, create camera data struct:
+Camera camera_data;
+
+
+//in main before loop, init camera shared memory:
+
+//how to update and read camera shared memory:
+
+
 struct JoystickReadings
 {
   int last_sequence_num;
@@ -149,6 +177,7 @@ int main(int argc, char *argv[])
 
   setup_imu();
   calibrate_imu();
+  setup_camera();
 
   while (roll_calibration < -3.5 || roll_calibration > 3.5 ||
        pitch_calibration < -3.5 || pitch_calibration > 3.5 ||
@@ -164,6 +193,9 @@ int main(int argc, char *argv[])
 
   while (run_program == 1)
   {
+    Camera camera_data=*camera_memory;
+    printf("camera=%d %d %d %d %d\n\r",camera_data.x,camera_data.y,camera_data.z,camera_data.yaw,camera_data.sequence_num);
+
     Joystick joystick_data = *shared_memory;
     read_imu();
     update_filter();
@@ -175,10 +207,10 @@ int main(int argc, char *argv[])
     //printf("Desired Yaw: %10.5f\n", desired_yaw);
     //printf("Measured Yaw: %10.5f\n", imu_data[3]);
     //printf("Thrust: %10.5f\n", thrust);
-    printf("Motor Top Right: %d\n", motor_commands[MOTOR_TR]);
-    printf("Motor Top Left: %d\n", motor_commands[MOTOR_TL]);
-    printf("Motor Bottom Right: %d\n", motor_commands[MOTOR_BR]);
-    printf("Motor Bottom Left: %d\n", motor_commands[MOTOR_BL]);
+    //printf("Motor Top Right: %d\n", motor_commands[MOTOR_TR]);
+    //printf("Motor Top Left: %d\n", motor_commands[MOTOR_TL]);
+    //printf("Motor Bottom Right: %d\n", motor_commands[MOTOR_BR]);
+    //printf("Motor Bottom Left: %d\n", motor_commands[MOTOR_BL]);
     // arg 1 is bottom right
     // arg 2 is top right
     // arg 3 is bottom left
@@ -497,7 +529,8 @@ void calculate_desired_roll()
 
 void calculate_desired_yaw()
 {
-  desired_yaw = - 2 * (YAW_AMPLITUDE / JOYSTICK_MAXIMUM) * (shared_memory->yaw - JOYSTICK_NEUTRAL);
+  desired_yaw = -YAW_ANGLE_P_GAIN * camera_memory->yaw;
+  //desired_yaw = - 2 * (YAW_AMPLITUDE / JOYSTICK_MAXIMUM) * (shared_memory->yaw - JOYSTICK_NEUTRAL);
 }
 
 void pid_control()
@@ -530,7 +563,9 @@ void pid_control()
 
   float p_error = desired_pitch - filter_pitch;
   float r_error = desired_roll - filter_roll;
-  float y_error = desired_yaw - imu_data[3];
+  float y_error = desired_yaw - imu_data[3]; //velocity
+  
+  
   // front positive, back negative
 
   integral_pitch += PITCH_I_GAIN * p_error;
@@ -757,4 +792,29 @@ void set_motors(int motor0, int motor1, int motor2, int motor3)
   usleep(com_delay);
   wiringPiI2CWrite(motor_address, data[1]);
   usleep(com_delay);
+}
+
+//function to setup camera shared memory:
+
+void setup_camera()
+{
+
+  int segment_id;   
+  struct shmid_ds shmbuffer; 
+  int segment_size; 
+  const int shared_segment_size = sizeof(struct Camera);
+  int smhkey=123456;
+  
+  /* Allocate a shared memory segment.  */ 
+  segment_id = shmget (smhkey, shared_segment_size,IPC_CREAT | 0666); 
+  /* Attach the shared memory segment.  */ 
+  camera_memory = (Camera*) shmat (segment_id, 0, 0); 
+  printf ("shared memory attached at address %p\n", camera_memory); 
+  /* Determine the segment's size. */ 
+  shmctl (segment_id, IPC_STAT, &shmbuffer); 
+  segment_size  =               shmbuffer.shm_segsz; 
+  printf ("segment size: %d\n", segment_size); 
+  /* Write a string to the shared memory segment.  */ 
+  // sprintf (shared_memory, "test!!!!."); 
+
 }
