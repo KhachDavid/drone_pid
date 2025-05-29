@@ -26,6 +26,8 @@ void calculate_desired_pitch();
 void calculate_desired_roll();
 void calculate_desired_yaw();
 void pid_control();
+void auto_thrust_pid_control();
+void update_camera();
 
 #define RANGE 65535.0
 #define DS_RANGE 2000.0
@@ -41,7 +43,7 @@ void pid_control();
 #define JOYSTICK_NEUTRAL 128.0
 
 #define MOTOR_MAXIMUM 2000.0
-#define THRUST_NEUTRAL 800.0
+#define THRUST_NEUTRAL 1500.0
 #define THRUST_AMPLITUDE 400.0
 #define THRUST_MAXIMUM 2000.0
 #define THRUST_MINIMUM 0.0
@@ -51,7 +53,17 @@ void pid_control();
 #define YAW_AMPLITUDE 90.0
 
 // High level controller
-#define YAW_ANGLE_P_GAIN 4
+#define YAW_ANGLE_P_GAIN 8
+
+#define P_AUTO_THRUST 3.0
+#define D_AUTO_THRUST 0.0
+#define I_AUTO_THRUST 0.0
+
+#define P_AUTO_Y 1.0
+#define D_AUTO_Y 0.0
+
+#define P_AUTO_X 0.0
+#define D_AUTO_X 0.0
 
 
 //#define PITCH_P_GAIN 16
@@ -71,6 +83,7 @@ void pid_control();
 #define ROLL_I_GAIN 0.8//0
 #define ROLL_I_SATURATE 150.0
 
+
 // for the comp. filter
 #define A_DELTA 0.02
 
@@ -79,6 +92,9 @@ void pid_control();
 #define MOTOR_TR 0
 #define MOTOR_BL 3
 #define MOTOR_TL 1
+
+#define Z_DESIRED -800
+#define AUTO_THRUST_I_SATURATE 100
 
 // global variables
 int motor_address;
@@ -118,6 +134,11 @@ bool motor_paused = true;
 int motor_commands[4];
 
 // global variables to add
+int auto_thrust = 0;
+float auto_thrust_i = 0.0;
+
+int camera_y_estimated = 0;
+
 
 struct Camera
 {
@@ -149,6 +170,16 @@ struct JoystickReadings
   float time_read;
 };
 
+struct CameraReadings
+{
+  int last_sequence_num;
+  float time_read;
+  int last_z;
+  int last_x;
+  int last_y;
+  int last_yaw;
+};
+
 struct Joystick
 {
   int key0;
@@ -166,6 +197,7 @@ struct Joystick
 
 Joystick *shared_memory;
 JoystickReadings *joystick_readings;
+CameraReadings *camera_readings;
 int run_program = 1;
 
 int main(int argc, char *argv[])
@@ -174,6 +206,15 @@ int main(int argc, char *argv[])
   joystick_readings = new JoystickReadings();
   joystick_readings->last_sequence_num = 0;
   joystick_readings->time_read = 0.0;
+
+  // Camera variable tracking setup
+  camera_readings = new CameraReadings();
+  camera_readings->last_sequence_num = 0;
+  camera_readings->time_read = 0.0;
+  camera_readings->last_z = 0;
+  camera_readings->last_x = 0;
+  camera_readings->last_y = 0;
+  camera_readings->last_yaw = 0;
 
   setup_imu();
   calibrate_imu();
@@ -194,15 +235,18 @@ int main(int argc, char *argv[])
   while (run_program == 1)
   {
     Camera camera_data=*camera_memory;
-    printf("camera=%d %d %d %d %d\n\r",camera_data.x,camera_data.y,camera_data.z,camera_data.yaw,camera_data.sequence_num);
-
+    //printf("camera=%d %d %d %d %d\n\r",camera_data.x,camera_data.y,camera_data.z,camera_data.yaw,camera_data.sequence_num);
     Joystick joystick_data = *shared_memory;
     read_imu();
     update_filter();
     safety_check();
 
-    
+    if (camera_readings->last_sequence_num != camera_data.sequence_num) {
+      auto_thrust_pid_control();
+    }
+
     pid_control();
+    update_camera();
     // Milestone 3
     //printf("Desired Yaw: %10.5f\n", desired_yaw);
     //printf("Measured Yaw: %10.5f\n", imu_data[3]);
@@ -514,7 +558,8 @@ void trap(int signal)
 
 void calculate_thrust()
 {
-  thrust = THRUST_NEUTRAL + THRUST_AMPLITUDE - 2 * THRUST_AMPLITUDE / JOYSTICK_MAXIMUM * shared_memory->thrust;
+  int joystick_thrust = THRUST_NEUTRAL + THRUST_AMPLITUDE - 2 * THRUST_AMPLITUDE / JOYSTICK_MAXIMUM * shared_memory->thrust;
+  thrust = .5 * joystick_thrust + .5 * auto_thrust;
 }
 
 void calculate_desired_pitch()
@@ -524,13 +569,43 @@ void calculate_desired_pitch()
 
 void calculate_desired_roll() 
 {
-  desired_roll = 2 * (ROLL_AMPLITUDE / JOYSTICK_MAXIMUM) * (shared_memory->roll - JOYSTICK_NEUTRAL);
+  Camera camera_data = *camera_memory;
+  camera_y_estimated = camera_y_estimated * .6 + camera_data.y * .4;
+  float auto_desired_roll = P_AUTO_Y * (camera_y_estimated - 0.0 /*desired y*/) - D_AUTO_Y *(camera_y_estimated - camera_readings->last_y);
+  
+  if (auto_desired_roll < -ROLL_AMPLITUDE) {
+    auto_desired_roll = -ROLL_AMPLITUDE;
+  } else if (auto_desired_roll > ROLL_AMPLITUDE) {
+    auto_desired_roll = ROLL_AMPLITUDE;
+  }
+
+  float controller_desired_roll = 2 * (ROLL_AMPLITUDE / JOYSTICK_MAXIMUM) * (shared_memory->roll - JOYSTICK_NEUTRAL);
+  desired_roll = .5 * auto_desired_roll + .5 * controller_desired_roll;
+
+
+  std::cout << "Desired roll: " << desired_roll << std::endl;
 }
 
 void calculate_desired_yaw()
 {
   desired_yaw = -YAW_ANGLE_P_GAIN * camera_memory->yaw;
   //desired_yaw = - 2 * (YAW_AMPLITUDE / JOYSTICK_MAXIMUM) * (shared_memory->yaw - JOYSTICK_NEUTRAL);
+}
+
+void auto_thrust_pid_control()
+{
+  Camera camera_data = *camera_memory;
+
+  float auto_thrust_p = (Z_DESIRED - camera_data.z) * P_AUTO_THRUST;
+  float auto_thrust_d = D_AUTO_THRUST * (camera_data.z - camera_readings -> last_z) / (time_curr - camera_readings->time_read); 
+  auto_thrust_i += I_AUTO_THRUST * (Z_DESIRED - camera_data.z);
+
+  if (auto_thrust_i < -AUTO_THRUST_I_SATURATE) {
+    auto_thrust_i = -AUTO_THRUST_I_SATURATE;
+  } else if (auto_thrust_i > AUTO_THRUST_I_SATURATE) {
+    auto_thrust_i = AUTO_THRUST_I_SATURATE;
+  }
+  auto_thrust = auto_thrust_p + auto_thrust_d + auto_thrust_i;
 }
 
 void pid_control()
@@ -580,7 +655,6 @@ void pid_control()
   {
     integral_pitch = -PITCH_I_SATURATE;
   }
-  printf("Integral Pitch: %f\n", integral_pitch);
 
 
   // Limit i roll control to ROLL_I_SATURATE
@@ -592,7 +666,6 @@ void pid_control()
   {
     integral_roll = -ROLL_I_SATURATE;
   }
-  printf("Integral Roll: %f\n", integral_roll);
 
   // calculate pid control terms
   float pitch_pid_control = (PITCH_P_GAIN * p_error) - (PITCH_D_GAIN * imu_data[5]) + integral_pitch;
@@ -816,5 +889,16 @@ void setup_camera()
   printf ("segment size: %d\n", segment_size); 
   /* Write a string to the shared memory segment.  */ 
   // sprintf (shared_memory, "test!!!!."); 
+
+}
+
+void update_camera() {
+  Camera camera_data=*camera_memory;
+  camera_readings->last_sequence_num = camera_data.sequence_num;
+  camera_readings->time_read = time_curr;
+  camera_readings->last_z = camera_data.z;
+  camera_readings->last_x = camera_data.x;
+  camera_readings->last_y = camera_data.y;
+  camera_readings->last_yaw = camera_data.yaw;
 
 }
