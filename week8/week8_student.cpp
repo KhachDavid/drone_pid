@@ -55,15 +55,18 @@ void update_camera();
 // High level controller
 #define YAW_ANGLE_P_GAIN 8
 
-#define P_AUTO_THRUST 3.0
-#define D_AUTO_THRUST 0.0
+#define P_AUTO_THRUST 1 // 0.005
+#define D_AUTO_THRUST 1
 #define I_AUTO_THRUST 0.0
 
-#define P_AUTO_Y 1.0
-#define D_AUTO_Y 0.0
+#define Z_DESIRED -800
+#define AUTO_THRUST_I_SATURATE 100
 
-#define P_AUTO_X 0.0
-#define D_AUTO_X 0.0
+#define P_AUTO_Y 0.025
+#define D_AUTO_Y 0.1
+
+#define P_AUTO_X 0.025
+#define D_AUTO_X 0.1
 
 
 //#define PITCH_P_GAIN 16
@@ -93,8 +96,7 @@ void update_camera();
 #define MOTOR_BL 3
 #define MOTOR_TL 1
 
-#define Z_DESIRED -800
-#define AUTO_THRUST_I_SATURATE 100
+
 
 // global variables
 int motor_address;
@@ -138,6 +140,7 @@ int auto_thrust = 0;
 float auto_thrust_i = 0.0;
 
 int camera_y_estimated = 0;
+int camera_x_estimated = 0;
 
 
 struct Camera
@@ -247,6 +250,13 @@ int main(int argc, char *argv[])
 
     pid_control();
     update_camera();
+    
+    /*
+    motor_commands[MOTOR_TR] = 10;
+    motor_commands[MOTOR_TL] = 10;
+    motor_commands[MOTOR_BR] = 10;
+    motor_commands[MOTOR_BL] = 10;
+    */
     // Milestone 3
     //printf("Desired Yaw: %10.5f\n", desired_yaw);
     //printf("Measured Yaw: %10.5f\n", imu_data[3]);
@@ -559,19 +569,34 @@ void trap(int signal)
 void calculate_thrust()
 {
   int joystick_thrust = THRUST_NEUTRAL + THRUST_AMPLITUDE - 2 * THRUST_AMPLITUDE / JOYSTICK_MAXIMUM * shared_memory->thrust;
-  thrust = .5 * joystick_thrust + .5 * auto_thrust;
+  //thrust = .5 * joystick_thrust + .5 * auto_thrust;
+  thrust = joystick_thrust;
 }
 
 void calculate_desired_pitch()
 {
+  Camera camera_data = *camera_memory;
+  camera_x_estimated = camera_x_estimated * .6 + camera_data.x * .4;
+  float auto_desired_pitch = P_AUTO_X * (camera_x_estimated - 75.0 /*desired x*/) - D_AUTO_X *(camera_x_estimated -   camera_readings->last_x);
   desired_pitch = 2 * (PITCH_AMPLITUDE / JOYSTICK_MAXIMUM) * (shared_memory->pitch - JOYSTICK_NEUTRAL);
+  
+  if (auto_desired_pitch < -PITCH_AMPLITUDE) {
+    auto_desired_pitch = -PITCH_AMPLITUDE;
+  } else if (auto_desired_pitch > PITCH_AMPLITUDE) {
+    auto_desired_pitch = PITCH_AMPLITUDE;
+  }
+  
+  float controller_desired_pitch = 2 * (PITCH_AMPLITUDE / JOYSTICK_MAXIMUM) * (shared_memory->pitch - JOYSTICK_NEUTRAL);
+  desired_pitch = .5 * auto_desired_pitch + .5 * controller_desired_pitch;
+  
+  std::cout << "Desired pitch: " << desired_pitch << std:: endl;
 }
 
 void calculate_desired_roll() 
 {
   Camera camera_data = *camera_memory;
   camera_y_estimated = camera_y_estimated * .6 + camera_data.y * .4;
-  float auto_desired_roll = P_AUTO_Y * (camera_y_estimated - 0.0 /*desired y*/) - D_AUTO_Y *(camera_y_estimated - camera_readings->last_y);
+  float auto_desired_roll = P_AUTO_Y * (camera_y_estimated - 75.0 /*desired y*/) - D_AUTO_Y *(camera_y_estimated - camera_readings->last_y);
   
   if (auto_desired_roll < -ROLL_AMPLITUDE) {
     auto_desired_roll = -ROLL_AMPLITUDE;
